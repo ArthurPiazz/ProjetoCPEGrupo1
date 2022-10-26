@@ -4,7 +4,7 @@ import Rotas from './routes';
 
 function App() {
   return (
-    <div> 
+    <div>
     <h1>PAGINA PRINCIPAL</h1>
     <Rotas/>
     </div>
