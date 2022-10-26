@@ -1,7 +1,7 @@
 import React from 'react';
 //import {useState} from 'react';
 
-function App() {
+function Usuario() {
   
   //const [nome, setNome] =  useState();
 
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default Usuario;

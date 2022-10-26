@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function App() {
+function Cadastro() {
   return (
     <div>
       <h1>Cadastre-se já</h1>
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Cadastro;
