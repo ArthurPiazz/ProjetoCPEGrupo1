@@ -1,0 +1,71 @@
+
+
+html{
+  background: linear-gradient(180deg, rgba(104, 8, 237, 0.572344) 2.99%, rgba(245, 189, 240, 0.5) 22.81%, rgba(214, 199, 228, 0.8) 47.29%, rgba(132, 41, 253, 0.507585) 84.79%, rgba(7, 0, 88, 0.91) 99.9%) no-repeat fixed center center;
+}
+
+body{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+position: relative;
+width: 430px;
+height: 700px;
+
+background: linear-gradient(180deg, #120458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(122, 4, 235, 0.15) 99.9%);
+}
+
+.logo{
+  position: absolute;
+  width: 187px;
+  height: 36.38px;
+  left: 13px;
+  top: 13.19px;
+  transform: rotate(-0.06deg);
+}
+
+.logo-parte-roxa{
+  box-sizing: border-box;
+
+position: absolute;
+width: 169.56px;
+height: 36.04px;
+left: 30.44px;
+top: 13.17px;
+
+background: #7A04EB;
+border: 2px solid #000000;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.logo-parte-branca{
+  position: absolute;
+width: 183.34px;
+height: 23.74px;
+left: 13.01px;
+top: 19.45px;
+
+background: #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(-0.06deg);
+}
+
+.logo-texto{
+  position: absolute;
+width: 179.96px;
+height: 28.89px;
+left: 13.13px;
+top: 16.89px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+
+
+transform: rotate(-0.06deg);
+}
