@@ -1,6 +1,8 @@
-import "./login.css";
 import React from 'react';
+
+import "./Login.css" ;
 import {useNavigate} from "react-router-dom";
+
 
 
  
@@ -8,6 +10,7 @@ function Login(){
     const navigate = useNavigate()
 
     return(
+
     <div className="base">
         <div className="container">
         <h1>LOGIN</h1>
@@ -25,6 +28,7 @@ function Login(){
         <button onClick={()=>{navigate('/cadastro')}}><img src= "/images/Clique_Aqui.png" alt = "Clique_Aqui"/></button>
         </div>
     </div>
+
 );
 }
 
