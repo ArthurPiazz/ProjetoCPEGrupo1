@@ -1,10 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Cadastro from "./pages/Cadastro";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Usuario from "./pages/Usuario";
+
+import Cadastro from "./Pages/Cadastro";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import Usuario from "./Pages/Usuario";
+import EscolhaPlano from "./Pages/EscolhaPlano";
 
     function Rotas(){
         return(
@@ -14,6 +16,7 @@ import Usuario from "./pages/Usuario";
                 <Route path="/home" element ={<Home />}/>
                 <Route path="/login" element ={<Login />}/>
                 <Route path="/usuario" element ={<Usuario />}/>
+                <Route path="/escolhaplano" element ={<EscolhaPlano />}/>
             </Routes>
             </BrowserRouter>
         )

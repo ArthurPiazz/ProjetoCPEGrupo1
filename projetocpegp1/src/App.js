@@ -6,6 +6,8 @@ import "./global.css"
 function App() {
   return (
     <div>
+    <img src= "/images/Logo Gamecasting.png" alt = "Logo Gamecasting"/>
+
     <Rotas/>
     </div>
   );
