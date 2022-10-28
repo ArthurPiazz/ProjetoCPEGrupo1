@@ -1,0 +1,30 @@
+.container{
+    display: felx;
+    flex-direction: column;
+    max-width: 240px;
+    flex-grow: 1;
+}
+
+.base{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    display: felx;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+.button{
+    text-align: ENTRAR;
+    font-family: Iceland;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 19px;
+    line-height: 100%;
+    align-items: Left;
+    vertical-align: Top;
+}
