@@ -10,10 +10,10 @@ import Usuario from "./Pages/Usuario";
         return(
             <BrowserRouter>
             <Routes>
-                <Route path="/cadastro" element ={<Cadastro />} />
-                <Route path="/home" element ={<Home />}/>
-                <Route path="/login" element ={<Login />}/>
-                <Route path="/usuario" element ={<Usuario />}/>
+                <Route path="/Cadastro" element ={<Cadastro />} />
+                <Route path="/Home" element ={<Home />}/>
+                <Route path="/Login" element ={<Login />}/>
+                <Route path="/Usuario" element ={<Usuario />}/>
             </Routes>
             </BrowserRouter>
         )
