@@ -5,13 +5,7 @@ import Rotas from './routes';
 
 
 function App() {
-  return (
-  <div>
-  <Rotas /> 
-  <h1>TESTE</h1>
-  <Link to="/Usuario">Usuario</Link>
-  </div>
-  );
+  return (<Rotas /> );
 }
 
 export default App;
