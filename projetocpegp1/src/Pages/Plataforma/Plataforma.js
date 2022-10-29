@@ -28,6 +28,13 @@ function Menu() {
 
     return(
         <body>
+            <input type="checkbox" id="chec">
+                <label for="chec">
+                    <img src="risco_menu.png">
+
+                    </img>
+                </label>
+            </input>
             <nav>
                 <ul>
                     <li><a href="">TESTE</a></li>
