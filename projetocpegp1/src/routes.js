@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Usuario from "./Pages/Usuario";
 import EscolhaPlano from "./Pages/EscolhaPlano";
+import Plataforma from "./Pages/Plataforma";
 
     function Rotas(){
         return(
@@ -16,6 +17,7 @@ import EscolhaPlano from "./Pages/EscolhaPlano";
                 <Route path="/login" element ={<Login />}/>
                 <Route path="/usuario" element ={<Usuario />}/>
                 <Route path="/escolhaplano" element ={<EscolhaPlano />}/>
+                <Route path="/plataforma" element ={<Plataforma />}/>
             </Routes>
             </BrowserRouter>
         )
