@@ -39,10 +39,7 @@ function Menu() {
         </body>
     );
 
-export default Plataforma;
-
-
-
-
-
 }
+
+
+export default Plataforma;
