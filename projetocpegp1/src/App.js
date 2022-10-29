@@ -6,7 +6,6 @@ import "./global.css"
 function App() {
   return (
     <div>
-    
     <Rotas/>
     </div>
   );

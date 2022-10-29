@@ -5,7 +5,7 @@ import Cadastro from "./Pages/Cadastro";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Usuario from "./Pages/Usuario";
-import EscolhaPlano from "./Pages/EscolhaPlano";
+import EscolhaPlano from "./Pages/Cadastro/EscolhaPlano";
 import Plataforma from "./Pages/Plataforma";
 
     function Rotas(){
