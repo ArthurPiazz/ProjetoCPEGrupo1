@@ -14,10 +14,18 @@ function Usuario() {
     </head>    
 <div class="body-Usuario">
     <Logo />
-    <h1>Usuario</h1>
-    <p>Informações</p>
+    <div class="RetangulodoNome">
+      <br></br><br></br>
+      <div class="ImagemPerfil" />
+      <div class="NomedoUsuario"><NomeDoUsuario /></div>
+    
+    </div>
+    <div class="Rodape"><Logo /><br /><br /><br />
+    
+    </div> 
 </div>
-</div> 
+</div>
+
 </div>
   );
 }
@@ -31,6 +39,10 @@ function Logo(){
     <div class="logo-texto">GAMECASTING</div>
     </div>
     );
+}
+
+function NomeDoUsuario(){ //implementação de backend nao feita
+  return("Não Encontrado");
 }
 
 export default Usuario;

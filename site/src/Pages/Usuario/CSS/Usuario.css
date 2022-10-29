@@ -4,17 +4,24 @@
   background: linear-gradient(180deg, rgba(104, 8, 237, 0.572344) 2.99%, rgba(245, 189, 240, 0.5) 22.81%, rgba(214, 199, 228, 0.8) 47.29%, rgba(132, 41, 253, 0.507585) 84.79%, rgba(7, 0, 88, 0.91) 99.9%) no-repeat fixed center center;
   height: 100%;
   width: 100%;
+  position: fixed;
   margin: 0;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  Bottom: 0;
 }
 
 .body-Usuario{  
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+top: 40px;
 position: relative;
 width: 430px;
 height: 700px;
+border-style: solid;
+  border-width: 5px;
 
 background: linear-gradient(180deg, #120458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(122, 4, 235, 0.15) 99.9%);
 }
@@ -71,4 +78,59 @@ color: #000000;
 
 
 transform: rotate(-0.06deg);
+}
+
+.NomedoUsuario{
+  position: absolute;
+width: 400px;
+height: 31px;
+left: 80px;
+top: 31px;
+bottom: 94px;
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 31px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.RetangulodoNome{
+  box-sizing: border-box;
+
+position: absolute;
+width: 387.5px;
+height: 156px;
+top: 74px;
+left: 21px;
+
+background: rgba(160, 23, 214, 0.8);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ImagemPerfil{
+  position: absolute;
+  width: 61px;
+height: 61px;
+left: 12px;
+top: 18px;
+background: url(firefox_4DdvdTcjqY.png);
+
+}
+
+.Rodape {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(217, 217, 217);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000;
 }
