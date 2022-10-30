@@ -1,7 +1,9 @@
 import React from "react"
+import "./escolhaplano.css";
 
 function EscolhaPlano(){
     return(
+      <div className="background_planos">
         <div>
       <h2> Selecione o plano de interesse</h2>
       <h2>Starter</h2>
@@ -17,6 +19,8 @@ function EscolhaPlano(){
       <input  id = "UTM" type = "radio" name = "plano"/>
       <br/>
         </div>
+      </div>
+        
     );
 }
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
-
+import "./cadastro.css";
 
 
 function Cadastro() {
   const navigate = useNavigate()
   return (
-    <div>
+      <div className="background_cadastro">
       <h1>Cadastre-se já</h1>
       <input type = "text" placeholder="Nome completo"/>
       <br/> 
@@ -21,7 +21,7 @@ function Cadastro() {
       <input type = "text" placeholder="Confirmar senha"/>
       <br/>
       <button onClick={()=>{navigate('/escolhaplano')}}>CONTINUAR</button>
-    </div>
+      </div>
   );
 }
 

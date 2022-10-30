@@ -141,3 +141,10 @@
   color: #000000;
   
   }
+
+.background{
+    width: 100%;
+    height: 5668px;
+    background-size: cover;
+    background-image: url(./BG_HOME.png);
+}
