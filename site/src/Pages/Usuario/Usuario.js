@@ -20,7 +20,49 @@ function Usuario() {
       <div class="NomedoUsuario"><NomeDoUsuario /></div>
     
     </div>
-    <div class="Rodape"><Logo /><br /><br /><br />
+    <div class="body-Informações">
+      <div class="Texto-Jogos-Usuario">Jogos Recentes:</div>
+      <GetJogosRecentes />
+      <div>
+        <img class="Primeiro-Jogo-Usuario" src= "CSS\newproject.png" alt="" />
+        <div class = "Primeiro-Texto-Usuario"><br /><GetHoras /></div>
+
+        <img class="Segundo-Jogo-Usuario" src= "CSS\newproject.png" alt="" />
+        <div class = "Segundo-Texto-Usuario"><br /><GetHoras /></div>
+
+        <img class="Terceiro-Jogo-Usuario" src= "CSS\newproject.png" alt="" />
+        <div class = "Terceiro-Texto-Usuario"><br /><GetHoras /></div>
+    </div>
+    </div>
+    <div class="body-Amigos">
+    <div class="Texto-Jogos-Usuario">Amigos Online</div>
+    <div class= "Quadrado-amigos">
+    <div class="ImagemPerfilAmigo" />
+    <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
+    </div>
+    <div class= "Quadrado-amigos">
+    <div class="ImagemPerfilAmigo" />
+    <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
+    </div>
+    <div class= "Quadrado-amigos2">
+    <div class="ImagemPerfilAmigo" />
+    <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
+    </div>
+    <div class= "Quadrado-amigos2">
+    <div class="ImagemPerfilAmigo" />
+    <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
+    </div>
+    <div class= "Quadrado-amigos3">
+    <div class="ImagemPerfilAmigo" />
+    <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
+    </div>
+    <div class= "Quadrado-amigos3">
+    <div class="ImagemPerfilAmigo" />
+    <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
+    </div>
+    </div>
+    <a class="button-1" href="http://localhost:3000/Home">Retorna para Home</a>
+    <div class="Rodape-Usuario"><Logo /><br /><br /><br />
     
     </div> 
 </div>
@@ -44,5 +86,14 @@ function Logo(){
 function NomeDoUsuario(){ //implementação de backend nao feita
   return("Não Encontrado");
 }
+
+function GetJogosRecentes(){
+  return("")
+}
+
+function GetHoras(){
+  return("0" + " Horas Jogadas")
+}
+
 
 export default Usuario;

@@ -104,12 +104,14 @@ color: #000000;
 
 position: absolute;
 width: 387.5px;
-height: 156px;
-top: 74px;
+height: 100px;
+top: 65px;
 left: 21px;
 
 background: rgba(160, 23, 214, 0.8);
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-style: solid;
+border-width: 2px;
 }
 
 .ImagemPerfil{
@@ -122,7 +124,7 @@ background: url(firefox_4DdvdTcjqY.png);
 
 }
 
-.Rodape {
+.Rodape-Usuario {
   position: fixed;
   left: 0;
   bottom: 0px;
@@ -133,4 +135,186 @@ background: url(firefox_4DdvdTcjqY.png);
   border-style: solid;
   border-width: 5px;
   border-color: #000000;
+}
+
+.body-Informações{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 180px;
+position: relative;
+width: 400px;
+height: 200px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Texto-Jogos-Usuario {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.Primeiro-Jogo-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 20px;
+  top: 10px;
+  background: url(newproject.png);
+}
+
+.Segundo-Jogo-Usuario{
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 170px;
+  top: -170px;
+  background: url(newproject.png);
+}
+
+.Terceiro-Jogo-Usuario{
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 320px;
+  top: -350px;
+  background: url(newproject.png);
+}
+
+.Primeiro-Texto-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 25px;
+  top: 1px;
+}
+
+.Segundo-Texto-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 175px;
+  top: -181px;
+}
+
+.Terceiro-Texto-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 325px;
+  top: -362px;
+}
+
+.body-Amigos{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 200px;
+position: relative;
+width: 400px;
+height: 250px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Quadrado-amigos{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 0px;
+left: -105px;
+position: relative;
+width: 100px;
+height: 100px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Quadrado-amigos2{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: -208px;
+left: -3px;
+position: relative;
+width: 100px;
+height: 100px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Quadrado-amigos3{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: -416px;
+left: 100px;
+position: relative;
+width: 100px;
+height: 100px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.ImagemPerfilAmigo{
+  position: absolute;
+  width: 61px;
+height: 61px;
+left: 20px;
+top: 18px;
+background: url(firefox_4DdvdTcjqY.png);
+
+}
+
+.TextoPerfilAmigo{
+  position: absolute;
+  top:80px;
+  left:12px;
+  font-size: 12px;
+}
+
+
+.button-1 {
+  background-color: #680468;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  top: 201px;
+  left: 12px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #520286;
 }
