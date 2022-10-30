@@ -17,8 +17,7 @@ function Login(){
         <input></input>
         <input></input>
         <br/>
-        <button class="button">Click Me</button><div className="button">   
-        </div>
+        <button class="button" onClick={()=>{navigate('/usuario')}}>ENTRAR</button>
         
         <br/>
         <h1>Novo na plataforma?</h1>
