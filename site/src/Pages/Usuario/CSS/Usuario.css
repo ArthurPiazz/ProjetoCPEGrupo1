@@ -80,7 +80,7 @@ color: #000000;
 transform: rotate(-0.06deg);
 }
 
-.NomedoUsuario{
+.NomedoUsuario-Usuario{
   position: absolute;
 width: 400px;
 height: 31px;
@@ -99,7 +99,7 @@ line-height: 31px;
 color: #000000;
 }
 
-.RetangulodoNome{
+.RetangulodoNome-Usuario{
   box-sizing: border-box;
 
 position: absolute;
@@ -285,7 +285,7 @@ background: url(firefox_4DdvdTcjqY.png);
 }
 
 
-.button-1 {
+.button-1-Usuario {
   background-color: #680468;
   border-radius: 8px;
   border-style: none;
@@ -314,7 +314,7 @@ background: url(firefox_4DdvdTcjqY.png);
   left: 12px;
 }
 
-.button-1:hover,
-.button-1:focus {
+.button-1-Usuario,
+.button-1-Usuario {
   background-color: #520286;
 }
