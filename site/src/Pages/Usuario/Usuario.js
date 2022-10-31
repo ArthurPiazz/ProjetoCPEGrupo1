@@ -14,13 +14,13 @@ function Usuario() {
     </head>    
 <div class="body-Usuario">
     <Logo />
-    <div class="RetangulodoNome">
+    <div class="RetangulodoNome-Usuario">
       <br></br><br></br>
-      <div class="ImagemPerfil" />
-      <div class="NomedoUsuario"><NomeDoUsuario /></div>
+      <div class="ImagemPerfil-Usuario" />
+      <div class="NomedoUsuario-Usuario"><NomeDoUsuario /></div>
     
     </div>
-    <div class="body-Informações">
+    <div class="body-Informações-Usuario">
       <div class="Texto-Jogos-Usuario">Jogos Recentes:</div>
       <GetJogosRecentes />
       <div>
@@ -61,7 +61,7 @@ function Usuario() {
     <div class="TextoPerfilAmigo"><NomeDoUsuario/></div>
     </div>
     </div>
-    <a class="button-1" href="http://localhost:3000/Home">Retorna para Home</a>
+    <a class="button-1-Usuario" href="http://localhost:3000/Home">Retorna para Home</a>
     <div class="Rodape-Usuario"><Logo /><br /><br /><br />
     
     </div> 
