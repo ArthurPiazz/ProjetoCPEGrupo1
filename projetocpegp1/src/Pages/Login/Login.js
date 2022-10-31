@@ -9,23 +9,30 @@ function Login(){
 
     return(
         <div className="background_login">
-    <div className="base">
-        <div className="container">
-        <h1>LOGIN</h1>
-        <img src= "/images/Rectangle 3.png" alt = "Rectangle 3"/>
-        <form className="inputs"/>
-        <input></input>
-        <input></input>
-        <br/>
-        <button class="button" onClick={()=>{navigate('/usuario')}}>ENTRAR</button>
-        
-        <br/>
-        <h1>Novo na plataforma?</h1>
-        <br/>
-        <button onClick={()=>{navigate('/cadastro')}}><img src= "/images/Clique_Aqui.png" alt = "Clique_Aqui"/></button>
-        </div>
-    </div>
-    </div>
+            <div className="base">
+                <div className="container">
+                    <div class="titulologin">
+                        <img id="logogamecastinglogin" src="/images/logoGamecasting.png" alt="Gamecasting"></img>
+                    </div>
+                    <br/>
+                    <form className="inputs">
+                       <label itemID="email">Email</label>
+                       <input id="email" placeholder="Digite seu Email"></input>
+                        <br></br>
+                       <label itemID="senha">Senha</label>
+                       <input id="senha" placeholder="Digite sua senha"></input>
+                    </form>
+                    <br/>
+                    <button class="button" onClick={()=>{navigate('/usuario')}}>ENTRAR</button>
+                    <br/>
+                    <label itemID="esqueciasenha">Novo na plataforma?</label>
+                    <button id="esqueciasenha" onClick={()=>{navigate('/cadastro')}}>Clique Aqui</button>
+                </div>
+                
+                <br/>
+            
+            </div>
+     </div>
 );
 }
 

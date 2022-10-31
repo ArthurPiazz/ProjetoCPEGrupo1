@@ -5,27 +5,3 @@
     position: fixed;
 }
 
-.infos{
-    background-image: url(./Rectangle2.png);
-}
-
-.container{
-    display: felx;
-    flex-direction: column;
-    max-width: 240px;
-    flex-grow: 1;
-}
-
-.base{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.inputs{
-    display: felx;
-    flex-direction: column;
-    margin-left: 16px;
-    margin-right: 16px;
-
-}
