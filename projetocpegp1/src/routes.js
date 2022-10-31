@@ -8,18 +8,27 @@ import Usuario from "./Pages/Usuario";
 import EscolhaPlano from "./Pages/Cadastro/EscolhaPlano";
 import Plataforma from "./Pages/Plataforma";
 import Barra from "./Pages/Barra";
-
+import Favoritos from "./Pages/Plataforma/Favoritos";
+import Lançamentos from "./Pages/Plataforma/Lançamentos";
+import MaisJogados from "./Pages/Plataforma/Maisjogados";
+import Recomendados from "./Pages/Plataforma/Recomendados";
+import { Switch } from "@mui/material";
 
     function Rotas(){
         return(
             <BrowserRouter>
             <Routes>
+                <Route path="/" element ={<Home />}/>
                 <Route path="/cadastro" element ={<Cadastro />} />
                 <Route path="/home" element ={<Home />}/>
                 <Route path="/login" element ={<Login />}/>
                 <Route path="/usuario" element ={<Usuario />}/>
-                <Route path="/escolhaplano" element ={<EscolhaPlano />}/>
+                <Route path="/cadastro/escolhaplano" element ={<EscolhaPlano />}/>
                 <Route path="/plataforma" element ={<Plataforma />}/>
+                <Route path="/plataforma/maisjogados" element ={<MaisJogados />}/>
+                <Route path="/plataforma/favoritos" element ={<Favoritos />}/>
+                <Route path="/plataforma/recomendados" element ={<Recomendados />}/>
+                <Route path="/plataforma/lançamentos" element ={<Lançamentos />}/>
                 <Route path="/temp" element ={<Barra />}/>
             </Routes>
             </BrowserRouter>

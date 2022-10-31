@@ -1,0 +1,22 @@
+.list{
+    width: 250px;
+}
+
+.list_item_text{
+    color: #7A04EB;
+    margin-left: 16px;
+}
+.toolbar{
+    background-color: #7A04EB;
+}
+.userName{
+    color:black;
+    margin: 0;
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+.userContainer{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}

@@ -6,9 +6,10 @@ import "./plataforma.css";
 function Plataforma(){
 
     return(
-    <div>
-        <h4>PLATAFORMA</h4>
-    </div>
+
+<div className="background_plataforma">
+<h4>PLATAFORMA</h4>
+</div>
 );
 }
 
