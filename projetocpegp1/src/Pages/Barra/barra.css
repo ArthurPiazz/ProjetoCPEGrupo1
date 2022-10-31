@@ -23,6 +23,9 @@
 
 .avatar{
 
-    color: red;
+    background-color: #7A04EB;
+    border: none;
+    cursor: pointer;
+    
 
 }

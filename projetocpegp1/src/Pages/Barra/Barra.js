@@ -10,7 +10,7 @@ import {FiMenu} from "react-icons/fi";
 import {BiTrendingUp} from "react-icons/bi";
 import {IconContext} from "react-icons/lib";
 import {useNavigate} from "react-router-dom";
-import "./barra.css"
+
 import {Button} from 'react-bootstrap';
 
 function Barra(){
@@ -38,7 +38,7 @@ function Barra(){
           <div className="userContainer">
           <p className="userName">XxX_Josh_XxX</p>
           <div>
-          <Button class = "avatar" onClick = {() => {navigate ("/usuario")}}><Avatar alt="XxX_Josh_XxX" src="/images/Avatar.png" /></Button>
+          <div className = "avatar" onClick = {() => {navigate ("/usuario")}}><Avatar alt="XxX_Josh_XxX" src="/images/Avatar.png" /></div>
           </div>
           </div>
         </Toolbar>
