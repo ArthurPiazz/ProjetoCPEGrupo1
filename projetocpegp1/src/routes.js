@@ -25,10 +25,10 @@ import { Switch } from "@mui/material";
                 <Route path="/usuario" element ={<Usuario />}/>
                 <Route path="/cadastro/escolhaplano" element ={<EscolhaPlano />}/>
                 <Route path="/plataforma" element ={<Plataforma />}/>
-                <Route path="/plataforma/maisjogados" element ={<MaisJogados />}/>
-                <Route path="/plataforma/favoritos" element ={<Favoritos />}/>
-                <Route path="/plataforma/recomendados" element ={<Recomendados />}/>
-                <Route path="/plataforma/lançamentos" element ={<Lançamentos />}/>
+                <Route path="/maisjogados" element ={<MaisJogados />}/>
+                <Route path="/favoritos" element ={<Favoritos />}/>
+                <Route path="recomendados" element ={<Recomendados />}/>
+                <Route path="/lançamentos" element ={<Lançamentos />}/>
                 <Route path="/temp" element ={<Barra />}/>
             </Routes>
             </BrowserRouter>

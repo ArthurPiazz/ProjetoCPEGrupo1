@@ -1,11 +1,15 @@
 import React from 'react';
 import "./maisjogados.css";
+import Barra from "../../Barra";
 
 function MaisJogados(){
     return(
         <div className="background_plataforma">
-            <h1>Mais Jogados</h1>
-        </div>
+            <Barra>
+
+            </Barra>
+            
+            </div>
     )
 }
 
