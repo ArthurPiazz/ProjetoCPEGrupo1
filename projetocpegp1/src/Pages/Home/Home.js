@@ -21,6 +21,7 @@ function Home(){
         <div className="quadradoMenorJogoEsquerda"></div>
         <div className="quadradoMenorJogoAcima"></div>
         <div className="quadradoMenorJogoAbaixo"></div>
+        <div className="quadradoRoxoCentral"></div>
 
     </div>
     <div className="background">
