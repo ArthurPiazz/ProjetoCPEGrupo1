@@ -148,3 +148,16 @@
     background-size: cover;
     background-image: url(./BG_HOME.png);
 }
+
+.formas{
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  width:641px;
+  height:245px;
+  background-color: #9C9C9C;
+  border-radius: 30px;
+
+  }
+
+

@@ -9,12 +9,21 @@ function Home(){
              <a class="active" href="/cadastro">Vire um membro já!</a>
             <a href="/login">Acesse sua conta</a>
         </div>
+        <div className="formas"></div>
     </div>
     <div className="background">
     </div> 
+   
     </div>
+
+    
     );    
+   
 }
+
+
+
+
 
 function Logo(){
     return(

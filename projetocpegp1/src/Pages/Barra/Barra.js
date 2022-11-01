@@ -11,7 +11,7 @@ import {BiTrendingUp} from "react-icons/bi";
 import {IconContext} from "react-icons/lib";
 import {useNavigate} from "react-router-dom";
 
-import {Button} from 'react-bootstrap';
+//import {Button} from 'react-bootstrap';
 
 function Barra(){
     const navigate = useNavigate();
