@@ -11,6 +11,13 @@ function Home(){
         </div>
         <div className="quadradoCinza"></div>
         <div className="crash4"></div>
+        <div className="retanguloCinza1"></div>
+        <div className="retanguloJogo1"></div>
+        <div className="retanguloJogo2"></div>
+        <div className="retanguloJogo3"></div>
+        <div className="retanguloJogo4"></div>
+        <div className="elipseFarCry"></div>
+
     </div>
     <div className="background">
     </div> 
