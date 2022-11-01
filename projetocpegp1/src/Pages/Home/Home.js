@@ -17,6 +17,10 @@ function Home(){
         <div className="retanguloJogo3"></div>
         <div className="retanguloJogo4"></div>
         <div className="elipseFarCry"></div>
+        <div className="quadradoMenorJogoDireita"></div>
+        <div className="quadradoMenorJogoEsquerda"></div>
+        <div className="quadradoMenorJogoAcima"></div>
+        <div className="quadradoMenorJogoAbaixo"></div>
 
     </div>
     <div className="background">

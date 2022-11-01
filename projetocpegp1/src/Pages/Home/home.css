@@ -206,7 +206,7 @@
     position: absolute;
     right: 25%;
     left: 10%;
-    top: 1200px;
+    top: 1150px;
     width:200px;
     height:255px;
     background-color: white;
@@ -218,11 +218,11 @@
   
     } 
 
-    .retanguloJogo2{
+  .retanguloJogo2{
       position: absolute;
       right: 30%;
       left: 30%;
-      top: 1200px;
+      top: 1150px;
       width:200px;
       height:255px;
       background-color: white;
@@ -234,11 +234,11 @@
     
       } 
 
-      .retanguloJogo3{
+  .retanguloJogo3{
         position: absolute;
         right: 40%;
         left: 50%;
-        top: 1200px;
+        top: 1150px;
         width:200px;
         height:255px;
         background-color: white;
@@ -250,11 +250,11 @@
       
         } 
 
-        .retanguloJogo4{
+  .retanguloJogo4{
           position: absolute;
           right: 40%;
           left: 70%;
-          top: 1200px;
+          top: 1150px;
           width:200px;
           height:255px;
           background-color: white;
@@ -267,7 +267,7 @@
           } 
 
 
-          .elipseFarCry{
+  .elipseFarCry{
 
             position: absolute;
             right: 30%;
@@ -286,3 +286,63 @@
           
           
            } 
+
+  .quadradoMenorJogoDireita{
+    position: absolute;
+    right: 40%;
+    left: 68%;
+    top: 1720px;
+    width:140px;
+    height:180px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+  }   
+
+  .quadradoMenorJogoEsquerda{
+    position: absolute;
+    right: 40%;
+    left: 16%;
+    top: 1720px;
+    width:140px;
+    height:180px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+  } 
+
+  .quadradoMenorJogoAcima{
+    position: absolute;
+    right: 40%;
+    left: 41.5%;
+    top: 1480px;
+    width:140px;
+    height:180px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+  } 
+
+  .quadradoMenorJogoAbaixo{
+    position: absolute;
+    right: 40%;
+    left: 41.5%;
+    top: 1955px;
+    width:140px;
+    height:180px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+  } 
