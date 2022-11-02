@@ -54,8 +54,8 @@ function Barra(){
                     </ListItemText>    
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/lançamentos"}
-                onClick={() => {navigate("/lançamentos")}}>
+                selected = {currentPage === "/plataforma/lançamentos"}
+                onClick={() => {navigate("/plataforma/lançamentos")}}>
                     <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
                         <FaRocket/>
                     </IconContext.Provider>
@@ -64,8 +64,8 @@ function Barra(){
                     </ListItemText> 
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/recomendados"}
-                onClick={() => {navigate("/recomendados")}}>
+                selected = {currentPage === "/plataforma/recomendados"}
+                onClick={() => {navigate("/plataforma/recomendados")}}>
                     <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
                         <BsLightbulbFill/>
                     </IconContext.Provider>
@@ -74,8 +74,8 @@ function Barra(){
                     </ListItemText>
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/favoritos"}
-                onClick={() => {navigate("/favoritos")}}>
+                selected = {currentPage === "/plataforma/favoritos"}
+                onClick={() => {navigate("/plataforma/favoritos")}}>
                     <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
                         <AiFillStar/>
                     </IconContext.Provider>
@@ -84,8 +84,8 @@ function Barra(){
                     </ListItemText>
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/maisjogados"}
-                onClick={() => {navigate("/maisjogados")}}>
+                selected = {currentPage === "/plataforma/maisjogados"}
+                onClick={() => {navigate("/plataforma/maisjogados")}}>
                     <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
                         <BiTrendingUp/>
                     </IconContext.Provider>

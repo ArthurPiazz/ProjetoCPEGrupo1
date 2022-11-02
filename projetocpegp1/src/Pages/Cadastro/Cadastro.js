@@ -20,7 +20,7 @@ function Cadastro() {
       <br/> 
       <input type = "text" placeholder="Confirmar senha"/>
       <br/>
-      <button onClick={()=>{navigate('/escolhaplano')}}>CONTINUAR</button>
+      <button onClick={()=>{navigate('/cadastro/escolhaplano')}}>CONTINUAR</button>
       </div>
   );
 }

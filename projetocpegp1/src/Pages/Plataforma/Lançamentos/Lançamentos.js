@@ -4,12 +4,30 @@ import Barra from "../../Barra";
 
 function Lançamentos(){
     return(
-        <div className="background_plataforma">
-            <Barra>
-            <h1>Lançamentos</h1>
-            </Barra>
+        <div> <div class="header">
+        <div class="header-right">
+            <Logo/>
         </div>
+    </div>
+
+            <div className="background_plataforma">
+            <Barra/>
+            <h1>LANÇAMENTOS</h1>
+            </div>
+            </div>
     )
 }
+
+function Logo(){
+    return(
+    <div>
+    <div class="logo"></div>
+    <div class="logo-parte-roxa"></div>
+    <div class="logo-parte-branca"></div>
+    <div class="logo-texto">GAMECASTING</div>
+    </div>
+    );
+}
+        
 
 export default Lançamentos;
