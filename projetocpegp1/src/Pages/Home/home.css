@@ -216,6 +216,9 @@
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./cs-banner.png);
+    background-position: 45% 10%;
+    background-size: 110%;
   
     } 
 
@@ -232,6 +235,9 @@
       border-width: medium;
       border-color:#000000; 
       border-style: solid;
+      background-image: url(./valorant-banner.jpg);
+      background-position: 45% 10%;
+      background-size: 110%;
     
       } 
 
@@ -248,6 +254,9 @@
         border-width: medium;
         border-color:#000000; 
         border-style: solid;
+        background-image: url(./lol\ banner.jpg);
+        background-position: 45% 80%;
+        background-size: 110%;
       
         } 
 
@@ -264,6 +273,9 @@
           border-width: medium;
           border-color:#000000; 
           border-style: solid;
+          background-image: url(./fortnite-banner.jpg);
+          background-position: 50% 10%;
+          background-size: 250%;
         
           } 
 
@@ -284,6 +296,9 @@
             border-width: medium;
             border-color:#000000; 
             border-style: solid; 
+            background-image: url(./far_cry_6.jpg);
+            background-position: -50% 10%;
+            background-size: 110%;
           
           
            } 
@@ -301,6 +316,10 @@
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./cyberpunk.png);
+    background-position: 10% 10px;
+    background-size: 110%;
+
   }   
 
   .quadradoMenorJogoEsquerda{

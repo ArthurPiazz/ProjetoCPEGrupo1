@@ -12,7 +12,7 @@ import Favoritos from "./Pages/Plataforma/Favoritos";
 import Lançamentos from "./Pages/Plataforma/Lançamentos";
 import MaisJogados from "./Pages/Plataforma/Maisjogados";
 import Recomendados from "./Pages/Plataforma/Recomendados";
-import { Switch } from "@mui/material";
+//import { Switch } from "@mui/material";
 
     function Rotas(){
         return(
