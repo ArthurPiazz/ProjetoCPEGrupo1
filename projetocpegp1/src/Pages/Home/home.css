@@ -144,7 +144,7 @@
 
 .background{
     width: 100%;
-    height: 5668px;
+    height: 5000px;
     background-size: cover;
     background-image: url(./BG_HOME.png);
     z-index:-3;
@@ -162,8 +162,26 @@
   border-width: medium;
   border-color:#000000; 
   border-style: solid;
+ 
 
   }
+
+ .quadradoCinza:after{
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: center;
+  content: " Jogue centenas de jogos de alta qualidade diretamente pelo seu PC ou via nuvem. Atualizações constantes, você sempre terá o que jogar!!";
+  font-family: Iceland, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px; line-height: 2.5em;
+  letter-spacing: 2px; word-spacing: 3.5px; 
+  
+
+} 
 
  .crash4{
 
@@ -188,8 +206,9 @@
 
  .retanguloCinza1{
   position: absolute;
-  right: 25%;
-  left: 15%;
+  
+  left: 35%;
+  margin-right: 50%;
   top: 1000px;
   width:900px;
   height:55px;
@@ -200,7 +219,27 @@
   border-color:#000000; 
   border-style: solid;
 
+
   } 
+
+ .retanguloCinza1:after{
+
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: center;
+  content: "Os maiores sucessos estão aqui!!";
+  font-family: Iceland, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 8px; word-spacing: 5px; 
+
+
+
+
+ }
 
 
   .retanguloJogo1{
@@ -219,6 +258,7 @@
     background-image: url(./cs-banner.png);
     background-position: 45% 10%;
     background-size: 110%;
+
   
     } 
 
@@ -335,6 +375,9 @@
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./red-dead-redemption.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
   } 
 
   .quadradoMenorJogoAcima{
@@ -350,6 +393,9 @@
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./horizon-zero-down.webp);
+    background-position: 45% 10%;
+    background-size: 110%;
   } 
 
   .quadradoMenorJogoAbaixo{
@@ -365,6 +411,9 @@
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./ultrakill.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
   } 
 
   .quadradoRoxoCentral{
@@ -383,3 +432,212 @@
     border-style: solid;
 
   }
+
+  .quadradoBrancoPlanos1{
+
+
+    position: absolute;
+    right: 25%;
+    left: 10%;
+    top: 3500px;
+    width:200px;
+    height:255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+  .quadradoBrancoPlanos2{
+
+
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    top: 3500px;
+    width:200px;
+    height:255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+  .quadradoBrancoPlanos3{
+
+
+    position: absolute;
+    right: 40%;
+    left: 50%;
+    top: 3500px;
+    width:200px;
+    height:255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+  .quadradoBrancoPlanos4{
+
+
+    position: absolute;
+    right: 40%;
+    left: 70%;
+    top: 3500px;
+    width:200px;
+    height:255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+
+  .quadradoFeedback{
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 100px;
+    background-color: #fff;
+    color: #444;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    top: 4000px;
+    width:1000px;
+    height:300px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+  .feedback1{
+
+    top: 3500px;
+    height:180px;
+    width:150px;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+  .feedback2{
+
+    height:180px;
+    width:150px;
+    background-color: rgb(217, 255, 0);
+    border-radius: 5px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+  }
+
+  .feedback3{
+
+    height:180px;
+    width:150px;
+    background-color: rgb(0, 94, 255);
+    border-radius: 5px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+  }
+
+  .feedback4{
+
+    height:180px;
+    width:150px;
+    background-color: rgb(0, 255, 187);
+    border-radius: 5px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+
+  }
+
+  .feedback5{
+
+    top: 3500px;
+    height:180px;
+    width:150px;
+    background-color: rgb(0, 255, 145);
+    border-radius: 5px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    background-position: 45% 10%;
+    background-size: 110%;
+
+  }
+
+  .retânguloCinzaAbaixo{
+
+    position: absolute;
+  
+    right: 20%;
+    left: 20%;
+    top: 4500px;
+    width:900px;
+    height:55px;
+    background-color: #9C9C9C;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: thick;
+    border-color:#000000; 
+    border-style: solid;
+
+  }
+

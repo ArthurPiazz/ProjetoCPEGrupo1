@@ -12,6 +12,8 @@ import Favoritos from "./Pages/Plataforma/Favoritos";
 import Lançamentos from "./Pages/Plataforma/Lançamentos";
 import MaisJogados from "./Pages/Plataforma/Maisjogados";
 import Recomendados from "./Pages/Plataforma/Recomendados";
+import Footer from "./Pages/Footer"; 
+
 //import { Switch } from "@mui/material";
 
     function Rotas(){
@@ -21,6 +23,7 @@ import Recomendados from "./Pages/Plataforma/Recomendados";
                 <Route path="/" element ={<Home />}/>
                 <Route path="/cadastro" element ={<Cadastro />} />
                 <Route path="/home" element ={<Home />}/>
+                <Route path="/footer" element ={<Footer />}/>
                 <Route path="/login" element ={<Login />}/>
                 <Route path="/usuario" element ={<Usuario />}/>
                 <Route path="/cadastro/escolhaplano" element ={<EscolhaPlano />}/>

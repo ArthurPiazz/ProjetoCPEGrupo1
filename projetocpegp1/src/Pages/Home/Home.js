@@ -22,7 +22,27 @@ function Home(){
         <div className="quadradoMenorJogoAcima"></div>
         <div className="quadradoMenorJogoAbaixo"></div>
         <div className="quadradoRoxoCentral"></div>
+        <div className="quadradoBrancoPlanos1"></div>
+        <div className="quadradoBrancoPlanos2"></div>
+        <div className="quadradoBrancoPlanos3"></div>
+        <div className="quadradoBrancoPlanos4"></div>3
 
+        <div className="quadradoFeedback">
+            <div class="feedback1"></div>
+
+            <div class="feedback2"></div>
+
+            <div class="feedback3"></div>
+
+            <div class="feedback4"></div>
+
+            <div class="feedback5"></div>
+        </div>
+      
+      <div className="retânguloCinzaAbaixo"></div>
+
+      <div className="footer"></div>
+      <a href="/home" > <Logo /> </a>
     </div>
     <div className="background">
     </div> 
