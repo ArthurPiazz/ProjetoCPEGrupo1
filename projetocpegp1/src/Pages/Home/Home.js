@@ -9,12 +9,34 @@ function Home(){
              <a class="active" href="/cadastro">Vire um membro já!</a>
             <a href="/login">Acesse sua conta</a>
         </div>
+        <div className="quadradoCinza"></div>
+        <div className="crash4"></div>
+        <div className="retanguloCinza1"></div>
+        <div className="retanguloJogo1"></div>
+        <div className="retanguloJogo2"></div>
+        <div className="retanguloJogo3"></div>
+        <div className="retanguloJogo4"></div>
+        <div className="elipseFarCry"></div>
+        <div className="quadradoMenorJogoDireita"></div>
+        <div className="quadradoMenorJogoEsquerda"></div>
+        <div className="quadradoMenorJogoAcima"></div>
+        <div className="quadradoMenorJogoAbaixo"></div>
+        <div className="quadradoRoxoCentral"></div>
+
     </div>
     <div className="background">
     </div> 
+   
     </div>
+
+    
     );    
+   
 }
+
+
+
+
 
 function Logo(){
     return(

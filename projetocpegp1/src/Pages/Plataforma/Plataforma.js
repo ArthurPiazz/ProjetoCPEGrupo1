@@ -1,6 +1,7 @@
 import React from 'react';
 import "./plataforma.css";
 import Barra from '../Barra/Barra';
+
 //import {useNavigate} from "react-router-dom";
 
  
