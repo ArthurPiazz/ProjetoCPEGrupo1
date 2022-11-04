@@ -4,8 +4,9 @@ import "./escolhaplano.css";
 function EscolhaPlano(){
     return(
       <div className="background_planos">
-        <div>
-      <h2> Selecione o plano de interesse</h2>
+        <div className="base">
+        <div className="container"> 
+        <h1> Selecione o plano de interesse</h1>
       <h2>Starter</h2>
       <input  id = "STR" type = "radio" name = "plano"/>
       <br/>
@@ -18,9 +19,11 @@ function EscolhaPlano(){
       <h2>Ultimate</h2>
       <input  id = "UTM" type = "radio" name = "plano"/>
       <br/>
+        
+  
         </div>
       </div>
-        
+        </div>
     );
 }
 

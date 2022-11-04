@@ -1,26 +1,25 @@
-import "./login.css";
+import "./Login.css";
 import React from 'react';
 import {useNavigate} from "react-router-dom";
 
 
  
 function Login(){
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     return(
         <div className="background_login">
             <div className="base">
                 <div className="container">
                     <div class="titulologin">
-                        <img id="logogamecastinglogin" src="/images/logoGamecasting.png" alt="Gamecasting"></img>
+                        <img  onClick={()=>{navigate('/home')}} id="logogamecastinglogin" src="/images/logoGamecasting.png" alt="Gamecasting"></img>
                     </div>
-                    <br/>
                     <form className="inputs">
                        <label itemID="email">Email</label>
-                       <input id="email" placeholder="Digite seu Email"></input>
+                       <input className="email" placeholder="Digite seu Email"></input>
                         <br></br>
                        <label itemID="senha">Senha</label>
-                       <input id="senha" placeholder="Digite sua senha"></input>
+                       <input className="senha" placeholder="Digite sua senha"></input>
                     </form>
                     <br/>
                     <button class="button" onClick={()=>{navigate('/usuario')}}>ENTRAR</button>
