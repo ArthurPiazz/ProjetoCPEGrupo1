@@ -3,7 +3,7 @@
 }
 
 .list_item_text{
-    color: #7A04EB;
+    color: #000000;
     margin-left: 16px;
 }
 .toolbar{
@@ -19,7 +19,6 @@
     position: absolute;
     display: flex;
     align-items: center;
-    margin-left: auto;
     left: 84%;
 }
 

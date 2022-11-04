@@ -24,9 +24,11 @@ function Barra(){
         setOpen(isopen);
     }
 
+
+
     const Search = styled('div')(({ theme }) => ({
         position: 'relative',
-        borderRadius: theme.shape.borderRadius,
+        borderRadius: (theme.shape.borderRadius, 100),
         backgroundColor: alpha(theme.palette.common.white, 0.15),
         '&:hover': {
           backgroundColor: alpha(theme.palette.common.white, 0.25),
@@ -68,7 +70,7 @@ function Barra(){
 
     return(
         <>
-        <AppBar position="static">
+        <AppBar position = 'static'>
         <Toolbar className="toolbar">
             <div className="searchbar">
             <Search>
@@ -94,17 +96,15 @@ function Barra(){
           </IconButton>
           <div className="userContainer">
           <p className="userName">XxX_Josh_XxX</p>
-          <div>
           <div className = "avatar" onClick = {() => {navigate ("/usuario")}}><Avatar alt="XxX_Josh_XxX" src="/images/Avatar.png" /></div>
-          </div>
-          </div>
-          
           <div className = "logout" onClick = {() => {navigate ("/home")}}><
             IconContext.Provider value = {{top: "0.25px", size: "2.5em"}}>
                 <BiLogOut/>
             </IconContext.Provider>
             </div>
-          
+          <div>
+          </div>
+          </div>
 
         </Toolbar>
       </AppBar>
@@ -114,7 +114,7 @@ function Barra(){
                 <ListItem button 
                 selected = {currentPage === "/plataforma"}
                 onClick={() => {navigate("/plataforma")}}>
-                    <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
+                    <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <AiFillHome/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -124,7 +124,7 @@ function Barra(){
                 <ListItem button
                 selected = {currentPage === "/plataforma/lançamentos"}
                 onClick={() => {navigate("/plataforma/lançamentos")}}>
-                    <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
+                    <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <FaRocket/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -134,7 +134,7 @@ function Barra(){
                 <ListItem button
                 selected = {currentPage === "/plataforma/recomendados"}
                 onClick={() => {navigate("/plataforma/recomendados")}}>
-                    <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
+                    <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <BsLightbulbFill/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -144,7 +144,7 @@ function Barra(){
                 <ListItem button
                 selected = {currentPage === "/plataforma/favoritos"}
                 onClick={() => {navigate("/plataforma/favoritos")}}>
-                    <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
+                    <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <AiFillStar/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -154,7 +154,7 @@ function Barra(){
                 <ListItem button
                 selected = {currentPage === "/plataforma/maisjogados"}
                 onClick={() => {navigate("/plataforma/maisjogados")}}>
-                    <IconContext.Provider value = {{color: "#7A04EB", size: "2.5em"}}>
+                    <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <BiTrendingUp/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
