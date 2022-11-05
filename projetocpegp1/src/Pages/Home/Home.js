@@ -12,6 +12,10 @@ function Home(){
         </div>
         <div class="page">
 
+        <div className="background">
+    </div> 
+
+
         <div className="containerQuadradoeCrash">
             <div className="quadradoCinza"></div>
             <div className="crash4"></div>
@@ -45,12 +49,21 @@ function Home(){
         
 
         <div className="quadradoRoxoCentral"></div>
-        <div className="quadradoBrancoPlanos1"></div>
-        <div className="quadradoBrancoPlanos2"></div>
-        <div className="quadradoBrancoPlanos3"></div>
-        <div className="quadradoBrancoPlanos4"></div>3
 
-        <div className="quadradoFeedback">
+        <div className="containerEscolhaDePlanos">
+
+            <div className="quadradoBrancoPlanos1"></div>
+            <div className="quadradoBrancoPlanos2"></div>
+            <div className="quadradoBrancoPlanos3"></div>
+            <div className="quadradoBrancoPlanos4"></div>
+
+        </div>
+        
+
+        <div class="quadradoFeedbacks">
+        <div className="containerdosFeedbacks">
+
+            
             <div class="feedback1"></div>
 
             <div class="feedback2"></div>
@@ -61,14 +74,16 @@ function Home(){
 
             <div class="feedback5"></div>
         </div>
+        </div>
       
       <div className="retânguloCinzaAbaixo"></div>
+
+      <div className="espacoAbaixoNulo"></div>
 
       <div className="footer"></div>
       <a href="/home" > <Logo /> </a>
     </div>
-    <div className="background">
-    </div> 
+    
     </div>
     
 
