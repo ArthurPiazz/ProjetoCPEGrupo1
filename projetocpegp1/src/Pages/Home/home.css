@@ -171,17 +171,26 @@
   border-color:#000000; 
   border-style: solid;
   z-index: 5;
+  margin-left: -10%;
+  margin-right: 10%;
+  left: center;
+  text-align: center;
+  font-family: 'Iceland', 'Times New Roman', serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-size: 25px; line-height: 2.5em;
+  letter-spacing: 2px; word-spacing: 3.5px; 
  
 
   }
 
- .quadradoCinza:after{
+/* .quadradoCinza:after{
 
  
   margin-left: auto;
   margin-right: auto;
   left: center;
-  content: " Jogue centenas de jogos de alta qualidade diretamente pelo seu PC ou via nuvem. Atualizações constantes, você sempre terá o que jogar!!";
+  
   text-align: center;
   font-family: Iceland, 'Times New Roman', serif;
   font-size: 25px;
@@ -191,13 +200,13 @@
   letter-spacing: 2px; word-spacing: 3.5px; 
   
 
-} 
+} */
 
  .crash4{
 
 
   position:relative;
-  margin-left: -2%;
+  margin-left: -11%;
   width:450px;
   height:410px;
   background-color: #7A04EB;
@@ -238,20 +247,26 @@
   border-width: thick;
   border-color:#000000; 
   border-style: solid;
-
-
-  } 
-
- .retanguloCinza1:after{
-
-  content: "Os maiores sucessos estão aqui!!";
   text-align: center;
+  margin: auto;
   font-family: 'Iceland', 'Times New Roman', serif;
   font-size: 35px;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
   letter-spacing: 8px; word-spacing: 5px; 
 
- }
+  } 
+
+ /*.retanguloCinza1:after{
+
+  content: "Os maiores sucessos estão aqui!!";
+  text-align: center;
+  margin: auto;
+  font-family: 'Iceland', 'Times New Roman', serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  letter-spacing: 8px; word-spacing: 5px; 
+
+ }*/
 
  .containerRetangulosJogosHome{
   
@@ -465,86 +480,116 @@
 
     background-color: cornflowerblue;
     margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+
 
 
   }
 
-  .quadradoBrancoPlanos1{
+  .SelecioneOPlano{
+    background-color: orange;
+    width: 32%;
+    margin: auto;
+  }
+
+  .h1{
+    width: fit-content;
+    margin:auto;
+}
+
+
+.selecione{
+  width: fit-content;
+  align-items: center;
+}
+
+
+.container_planos{
+  align-items: center;
+  justify-content: center;
+}
+
+  .planos{
+
+    background-color: #901515;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+  .planoStarter{
 
 
     top: 3500px;
     width:180px;
-    height:255px;
+    height:auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
-    background-image: url(./PlanoStarter.png);
+  
     background-position: 45% 10%;
     background-size: 100%;
 
 
   }
 
-  .quadradoBrancoPlanos2{
+  .planoMedium{
 
 
  
     top: 3500px;
     width:180px;
-    height:255px;
+    height:auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
-    background-image: url(./PlanoMedium.png);
+    
     background-position: 45% 10%;
     background-size: 105%;
 
 
   }
 
-  .quadradoBrancoPlanos3{
+  .planoPro{
 
 
    
     top: 3500px;
     width:180px;
-    height:255px;
+    height:auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
-    background-image: url(./PlanoPro.png);
+    
     background-position: 45% 10%;
     background-size: 105%;
 
 
   }
 
-  .quadradoBrancoPlanos4{
+  .planoUltimate{
 
 
   
     top: 3500px;
     width:180px;
-    height:255px;
+    height:auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
-    background-image: url(./PlanoUltimate.png);
+    
     background-position: 70% 80%;
     background-size: 100%;
 
@@ -558,19 +603,32 @@
     width: 1500px;
     height: 400px;
     margin:auto;
+    margin-top: 100px;
 
 
   }
+
+  
+  .tituloDoFeedback{
+
+    background-color: darksalmon;
+    width: 37%;
+    margin:auto;
+    font-family:'Iceland', sans-serif;
+
+  }
+
+
   .containerdosFeedbacks{
 
     height: inherit;
-    align-items: center;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-content: center; 
+    
     margin: auto;
-    margin-top: 200px;
+    margin-top: 50px;
     
 
   }
@@ -690,6 +748,8 @@
 
 
   }
+
+
   @media  (max-width:900px) {
     .containerRetangulosJogosHome{
       flex-direction: column;
@@ -707,6 +767,7 @@
       flex-direction: column;
     }
     
+    
   }
 
   @media  (max-width:1400px){
@@ -717,6 +778,10 @@
     .containerdosFeedbacks{
       flex-direction: column;
       height: auto;
+    }
+    .planos{
+      flex-direction: column;
+      justify-content: center;
     }
 
   }
