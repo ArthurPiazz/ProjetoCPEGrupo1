@@ -1,7 +1,8 @@
 import React from 'react';
 import "./footer.css";
-
+import { FaTwitter} from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+
 
 
 
@@ -20,6 +21,7 @@ function Footer(){
           <FaInstagram size="40"  color="#000"/>
         </a>
        
+    <a href=""><FaTwitter size="40"  color="#000"></FaTwitter></a>   
         </div>
     </footer>
    

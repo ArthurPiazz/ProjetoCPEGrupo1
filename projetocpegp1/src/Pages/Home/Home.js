@@ -9,18 +9,41 @@ function Home(){
              <a class="active" href="/cadastro">Vire um membro já!</a>
             <a href="/login">Acesse sua conta</a>
         </div>
-        <div className="quadradoCinza"></div>
-        <div className="crash4"></div>
-        <div className="retanguloCinza1"></div>
-        <div className="retanguloJogo1"></div>
-        <div className="retanguloJogo2"></div>
-        <div className="retanguloJogo3"></div>
-        <div className="retanguloJogo4"></div>
-        <div className="elipseFarCry"></div>
-        <div className="quadradoMenorJogoDireita"></div>
-        <div className="quadradoMenorJogoEsquerda"></div>
-        <div className="quadradoMenorJogoAcima"></div>
-        <div className="quadradoMenorJogoAbaixo"></div>
+        </div>
+        <div class="page">
+
+        <div className="containerQuadradoeCrash">
+            <div className="quadradoCinza"></div>
+            <div className="crash4"></div>
+        </div>
+       
+       <div className="container2RetanguloeJogos">
+
+             <div className="retanguloCinza1"></div>
+
+        <div className="containerRetangulosJogosHome"> 
+                <div className="retanguloJogo1"></div>
+                <div className="retanguloJogo2"></div>
+                <div className="retanguloJogo3"></div>
+                <div className="retanguloJogo4"></div>
+            </div>
+       </div>
+    
+        <div className="containerFarCryeJogos">
+
+            <div className="elipseFarCry"></div>
+
+        </div>
+
+        <div className="containerJogosDebaixo">
+                    <div className="quadradoMenorJogoAcima"></div>
+                    <div className="quadradoMenorJogoAbaixo"></div>
+                    <div className="quadradoMenorJogoDireita"></div>
+                    <div className="quadradoMenorJogoEsquerda"></div>
+                </div>
+
+        
+
         <div className="quadradoRoxoCentral"></div>
         <div className="quadradoBrancoPlanos1"></div>
         <div className="quadradoBrancoPlanos2"></div>
@@ -46,8 +69,8 @@ function Home(){
     </div>
     <div className="background">
     </div> 
-   
     </div>
+    
 
     
     );    
