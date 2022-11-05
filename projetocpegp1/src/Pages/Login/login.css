@@ -18,8 +18,16 @@
     overflow: auto;
 }
 
-.container_planos{
+.container{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color:rgba(132, 41, 253, 0.7);
+    border: 5px;
+    border-style: inset;
+    border-color: rgb(9, 1, 16, 0.5);
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .g{

@@ -10,11 +10,15 @@
 }
 
 .h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: fit-content;
 }
 .container_planos{
     align-items: center;
     justify-content: center;
+}
+.selecione{
+    width: fit-content;
+    align-items: center;
 }
 
 .planos{
@@ -26,12 +30,27 @@
 
 .plano{
     justify-content: center;
-    background-color:blanchedalmond ;
+    background-color: rgba(7, 0, 88, 0.2    ) ;
     height: fit-content;
     margin:  10px;
     border-radius: 10px;
     padding-left: 10px;
-    padding-right: 5px;
-
+    padding-right: 10px;
+    align-items: center;
 }
 
+.plano h2 {
+    text-align: center;
+    font-family:'Iceland', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.plano h4{
+    outline-color: black;
+    text-align: center;
+    background-color:rgba(245, 189, 240, 0.3);
+    font-family:'Iceland', sans-serif;
+    font-size: 25px;
+    
+}
