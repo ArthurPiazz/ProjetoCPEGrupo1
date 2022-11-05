@@ -13,7 +13,7 @@ function Plataforma(){
             <div className="background_plataforma">
             <Barra/>
             <h1>Plataforma</h1>
-            </div>
+            </div> 
         
         
 );

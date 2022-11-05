@@ -11,21 +11,35 @@ function Footer(){
     return(
 
     <div>   
-    <footer className="footerPagina">
-
+        
+    <div className="ContainerFooter">  
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Iceland"></link>
+    <div className="footerPagina">
+    
     <div><Logo /></div>
-    <div className="logoCPE"></div>  
-    <div className="CPEtexto"></div>
+    <div className="containerLogoeTexto">
+        <div className="logoCPE"></div>  
+        <div className="CPEtexto">CPE</div>
+    </div>
+
+    <div className="CPEPorExtenso">Consultoria e Projetos Elétricos</div>
+   
     <div className="Social">
-    <a href="https://www.instagram.com/speak.up.tech/">
+
+    <a href="https://www.instagram.com">
           <FaInstagram size="40"  color="#000"/>
+          gamecasting.of
         </a>
        
-    <a href=""><FaTwitter size="40"  color="#000"></FaTwitter></a>   
-        </div>
-    </footer>
+    <a href="https://twitter.com/"><FaTwitter size="40"  color="#000"></FaTwitter>
+    gamecasting
+    </a>   
+        </div> 
+    </div>
    
     </div> 
+    </div>  
     )
     
 
