@@ -9,35 +9,29 @@
     justify-content: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-grow: 1;
-    background-color: #7A04EB;
-    border: 10px solid rgb(73, 2, 131);
-    border-radius: 5px;
-    border-style: double;
-    box-shadow: 5px 7px rgba(0, 0, 0, 0.358);
-    padding: 10px;
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container_planos{
     align-items: center;
-    width: fit-content;
-    max-width: 500px;
-    height: fit-content;
-    position: relative;
     justify-content: center;
-    margin-left: 50px;
 }
 
 .planos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content: space-between calc(10px);
 }
 
-.starter{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    border: #7A04EB;
+.plano{
+    justify-content: center;
+    background-color:blanchedalmond ;
+    height: fit-content;
+    margin:  10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+
 }
+
