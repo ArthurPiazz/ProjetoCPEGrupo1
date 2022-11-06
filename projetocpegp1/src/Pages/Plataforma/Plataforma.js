@@ -11,7 +11,6 @@ function Plataforma(){
     return(
             <div className="background_plataforma">
             <Barra/>
-<<<<<<< HEAD
             <br/>
             <div className= "content">
               <div className= "slides">
@@ -40,16 +39,13 @@ function Plataforma(){
               </div>
 
             </div>
-
+ <h1>Plataforma</h1>
             </div>
-    );
-=======
-            <h1>Plataforma</h1>
-            </div> 
+  
+           
         
         
 );
->>>>>>> fa6be06b0cbcb32e2d67fce54361481701bbd35d
 }
 
 export default Plataforma;
