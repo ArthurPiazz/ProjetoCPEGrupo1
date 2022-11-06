@@ -9,7 +9,7 @@ import EscolhaPlano from "./Pages/Cadastro/EscolhaPlano";
 import Plataforma from "./Pages/Plataforma";
 import Barra from "./Pages/Barra";
 import Favoritos from "./Pages/Plataforma/Favoritos";
-import Lançamentos from "./Pages/Plataforma/Lançamentos";
+import Lancamentos from "./Pages/Plataforma/Lancamentos";
 import MaisJogados from "./Pages/Plataforma/Maisjogados";
 import Recomendados from "./Pages/Plataforma/Recomendados";
 //import { Switch } from "@mui/material";
@@ -28,7 +28,7 @@ import Recomendados from "./Pages/Plataforma/Recomendados";
                 <Route path="/plataforma/maisjogados" element ={<MaisJogados />}/>
                 <Route path="/plataforma/favoritos" element ={<Favoritos />}/>
                 <Route path="/plataforma/recomendados" element ={<Recomendados />}/>
-                <Route path="/plataforma/lançamentos" element ={<Lançamentos />}/>
+                <Route path="/plataforma/lancamentos" element ={<Lancamentos />}/>
                 <Route path="/temp" element ={<Barra />}/>
             </Routes>
             </BrowserRouter>

@@ -2,6 +2,7 @@ import React from "react";
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 import {useState} from 'react';
+import {useLocation} from "react-router-dom";
 import "./barra.css";
 import {Drawer, List,ListItem,ListItemText,Typography,AppBar,Toolbar,IconButton,Avatar} from "@mui/material";
 import {AiFillHome} from "react-icons/ai";
@@ -17,14 +18,16 @@ import {useNavigate} from "react-router-dom";
 
 function Barra(){
     const navigate = useNavigate();
-    const [currentPage] = useState("/plataforma");
+    const location = useLocation();
+    console.log(location.pathname);
+
+    const pathName = location.pathname;
+
     const [open, setOpen] = useState(false);
 
     function handleDrawerClose(isopen){
         setOpen(isopen);
     }
-
-
 
     const Search = styled('div')(({ theme }) => ({
         position: 'relative',
@@ -109,10 +112,11 @@ function Barra(){
         </Toolbar>
       </AppBar>
 
-        <Drawer open = {open} onClose = {()=> handleDrawerClose(false)}>
+        <Drawer 
+        open = {open} onClose = {()=> handleDrawerClose(false)}>
             <List className="list"> 
                 <ListItem button 
-                selected = {currentPage === "/plataforma"}
+                selected = {pathName === "/plataforma"}
                 onClick={() => {navigate("/plataforma")}}>
                     <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <AiFillHome/>
@@ -122,8 +126,9 @@ function Barra(){
                     </ListItemText>    
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/plataforma/lançamentos"}
-                onClick={() => {navigate("/plataforma/lançamentos")}}>
+                selected = {pathName === "/plataforma/lancamentos"}
+                onClick={() => 
+                {navigate("/plataforma/lancamentos")}}>
                     <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <FaRocket/>
                     </IconContext.Provider>
@@ -132,7 +137,7 @@ function Barra(){
                     </ListItemText> 
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/plataforma/recomendados"}
+                selected = {pathName === "/plataforma/recomendados"}
                 onClick={() => {navigate("/plataforma/recomendados")}}>
                     <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <BsLightbulbFill/>
@@ -142,7 +147,7 @@ function Barra(){
                     </ListItemText>
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/plataforma/favoritos"}
+                selected = {pathName === "/plataforma/favoritos"}
                 onClick={() => {navigate("/plataforma/favoritos")}}>
                     <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <AiFillStar/>
@@ -152,7 +157,7 @@ function Barra(){
                     </ListItemText>
                 </ListItem>
                 <ListItem button
-                selected = {currentPage === "/plataforma/maisjogados"}
+                selected = {pathName === "/plataforma/maisjogados"}
                 onClick={() => {navigate("/plataforma/maisjogados")}}>
                     <IconContext.Provider value = {{color: "#000000", size: "2.5em"}}>
                         <BiTrendingUp/>
