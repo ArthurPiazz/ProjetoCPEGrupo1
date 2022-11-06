@@ -78,17 +78,6 @@
     float: right;
   }
   
-  
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
 
   .logo{
     position: absolute;
@@ -143,71 +132,159 @@
   }
 
 .background{
+
+    position: absolute;
+    top:0%;
     width: 100%;
-    height: 5668px;
+    height: 5000px;
     background-size: cover;
     background-image: url(./BG_HOME.png);
-    z-index:-3;
+    z-index:-10;
+}
+
+.containerQuadradoeCrash{
+
+  position:relative;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  
+  
+
 }
 
 .quadradoCinza{
-  position: absolute;
-  left: 100px;
-  top: 300px;
+ 
+ 
+  
+  margin-top: 3%;
   width:641px;
   height:245px;
   background-color: #9C9C9C;
   border-radius: 30px;
-  z-index: 2;
   border-width: medium;
   border-color:#000000; 
   border-style: solid;
+  z-index: 5;
+  margin-left: -10%;
+  margin-right: 10%;
+  left: center;
+  text-align: center;
+  font-family: 'Iceland', 'Times New Roman', serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-size: 25px; line-height: 2.5em;
+  letter-spacing: 2px; word-spacing: 3.5px; 
+ 
 
   }
 
+/* .quadradoCinza:after{
+
+ 
+  margin-left: auto;
+  margin-right: auto;
+  left: center;
+  
+  text-align: center;
+  font-family: Iceland, 'Times New Roman', serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  
+  font-size: 25px; line-height: 2.5em;
+  letter-spacing: 2px; word-spacing: 3.5px; 
+  
+
+} */
+
  .crash4{
 
-  position: absolute;
-  right: 250px;
-  top: 210px;
+
+  position:relative;
+  margin-left: -11%;
   width:450px;
   height:410px;
   background-color: #7A04EB;
+  background-repeat: no-repeat;
   background-image: url(./Crash_Bandicoot_4.png);
   background-position: 45% 20%;
-  background-size: 170%;
+  background-size: cover;
   border-radius: 1000px;
-  z-index: 1; 
   border-width: medium;
   border-color:#000000; 
   border-style: solid; 
+  
 
 
  } 
 
+ .container2RetanguloeJogos{
+
+  position:relative;
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+  background-color: rgb(255, 0, 21);
+
+
+
+ }
 
  .retanguloCinza1{
-  position: absolute;
-  right: 25%;
-  left: 15%;
-  top: 1000px;
-  width:900px;
+
+  position:relative;
+  margin-left: auto;
+  margin-right:auto;
+  width:90%;
   height:55px;
   background-color: #9C9C9C;
   border-radius: 5px;
-  z-index: 2;
   border-width: thick;
   border-color:#000000; 
   border-style: solid;
+  text-align: center;
+  margin: auto;
+  font-family: 'Iceland', 'Times New Roman', serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  letter-spacing: 8px; word-spacing: 5px; 
 
   } 
 
+ /*.retanguloCinza1:after{
+
+  content: "Os maiores sucessos estão aqui!!";
+  text-align: center;
+  margin: auto;
+  font-family: 'Iceland', 'Times New Roman', serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  letter-spacing: 8px; word-spacing: 5px; 
+
+ }*/
+
+ .containerRetangulosJogosHome{
+  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    margin-top: 80px;
+  
+
+ }
 
   .retanguloJogo1{
-    position: absolute;
-    right: 25%;
-    left: 10%;
-    top: 1150px;
+
+  
     width:200px;
     height:255px;
     background-color: white;
@@ -217,16 +294,16 @@
     border-color:#000000; 
     border-style: solid;
     background-image: url(./cs-banner.png);
-    background-position: 45% 10%;
-    background-size: 110%;
+   
+
   
     } 
 
+
   .retanguloJogo2{
-      position: absolute;
-      right: 30%;
-      left: 30%;
-      top: 1150px;
+
+      
+    
       width:200px;
       height:255px;
       background-color: white;
@@ -242,10 +319,8 @@
       } 
 
   .retanguloJogo3{
-        position: absolute;
-        right: 40%;
-        left: 50%;
-        top: 1150px;
+       
+ 
         width:200px;
         height:255px;
         background-color: white;
@@ -261,10 +336,9 @@
         } 
 
   .retanguloJogo4{
-          position: absolute;
-          right: 40%;
-          left: 70%;
-          top: 1150px;
+
+          
+
           width:200px;
           height:255px;
           background-color: white;
@@ -279,38 +353,54 @@
         
           } 
 
+  .containerFarCryeJogos{
+
+    background-color: #000000;
+    margin-top: 50px;
+
+  }
 
   .elipseFarCry{
 
-            position: absolute;
-            right: 30%;
-            top: 1600px;
+            
+            
+            margin:auto;
             width:600px;
             height:410px;
-            background-color: white;
-            /*background-image: ;*/
             background-position: 45% 20%;
             background-size: 170%;
-            border-radius: 75%;
-            z-index: 0; 
+            border-radius: 75%; 
             border-width: medium;
             border-color:#000000; 
             border-style: solid; 
             background-image: url(./far_cry_6.jpg);
-            background-position: -50% 10%;
-            background-size: 110%;
+            background-position: 15% 10%;
+            background-size: 150%;
           
           
            } 
 
+  .containerJogosDebaixo{
+
+    background-color: rgb(69, 168, 115);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    margin-top: 50px;
+
+
+  }
+
+
   .quadradoMenorJogoDireita{
-    position: absolute;
-    right: 40%;
-    left: 68%;
-    top: 1720px;
-    width:140px;
-    height:180px;
-    background-color: white;
+
+    
+    width:200px;
+    height:255px;
+
     border-radius: 5px;
     z-index: 2;
     border-width: medium;
@@ -323,63 +413,375 @@
   }   
 
   .quadradoMenorJogoEsquerda{
-    position: absolute;
-    right: 40%;
-    left: 16%;
-    top: 1720px;
-    width:140px;
-    height:180px;
-    background-color: white;
+
+  
+    width:200px;
+    height:255px;
     border-radius: 5px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./red-dead-redemption.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
   } 
 
+ 
   .quadradoMenorJogoAcima{
-    position: absolute;
-    right: 40%;
-    left: 41.5%;
-    top: 1480px;
-    width:140px;
-    height:180px;
-    background-color: white;
+
+    width:200px;
+    height:255px;
+
     border-radius: 5px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./horizon-zero-down.webp);
+    background-position: 45% 10%;
+    background-size: 110%;
   } 
 
   .quadradoMenorJogoAbaixo{
-    position: absolute;
-    right: 40%;
-    left: 41.5%;
-    top: 1955px;
-    width:140px;
-    height:180px;
-    background-color: white;
+
+    width:200px;
+    height:255px;
+ 
     border-radius: 5px;
     z-index: 2;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+    background-image: url(./ultrakill.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
   } 
 
-  .quadradoRoxoCentral{
+ .quadradoRoxoCentral{
 
-    position: absolute;
-    right: 17%; 
-    left: 13%;
-    top: 2300px;
-    width:940px;
-    height:940px;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    width:625px;
+    height:600px;
     background-color: #7A04EB;
+    background-image: url(./fundoQuadradoRoxo.png);
+    background-position: 10% 90%;
+    background-size: 105%;
     border-radius: 30px;
-    z-index: 5;
     border-width: medium;
     border-color:#000000; 
     border-style: solid;
+
+  }
+
+  .containerEscolhaDePlanos{
+
+    background-color: cornflowerblue;
+    margin-top: 100px;
+
+
+
+  }
+
+  .SelecioneOPlano{
+    background-color: orange;
+    width: 32%;
+    margin: auto;
+  }
+
+  .h1{
+    width: fit-content;
+    margin:auto;
+}
+
+
+.selecione{
+  width: fit-content;
+  align-items: center;
+}
+
+
+.container_planos{
+  align-items: center;
+  justify-content: center;
+}
+
+  .planos{
+
+    background-color: #901515;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+  .planoStarter{
+
+
+    top: 3500px;
+    width:180px;
+    height:auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+  
+    background-position: 45% 10%;
+    background-size: 100%;
+
+
+  }
+
+  .planoMedium{
+
+
+ 
+    top: 3500px;
+    width:180px;
+    height:auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    
+    background-position: 45% 10%;
+    background-size: 105%;
+
+
+  }
+
+  .planoPro{
+
+
+   
+    top: 3500px;
+    width:180px;
+    height:auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    
+    background-position: 45% 10%;
+    background-size: 105%;
+
+
+  }
+
+  .planoUltimate{
+
+
+  
+    top: 3500px;
+    width:180px;
+    height:auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    
+    background-position: 70% 80%;
+    background-size: 100%;
+
+
+  }
+
+
+  .quadradoFeedbacks{
+
+    background-color:crimson;
+    width: 1500px;
+    height: 400px;
+    margin:auto;
+    margin-top: 100px;
+
+
+  }
+
+  
+  .tituloDoFeedback{
+
+    background-color: darksalmon;
+    width: 37%;
+    margin:auto;
+    font-family:'Iceland', sans-serif;
+
+  }
+
+
+  .containerdosFeedbacks{
+
+    height: inherit;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    margin: auto;
+    margin-top: 50px;
+    
+
+  }
+
+
+
+  .feedback1{
+
+    
+    height:180px;
+    width:150px;
+    background-color: red;
+    border-radius: 50px;
+    background-image: url(./Feedback1.png);
+    z-index: 3;
+    border-width: medium;
+    border-color:#7A04EB; 
+    border-style: solid;
+    background-position: 45% 40%;
+    background-size: 130%;
+
+
+  }
+
+  .feedback2{
+
+    height:180px;
+    width:150px;
+    background-color: rgb(217, 255, 0);
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#7A04EB; 
+    border-style: solid;
+    background-image: url(./Feedback2.png);
+    background-position: 50% 30%;
+    background-size: 120%;
+
+  }
+
+  .feedback3{
+
+    height:180px;
+    width:150px;
+    background-color: rgb(0, 94, 255);
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#7A04EB;  
+    border-style: solid;
+    background-image: url(./Feedback3.png);
+    background-position: 50% 10%;
+    background-size: 120%;
+
+  }
+
+  .feedback4{
+
+    height:180px;
+    width:150px;
+    background-color: rgb(0, 255, 187);
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#7A04EB; 
+    border-style: solid;
+    background-image: url(./Feedback4.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+
+
+  }
+
+  .feedback5{
+
+    
+    height:180px;
+    width:150px;
+    background-color: rgb(0, 255, 145);
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color:#7A04EB; 
+    border-style: solid;
+    background-image: url(./Feedback5.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+
+  }
+
+  .retânguloCinzaAbaixo{
+
+
+  
+    margin:auto;
+
+    margin-top: 100px;
+    width:900px;
+    height:300px;
+    background-color: #9C9C9C;
+    background-image: url(./EntreNesseUniverso.png);
+    background-size: 100%;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: thick;
+    border-color:#000000; 
+    border-style: solid;
+
+  }
+
+  .espacoAbaixoNulo{
+
+    height: 500px;
+
+
+
+
+
+  }
+
+
+  @media  (max-width:900px) {
+    .containerRetangulosJogosHome{
+      flex-direction: column;
+    }
+
+    .containerJogosDebaixo{
+      flex-direction: column;
+    }
+
+    .containerQuadradoeCrash{
+      flex-direction: column;
+    }
+
+    .containerEscolhaDePlanos{
+      flex-direction: column;
+    }
+    
+    
+  }
+
+  @media  (max-width:1400px){
+
+    .quadradoFeedbacks{
+      height: auto;
+    }
+    .containerdosFeedbacks{
+      flex-direction: column;
+      height: auto;
+    }
+    .planos{
+      flex-direction: column;
+      justify-content: center;
+    }
 
   }

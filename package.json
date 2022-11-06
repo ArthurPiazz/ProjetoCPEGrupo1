@@ -1,0 +1,19 @@
+{
+  "name": "project-react",
+  "version": "1.0.0",
+  "description": "yes",
+  "main": "yes",
+  "scripts": {
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurPiazz/ProjetoCPEGrupo1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurPiazz/ProjetoCPEGrupo1/issues"
+  },
+  "homepage": "https://github.com/ArthurPiazz/ProjetoCPEGrupo1#readme"
+}
