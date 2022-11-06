@@ -176,10 +176,11 @@
   left: center;
   text-align: center;
   font-family: 'Iceland', 'Times New Roman', serif;
-  font-size: 25px;
+  font-size: 30px;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  font-size: 25px; line-height: 2.5em;
-  letter-spacing: 2px; word-spacing: 3.5px; 
+  line-height: 2em;
+  letter-spacing: 2px; word-spacing: 1px;
+ 
  
 
   }
@@ -295,6 +296,8 @@
     border-style: solid;
     background-image: url(./cs-banner.png);
    
+    background-position: 20% 10%;
+    background-size: 230%;
 
   
     } 
@@ -314,7 +317,7 @@
       border-style: solid;
       background-image: url(./valorant-banner.jpg);
       background-position: 45% 10%;
-      background-size: 110%;
+      background-size: 150%;
     
       } 
 
@@ -598,8 +601,8 @@
 
 
   .quadradoFeedbacks{
-
-    background-color:crimson;
+    border-radius: 25px;
+    background-color: #fff;
     width: 1500px;
     height: 400px;
     margin:auto;

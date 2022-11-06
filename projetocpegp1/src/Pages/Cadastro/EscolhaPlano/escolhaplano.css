@@ -1,6 +1,56 @@
 .background_planos{
-    background: linear-gradient(180deg, rgba(104, 8, 237, 0.572344) 2.99%, rgba(245, 189, 240, 0.5) 22.81%, rgba(214, 199, 228, 0.8) 47.29%, rgba(132, 41, 253, 0.507585) 84.79%, rgba(7, 0, 88, 0.91) 99.9%) no-repeat fixed center center;
+    background: linear-gradient(180deg, rgba(104, 8, 237, 0.572344) 2.99%, rgba(245, 189, 240, 0.5) 22.81%, rgba(202, 174, 228, 0.8) 30%, rgba(132, 41, 253, 0.507585) 70%, rgba(7, 0, 88, 0.91) 99.9%) no-repeat fixed center center;
     height: 100%;
     width: 100%;
     position: fixed;
+}
+
+.base{
+    justify-content: center;
+}
+
+.h1{
+    width: fit-content;
+}
+.container_planos{
+    align-items: center;
+    justify-content: center;
+}
+.selecione{
+    width: fit-content;
+    align-items: center;
+}
+
+.planos{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-between calc(10px);
+}
+
+.plano{
+    justify-content: center;
+    background-color: rgba(7, 0, 88, 0.2    ) ;
+    height: fit-content;
+    margin:  10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.plano h2 {
+    text-align: center;
+    font-family:'Iceland', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.plano h4{
+    outline-color: black;
+    text-align: center;
+    background-color:rgba(245, 189, 240, 0.3);
+    font-family:'Iceland', sans-serif;
+    font-size: 25px;
+    
 }

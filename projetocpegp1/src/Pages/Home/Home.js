@@ -19,14 +19,14 @@ function Home(){
 
         <div className="containerQuadradoeCrash">
             <div className="quadradoCinza">
-            " Jogue centenas de jogos de alta qualidade diretamente pelo seu PC ou via nuvem. Atualizações constantes, você sempre terá o que jogar!!";
+             Jogue centenas de jogos de alta qualidade diretamente pelo seu PC ou via nuvem. Atualizações constantes, você sempre terá o que jogar!
             </div>
             <div className="crash4"></div>
         </div>
        
        <div className="container2RetanguloeJogos">
 
-             <div className="retanguloCinza1">"Os maiores sucessos estão aqui!!"</div>
+             <div className="retanguloCinza1">Os maiores sucessos estão aqui!</div>
 
         <div className="containerRetangulosJogosHome"> 
                 <div className="retanguloJogo1"></div>
