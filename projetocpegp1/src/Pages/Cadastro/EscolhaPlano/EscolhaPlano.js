@@ -1,5 +1,5 @@
 import React from "react"
-import "./escolhaplano.css";
+import "./EscolhaPlano.css";
 
 function EscolhaPlano(){
     return(
