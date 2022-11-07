@@ -1,0 +1,320 @@
+
+
+.Background-Usuario{
+  background: linear-gradient(180deg, rgba(104, 8, 237, 0.572344) 2.99%, rgba(245, 189, 240, 0.5) 22.81%, rgba(214, 199, 228, 0.8) 47.29%, rgba(132, 41, 253, 0.507585) 84.79%, rgba(7, 0, 88, 0.91) 99.9%) no-repeat fixed center center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  Bottom: 0;
+}
+
+.body-Usuario{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 40px;
+position: relative;
+width: 430px;
+height: 700px;
+border-style: solid;
+  border-width: 5px;
+
+background: linear-gradient(180deg, #120458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(122, 4, 235, 0.15) 99.9%);
+}
+
+.logo{
+  position: absolute;
+  width: 187px;
+  height: 36.38px;
+  left: 13px;
+  top: 13.19px;
+  transform: rotate(-0.06deg);
+}
+
+.logo-parte-roxa{
+  box-sizing: border-box;
+
+position: absolute;
+width: 169.56px;
+height: 36.04px;
+left: 30.44px;
+top: 13.17px;
+
+background: #7A04EB;
+border: 2px solid #000000;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.logo-parte-branca{
+  position: absolute;
+width: 183.34px;
+height: 23.74px;
+left: 13.01px;
+top: 19.45px;
+
+background: #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(-0.06deg);
+}
+
+.logo-texto{
+  position: absolute;
+width: 179.96px;
+height: 28.89px;
+left: 13.13px;
+top: 16.89px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+
+
+transform: rotate(-0.06deg);
+}
+
+.NomedoUsuario-Usuario{
+  position: absolute;
+width: 400px;
+height: 31px;
+left: 80px;
+top: 31px;
+bottom: 94px;
+
+font-family: 'Iceland';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 31px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.RetangulodoNome-Usuario{
+  box-sizing: border-box;
+
+position: absolute;
+width: 387.5px;
+height: 100px;
+top: 65px;
+left: 21px;
+
+background: rgba(160, 23, 214, 0.8);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-style: solid;
+border-width: 2px;
+}
+
+.ImagemPerfil-Usuario{
+  position: absolute;
+  width: 61px;
+height: 61px;
+left: 12px;
+top: 18px;
+background: url(firefox_4DdvdTcjqY.png);
+
+}
+
+.Rodape-Usuario {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(217, 217, 217);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000;
+}
+
+.body-Informações-Usuario{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 180px;
+position: relative;
+width: 400px;
+height: 200px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Texto-Jogos-Usuario {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.Primeiro-Jogo-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 20px;
+  top: 10px;
+  background: url(newproject.png);
+}
+
+.Segundo-Jogo-Usuario{
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 170px;
+  top: -170px;
+  background: url(newproject.png);
+}
+
+.Terceiro-Jogo-Usuario{
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 320px;
+  top: -350px;
+  background: url(newproject.png);
+}
+
+.Primeiro-Texto-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 25px;
+  top: 1px;
+}
+
+.Segundo-Texto-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 175px;
+  top: -181px;
+}
+
+.Terceiro-Texto-Usuario {
+  position: relative;
+  height: 90px;
+  width: 60px;
+  left: 325px;
+  top: -362px;
+}
+
+.body-Amigos{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 200px;
+position: relative;
+width: 400px;
+height: 250px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Quadrado-amigos{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: 0px;
+left: -105px;
+position: relative;
+width: 100px;
+height: 100px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Quadrado-amigos2{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: -208px;
+left: -3px;
+position: relative;
+width: 100px;
+height: 100px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.Quadrado-amigos3{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+top: -416px;
+left: 100px;
+position: relative;
+width: 100px;
+height: 100px;
+border-style: solid;
+  border-width: 2px;
+
+background: linear-gradient(180deg, #390458 2.99%, rgba(72, 4, 165, 0.607765) 52.4%, rgba(4, 8, 235, 0.15) 99.9%);
+}
+
+.ImagemPerfilAmigo{
+  position: absolute;
+  width: 61px;
+height: 61px;
+left: 20px;
+top: 18px;
+background: url(firefox_4DdvdTcjqY.png);
+
+}
+
+.TextoPerfilAmigo{
+  position: absolute;
+  top:80px;
+  left:12px;
+  font-size: 12px;
+}
+
+
+.button-1-Usuario {
+  background-color: #680468;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  top: 201px;
+  left: 12px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #520286;
+}
