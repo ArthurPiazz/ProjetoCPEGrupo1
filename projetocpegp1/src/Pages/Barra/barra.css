@@ -150,8 +150,8 @@
   left: 13.13px;
   top: 16.89px;
   
-  font-family: 'Inter';
-  font-style: italic;
+  font-family: 'Inter', sans-serif;
+  font-style: oblique;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;

@@ -338,7 +338,7 @@ input{
 }
 
 .footer{
-  margin-left: 2%;
   position: absolute;
-  margin-top: 10%; 
+  margin-top: 10px;
+  margin-right: 0; 
 }
