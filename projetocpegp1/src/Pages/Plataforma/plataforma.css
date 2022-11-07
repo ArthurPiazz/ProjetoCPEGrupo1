@@ -1,6 +1,7 @@
 
 body{
-  overflow: auto;
+  overflow-y: auto;
+  overflow-block: initial;
 }
 
 .header {
@@ -138,6 +139,7 @@ body{
     overflow: auto;
 }
 
+
 .content{
   height: 350px;
   width: 700px;
@@ -210,8 +212,11 @@ input{
 }
 
 .acao{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.047);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -219,12 +224,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 80px;
+  margin-top: 5px;
 }
-
+ 
 .aventura{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -232,12 +240,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 .mmo{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -245,12 +256,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 .rpg{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -258,12 +272,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 .estrategia{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -271,12 +288,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 .simulacao{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -284,12 +304,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 .indie{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -297,12 +320,15 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 .fps{
-  background-color: aqua;
-  margin: 10%;
+  background-color: rgba(55, 0, 255, 0.064);
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10%;
+  margin-top: 0;
   width: auto;
   display: flex;
   flex-direction: row;
@@ -310,31 +336,27 @@ input{
   padding-left: 2%;
   padding-right: 2%;
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
-.container{
-  background-color: red;
-
-}
 
 .retangulo{
   position:relative;
-  margin-left: auto;
-  margin-right:auto;
-  width:75%;
+  width:100%;
   height:65px;
-  background-color: #9C9C9C;
+  background-color: #aeacacd0;
   border-radius: 5px;
   border-width: thick;
-  border-color:#000000; 
+  border-color:#000000a3; 
   border-style: solid;
+  border-left: 0;
+  border-right: 0;
   text-align: center;
   margin: auto;
   font-family: 'Iceland', 'Times New Roman', serif;
   font-size: 35px;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  letter-spacing: 8px; word-spacing: 5px; 
+  letter-spacing: 5px; word-spacing: 5px; 
 }
 
 .footer{
@@ -348,10 +370,20 @@ margin-right: 0;
   flex-direction: column;
   align-items: center;
   margin: 10px;
+  padding: 10px;
+  background-color: #c8c4cb2d;
+  border-style: groove;
+  border-color: #4f009820;
+  border-radius: 10px;
+  box-shadow: #000000;
+  
 }
 
-.jogo p{
+.titulo{
   font-weight: 400;
-  font-style: italic;
-  font-feature-settings: "qwid";
+  margin-bottom: 0;
+}
+
+.container_jogos{
+  margin-bottom: 10%;
 }

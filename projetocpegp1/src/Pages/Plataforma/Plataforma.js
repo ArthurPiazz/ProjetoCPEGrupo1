@@ -41,7 +41,8 @@ function Plataforma(){
             </div>
             
             <div className = "elements">
-            <div className= "container">
+            
+            <div className= "container_jogos">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -67,7 +68,7 @@ function Plataforma(){
 
 
 
-            <div className= "container">
+            <div className= "container_jogos">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -91,95 +92,151 @@ function Plataforma(){
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_jogos">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
             <div className= "retangulo">RPG</div>
 
-                <div className= "rpg">
-                  <img src = "./images/image 32.png" alt = "ElderRing" />
-                  <img src = "./images/Jogo.png" alt = "Skyrim" />
-                  <img src = "./images/image 33.png" alt = "Destiny" />
-                  <img src = "./images/image 34.png" alt = "TheWitcher3" />
+            <div className= "rpg">
+                <div className='jogo'> <img src = "./images/image 32.png" alt = "ElderRing" />
+                  <p className='titulo'>Elden Ring</p>
                 </div>
+                 
+                <div className='jogo'> <img src = "./images/Jogo.png" alt = "Skyrim" />
+                  <p className='titulo'>Skyrim V</p>
                 </div>
 
-                <div className= "container">
+                <div className='jogo'>  <img src = "./images/image 33.png" alt = "Destiny" />
+                  <p className='titulo'>Destiny</p>
+                </div>
+
+                <div className='jogo'><img src = "./images/image 34.png" alt = "TheWitcher3" />
+                  <p className='titulo'>The Witcher 3</p>
+                </div>
+                </div>
+                </div>
+                
+    
+                <div className= "container_jogos">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
             <div className= "retangulo">MMO</div>
 
                 <div className= "mmo">
-                  <img src = "./images/ESO.png" alt = "ESO" />
-                  <img src = "./images/image 23.png" alt = "WOW" />
-                  <img src = "./images/image 26.png" alt = "GW2" />
-                  <img src = "./images/image 29.png" alt = "Diablo" />
+
+
+                <div className='jogo'> <img src = "./images/ESO.png" alt = "ESO" />
+                  <p className='titulo'>The Elden Ring</p>
+                </div>
+                 
+                <div className='jogo'> <img src = "./images/image 23.png" alt = "WOW" />
+                  <p className='titulo'>World of Warcraft</p>
+                </div>
+
+                <div className='jogo'>   <img src = "./images/image 26.png" alt = "GW2" />
+                  <p className='titulo'>Guildwars 2</p>
+                </div>
+
+                <div className='jogo'> <img src = "./images/image 29.png" alt = "Diablo" />
+                  <p className='titulo'>Diablo</p>
+                </div>
+                 
                 </div>
                 </div>
 
-<div className= "container">
-<link rel="stylesheet"
-href="https://fonts.googleapis.com/css?family=Iceland"/>
+                <div className= "container_jogos">
+                <link rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Iceland"/>
 
-<div className= "retangulo">FPS</div>
+                      <div className= "retangulo">FPS</div>
 
                 <div className= "fps">
-                  <img src = "./images/mw2.png" alt = "Battlegrounds" />
-                  <img src = "./images/vava.png" alt = "Valorant" />
-                  <img src = "./images/image 31.png" alt = "R6" />
-                  <img src = "./images/image 11.png" alt = "Uncharted" />
+
+                <div className='jogo'>  <img src = "./images/mw2.png" alt = "MW2" />
+                  <p className='titulo'>Elden Ring</p>
+                </div>
+                 
+                <div className='jogo'>  <img src = "./images/vava.png" alt = "Valorant" />
+                  <p className='titulo'>Skyrin V</p>
+                </div>
+
+                <div className='jogo'> <img src = "./images/image 31.png" alt = "R6" />
+                  <p className='titulo'>Rainbow Six Siege</p>
+                </div>
+
+                <div className='jogo'>  <img src = "./images/image 11.png" alt = "Uncharted" />
+                  <p className='titulo'>The Witcher 3</p>
+                </div>
                 </div>
                 </div>
 
-                <div className= "container">
+
+
+
+                <div className= "container_jogos">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
-            <div className= "retangulo">ESTRAÉGIA</div>
+            <div className= "retangulo">ESTRATÉGIA</div>
+
+
 
                 <div className= "estrategia">
-                  <img src = "./images/image 18.png" alt = "TWW" />
-                  <img src = "./images/image 21.png" alt = "DOTA2" />
-                  <img src = "./images/image 22.png" alt = "CIV" />
-                  <img src = "./images/image 25.png" alt = "hoi" />
+
+                  
+                <div className='jogo'>  <img src = "./images/image 18.png" alt = "TWW" />
+                  <p className='titulo'>Elden Ring</p>
+                </div>
+                 
+                <div className='jogo'> <img src = "./images/image 21.png" alt = "DOTA2" />
+                  <p className='titulo'>Skyrin V</p>
+                </div>
+
+                <div className='jogo'>   <img src = "./images/image 22.png" alt = "CIV" />
+                  <p className='titulo'>Destiny</p>
+                </div>
+
+                <div className='jogo'>  <img src = "./images/image 25.png" alt = "hoi" />
+                  <p className='titulo'>The Witcher 3</p>
+                </div>
+
+                 
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_jogos">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
             <div className= "retangulo">INDIE</div>
 
                 <div className= "indie">
-                  <img src = "./images/image 16.png" alt = "Stray" />
-                  <img src = "./images/image 17.png" alt = "Scorn" />
-                  <img src = "./images/hk.png" alt = "HollowKnight" />
-                  <img src = "./images/sv.png" alt = "StardewValley" />
+                <div className='jogo'>    <img src = "./images/image 16.png" alt = "Stray" />
+                  <p className='titulo'>Elden Ring</p>
                 </div>
-                </div>
-
-                <div className= "container">
-            <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Iceland"/>
-
-            <div className= "retangulo">SIMULAÇÃO</div>
-
-                <div className= "simulacao">
-                  <img src = "./images/image 12.png" alt = "Fifa23" />
-                  <img src = "./images/image 13.png" alt = "PZ" />
-                  <img src = "./images/image 14.png" alt = "ETS" />
-                  <img src = "./images/image 15.png" alt = "FH5" />
-                </div>
+                 
+                <div className='jogo'> <img src = "./images/image 17.png" alt = "Scorn" />
+                  <p className='titulo'>Skyrin V</p>
                 </div>
 
-            </div>
+                <div className='jogo'>  <img src = "./images/hk.png" alt = "HollowKnight" />
+                  <p className='titulo'>Destiny</p>
+                </div>
+
+                <div className='jogo'>  <img src = "./images/sv.png" alt = "StardewValley" />
+                  <p className='titulo'>The Witcher 3</p>
+                </div>
+
+                </div>
+                </div>
 
             <div className = "footer">
                 <img src = "./images/Frame 6.png" alt = "footer" />
                 </div>
+            </div>
+
             </div>
             
         
@@ -188,4 +245,24 @@ href="https://fonts.googleapis.com/css?family=Iceland"/>
 
 }
 
+/*<div className= "container_jogos">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Iceland"/>
+
+<div className= "retangulo">SIMULAÇÃO</div>
+
+    <div className= "simulacao">
+
+
+      
+
+      
+      <img src = "./images/image 12.png" alt = "Fifa23" />
+      <img src = "./images/image 13.png" alt = "PZ" />
+      <img src = "./images/image 14.png" alt = "ETS" />
+      <img src = "./images/image 15.png" alt = "FH5" />
+    </div>
+    </div>
+
+</div>*/
 export default Plataforma;

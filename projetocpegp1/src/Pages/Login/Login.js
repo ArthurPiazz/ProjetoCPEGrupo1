@@ -20,7 +20,7 @@ function Login(){
                     <input className="senha" placeholder="Digite sua senha"></input>
                     </form>
                     <br/>
-                    <button class="button" onClick={()=>{navigate('/usuario')}}>ENTRAR</button>
+                    <button class="button" onClick={()=>{navigate('/plataforma')}}>ENTRAR</button>
                     <br/>
                     <label itemID="esqueciasenha">Novo na plataforma?</label>
                     <button id="esqueciasenha" onClick={()=>{navigate('/cadastro')}}>Clique Aqui</button>
