@@ -340,5 +340,18 @@ input{
 .footer{
   position: absolute;
   margin-top: 10px;
-  margin-right: 0; 
+margin-right: 0; 
+}
+
+.jogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.jogo p{
+  font-weight: 400;
+  font-style: italic;
+  font-feature-settings: "qwid";
 }

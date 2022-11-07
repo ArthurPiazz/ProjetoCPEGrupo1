@@ -18,6 +18,7 @@ function Plataforma(){
                 <input type = "radio" name = "radio" id = "slide3"/>
 
                 <div className= "slide s1">
+                  
                   <img src = "./images/image10.png" alt = "CyberPunk" />
                 </div>
 
@@ -46,13 +47,25 @@ function Plataforma(){
 
             <div className= "retangulo">AÇÃO</div>
             <div className= "acao">
-              
-                  <img src = "./images/image 35.png" alt = "Battlegrounds" />
-                  <img src = "./images/image 36.png" alt = "SpiderMan" />
-                  <img src = "./images/image 37.png" alt = "FarCry6" />
-                  <img src = "./images/image 11.png" alt = "Uncharted" />
+                <div className='jogo'> <img src = "./images/image 35.png" alt = "Battlegrounds" />
+                  <p className='titulo'>PUBG: Battlegrounds</p>
+                </div>
+                 
+                <div className='jogo'>  <img src = "./images/image 36.png" alt = "SpiderMan" />
+                  <p className='titulo'>Marvel's Spider-Man</p>
+                </div>
+
+                <div className='jogo'> <img src = "./images/image 37.png" alt = "FarCry6" />
+                  <p className='titulo'>Far Cry 6</p>
+                </div>
+
+                <div className='jogo'><img src = "./images/image 11.png" alt = "Uncharted" />
+                  <p className='titulo'>Uncharted</p>
                 </div>
                 </div>
+                </div>
+
+
 
             <div className= "container">
             <link rel="stylesheet"
@@ -60,10 +73,21 @@ function Plataforma(){
 
             <div className= "retangulo">AVENTURA</div>
                 <div className= "aventura">
-                  <img src = "./images/image 30.png" alt = "GTAV" />
-                  <img src = "./images/Jogo 3.png" alt = "MINECRAFT" />
-                  <img src = "./images/Jogo 4.png" alt = "AMONGUS" />
-                  <img src = "./images/Jogo 1.png" alt = "RDR2" />
+                <div className='jogo'><img src = "./images/image 30.png" alt = "GTAV" />
+                  <p className='titulo'>Grand Theft Auto V</p>
+                </div>
+                 
+                <div className='jogo'>  <img src = "./images/Jogo 3.png" alt = "MINECRAFT" />
+                  <p className='titulo'>Minecraft</p>
+                </div>
+
+                <div className='jogo'>  <img src = "./images/Jogo 4.png" alt = "AMONGUS" />
+                  <p className='titulo'>Among Us</p>
+                </div>
+
+                <div className='jogo'><img src = "./images/Jogo 1.png" alt = "RDR2" />
+                  <p className='titulo'>Red Dead Redemption 2</p>
+                </div>
                 </div>
                 </div>
 

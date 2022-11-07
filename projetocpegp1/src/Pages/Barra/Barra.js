@@ -112,13 +112,13 @@ function Barra(){
         </Toolbar>
       </AppBar>
 
-        <Drawer 
+        <Drawer className="drawer"
         open = {open} onClose = {()=> handleDrawerClose(false)}>
             <List className="list"> 
                 <ListItem button 
                 selected = {pathName === "/plataforma"}
                 onClick={() => {navigate("/plataforma")}}>
-                    <IconContext.Provider value = {{color: "#000000", size: "1.4em"}}>
+                    <IconContext.Provider value = {{color: "#7A04EB", size: "1.4em"}}>
                         <AiFillHome/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -129,7 +129,7 @@ function Barra(){
                 selected = {pathName === "/plataforma/lancamentos"}
                 onClick={() => 
                 {navigate("/plataforma/lancamentos")}}>
-                    <IconContext.Provider value = {{color: "#000000", size: "1.4em"}}>
+                    <IconContext.Provider value = {{color: "#7A04EB", size: "1.4em"}}>
                         <FaRocket/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -139,7 +139,7 @@ function Barra(){
                 <ListItem button
                 selected = {pathName === "/plataforma/recomendados"}
                 onClick={() => {navigate("/plataforma/recomendados")}}>
-                    <IconContext.Provider value = {{color: "#000000", size: "1.4em"}}>
+                    <IconContext.Provider value = {{color: "#7A04EB", size: "1.4em"}}>
                         <BsLightbulbFill/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -149,7 +149,7 @@ function Barra(){
                 <ListItem button
                 selected = {pathName === "/plataforma/favoritos"}
                 onClick={() => {navigate("/plataforma/favoritos")}}>
-                    <IconContext.Provider value = {{color: "#000000", size: "1.4em"}}>
+                    <IconContext.Provider value = {{color: "#7A04EB", size: "1.4em"}}>
                         <AiFillStar/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
@@ -159,7 +159,7 @@ function Barra(){
                 <ListItem button
                 selected = {pathName === "/plataforma/maisjogados"}
                 onClick={() => {navigate("/plataforma/maisjogados")}}>
-                    <IconContext.Provider value = {{color: "#000000", size: "1.4em"}}>
+                    <IconContext.Provider value = {{color: "#7A04EB", size: "1.4em"}}>
                         <BiTrendingUp/>
                     </IconContext.Provider>
                     <ListItemText className="list_item_text">
