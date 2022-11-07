@@ -10,12 +10,7 @@ function Plataforma(){
 
     return(
             <div className="background_plataforma">
-<<<<<<< HEAD
-              <Barra/>
-=======
-            <Barra/>
->>>>>>> CSSplataforma
-            <br/>
+             <Barra/>
             <div className= "content">
               <div className= "slides">
                 <input type = "radio" name = "radio" id = "slide1"/>
@@ -43,7 +38,6 @@ function Plataforma(){
               </div>
 
             </div>
-<<<<<<< HEAD
             
             <div className = "elements">
             <div className= "container">
@@ -162,19 +156,12 @@ href="https://fonts.googleapis.com/css?family=Iceland"/>
             <div className = "footer">
                 <img src = "./images/Frame 6.png" alt = "footer" />
                 </div>
-
-            </div> 
+            </div>
+            
+        
     );
 
-=======
- <h1>Plataforma</h1>
-            </div>
-  
-           
-        
-        
-);
->>>>>>> CSSplataforma
+
 }
 
 export default Plataforma;
