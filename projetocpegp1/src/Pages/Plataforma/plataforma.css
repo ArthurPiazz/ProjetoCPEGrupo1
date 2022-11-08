@@ -179,11 +179,14 @@ input{
   display: flex;
   width: 500% ;
   height: 100%;
+  
+
 }
 
 .slide{
   width: 20%;
   transition: .6s;
+
 }
 
 .slide img{
@@ -405,4 +408,17 @@ input{
   margin-left: 2%;
   position: absolute;
   margin-top: 10%; 
+}
+
+
+
+@media  (max-width:800px){
+
+  .acao{
+    flex-direction: column;
+  }
+
+
+
+
 }

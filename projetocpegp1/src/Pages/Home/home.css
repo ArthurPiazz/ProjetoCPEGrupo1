@@ -148,6 +148,7 @@
   width: 100%;
   height: auto;
   margin-top: 80px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -229,6 +230,7 @@
   width: 100%;
   height: auto;
   margin-top: 120px;
+  background-color: rgb(255, 0, 21);
 
 
 
@@ -356,6 +358,7 @@
 
   .containerFarCryeJogos{
 
+    background-color: #000000;
     margin-top: 50px;
 
   }
@@ -382,7 +385,7 @@
 
   .containerJogosDebaixo{
 
-
+    background-color: rgb(69, 168, 115);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -478,7 +481,7 @@
 
   .containerEscolhaDePlanos{
 
-
+    background-color: cornflowerblue;
     margin-top: 100px;
 
 
@@ -486,9 +489,17 @@
   }
 
   .SelecioneOPlano{
-    
+    background-color: orange;
     width: 32%;
     margin: auto;
+    background-color:#9C9C9C;
+    border-width: medium;
+    border-color:#000000; 
+    border-style: solid;
+    font-family: 'Iceland';
+    justify-content: center;
+
+
   }
 
   .h1{
@@ -510,7 +521,7 @@
 
   .planos{
 
-    
+    background-color: #901515;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -611,7 +622,7 @@
   
   .tituloDoFeedback{
 
-    
+    background-color: darksalmon;
     width: 37%;
     margin:auto;
     font-family:'Iceland', sans-serif;
@@ -640,7 +651,6 @@
     
     height:180px;
     width:150px;
-    background-color: red;
     border-radius: 50px;
     background-image: url(./Feedback1.png);
     z-index: 3;
@@ -657,7 +667,6 @@
 
     height:180px;
     width:150px;
-    background-color: rgb(217, 255, 0);
     border-radius: 50px;
     z-index: 3;
     border-width: medium;
@@ -673,7 +682,6 @@
 
     height:180px;
     width:150px;
-    background-color: rgb(0, 94, 255);
     border-radius: 50px;
     z-index: 3;
     border-width: medium;
@@ -689,7 +697,6 @@
 
     height:180px;
     width:150px;
-    background-color: rgb(0, 255, 187);
     border-radius: 50px;
     z-index: 3;
     border-width: medium;
@@ -707,7 +714,6 @@
     
     height:180px;
     width:150px;
-    background-color: rgb(0, 255, 145);
     border-radius: 50px;
     z-index: 3;
     border-width: medium;
@@ -742,10 +748,6 @@
   .espacoAbaixoNulo{
 
     height: 500px;
-
-
-
-
 
   }
 

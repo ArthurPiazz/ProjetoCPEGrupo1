@@ -61,6 +61,7 @@ function Home(){
         
           <div className="container_planos">
             <div className="SelecioneOPlano">
+              
                 <h1 className="selecione"> Selecione o plano de interesse</h1>
             </div>
            
