@@ -195,6 +195,7 @@ input{
   margin-left: 0;
 }
 
+
 #slide2:checked ~ .s1{
   margin-left: -20%;
 }
@@ -210,7 +211,6 @@ input{
 }
 
 .acao{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -222,8 +222,16 @@ input{
   margin-top: 80px;
 }
 
+.acao img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
+}
+
 .aventura{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -233,10 +241,18 @@ input{
   padding-right: 2%;
   z-index: 1;
   margin-top: 5%;
+}
+
+.aventura img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
 }
 
 .mmo{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -246,10 +262,18 @@ input{
   padding-right: 2%;
   z-index: 1;
   margin-top: 5%;
+}
+
+.mmo img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
 }
 
 .rpg{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -259,10 +283,18 @@ input{
   padding-right: 2%;
   z-index: 1;
   margin-top: 5%;
+}
+
+.rpg img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
 }
 
 .estrategia{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -272,10 +304,18 @@ input{
   padding-right: 2%;
   z-index: 1;
   margin-top: 5%;
+}
+
+.estrategia img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
 }
 
 .simulacao{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -285,10 +325,18 @@ input{
   padding-right: 2%;
   z-index: 1;
   margin-top: 5%;
+}
+
+.simulacao img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
 }
 
 .indie{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -298,10 +346,18 @@ input{
   padding-right: 2%;
   z-index: 1;
   margin-top: 5%;
+}
+
+.indie img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
 }
 
 .fps{
-  background-color: aqua;
   margin: 10%;
   width: auto;
   display: flex;
@@ -313,8 +369,16 @@ input{
   margin-top: 5%;
 }
 
-.container{
-  background-color: red;
+.fps img{
+  border-color:#000000; 
+  border-style: solid;
+  border-radius: 15%;
+  width: 200px;
+  height: auto;
+
+}
+
+.container_{
 
 }
 
@@ -325,7 +389,7 @@ input{
   width:75%;
   height:65px;
   background-color: #9C9C9C;
-  border-radius: 5px;
+  border-radius: 15px;
   border-width: thick;
   border-color:#000000; 
   border-style: solid;

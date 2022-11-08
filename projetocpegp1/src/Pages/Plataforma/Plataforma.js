@@ -41,7 +41,7 @@ function Plataforma(){
             </div>
             
             <div className = "elements">
-            <div className= "container">
+            <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -55,7 +55,7 @@ function Plataforma(){
                 </div>
                 </div>
 
-            <div className= "container">
+            <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -68,7 +68,7 @@ function Plataforma(){
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -82,7 +82,7 @@ function Plataforma(){
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -96,7 +96,7 @@ function Plataforma(){
                 </div>
                 </div>
 
-<div className= "container">
+<div className= "container_">
 <link rel="stylesheet"
 href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -106,11 +106,11 @@ href="https://fonts.googleapis.com/css?family=Iceland"/>
                   <img src = "./images/mw2.png" alt = "Battlegrounds" />
                   <img src = "./images/vava.png" alt = "Valorant" />
                   <img src = "./images/image 31.png" alt = "R6" />
-                  <img src = "./images/image 11.png" alt = "Uncharted" />
+                  <img src = "./images/halo.png" alt = "halo" />
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -124,7 +124,7 @@ href="https://fonts.googleapis.com/css?family=Iceland"/>
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
@@ -138,11 +138,11 @@ href="https://fonts.googleapis.com/css?family=Iceland"/>
                 </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container_">
             <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"/>
 
-            <div className= "retangulo">SIMULAÇÃO</div>
+            <div className= "retangulo">SIMULAÇÃO</div> 
 
                 <div className= "simulacao">
                   <img src = "./images/image 12.png" alt = "Fifa23" />
@@ -153,10 +153,6 @@ href="https://fonts.googleapis.com/css?family=Iceland"/>
                 </div>
 
             </div>
-
-            <div className = "footer">
-                <img src = "./images/Frame 6.png" alt = "footer" />
-                </div>
 
             </div> 
     );

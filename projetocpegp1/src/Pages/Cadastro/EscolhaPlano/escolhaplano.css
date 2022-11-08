@@ -52,5 +52,8 @@
     background-color:rgba(245, 189, 240, 0.3);
     font-family:'Iceland', sans-serif;
     font-size: 25px;
-    
+}
+
+.plano p{
+    font-size: medium;
 }

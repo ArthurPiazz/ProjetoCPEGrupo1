@@ -98,7 +98,9 @@ function Barra(){
             <FiMenu />
           </IconButton>
           <div className="userContainer">
-          <p className="userName">XxX_Josh_XxX</p>
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Iceland"/>
+          <div className="userName">XxX_Josh_XxX</div>
           <div className = "avatar" onClick = {() => {navigate ("/usuario")}}><Avatar alt="XxX_Josh_XxX" src="/images/Avatar.png" /></div>
           <div className = "logout" onClick = {() => {navigate ("/home")}}><
             IconContext.Provider value = {{top: "0.25px", size: "2.5em"}}>

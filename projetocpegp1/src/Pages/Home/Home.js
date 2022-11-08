@@ -8,7 +8,7 @@ function Home(){
         <a href="/home" > <Logo /> </a>
         <div class="header-right">
              <a class="active" href="/cadastro">Vire um membro já!</a>
-            <a href="/login">Acesse sua conta</a>
+            <a class="active" href="/login">Acesse sua conta</a>
         </div>
         </div>
         <div class="page">
