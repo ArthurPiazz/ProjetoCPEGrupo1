@@ -6,7 +6,7 @@ modeule.exports = {
         try{
             const NewUser = request.body;
 
-            const result = await UserModel.create(newUser);
+            const result = await UserModel.create(NewUser);
 
             return response.status(200).json(result);
 
@@ -29,22 +29,37 @@ modeule.exports = {
 
     async update (request, response){
         try{
+            const {user_id} = request.params;
+            const NewUser = request.body;
+
+            await UserModel.updateById(user_id, NewUser);
+
+            return response.status(200).json({notification: "User update sucessfully"});
 
         }
         catch(error){
-
+            console.warn("User update failed:", error);
+            return response.status(500).json({notification: "internal server error while trying to update User"});
         }
     },
 
-    async create (request, response){
+    async delete (request, response){
         try{
+            const {user_id} = request.params;
+
+            const result = await UserModel.delete(user_id);
+
+            if(result === 0){
+                return response.status(400).json({notification: "user_id not found"});
+            }
+
+            return response.status(200).json({notification: "User deleted sucessfully"});
 
         }
         catch(error){
+            console.warn("User delete failed:", error);
+            return response.status(500).json({notification: "internal server error while trying to delete User"});
 
         }
     }
-
-
-
 }

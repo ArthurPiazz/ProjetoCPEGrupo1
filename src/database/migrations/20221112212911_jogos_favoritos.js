@@ -16,7 +16,6 @@ exports.up = function(knex) {
         table.foreign("jogo_nome").references("jogo_nome").inTable("jogo").onDelete("cascade")
         table.foreign("thumbnail").references("thumbnail").inTable("jogo").onDelete("cascade")  
      });
-  
 };
 
 /**
