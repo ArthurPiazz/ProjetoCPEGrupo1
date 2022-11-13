@@ -1,65 +1,48 @@
 const { create, getById } = require("../models/JogosFavoritosModel");
-const JogoFavoritosModel = require ("../models/JogosFavoritosModel");
+const JogosFavoritosModel = require ("../models/JogosFavoritosModel");
 
 modeule.exports = {
-    async create (request, response){
-        try{
-            const NewJogoFavorito = request.body;
+    async create(request, response) {
+        try {
+            const newJogoFavorito = request.body;
+            const result = await RelationModel.create(newJogoFavorito);
+            return response.status(200).json({result});
 
-            const result = await JogosFavoritosModel.create(NewJogoFavorito);
-
-            return response.status(200).json(result);
-
-        }
-        catch(error){
-            console.warn("JogoFavorito creation failed:", error);
-            return response.status(500).json({notification: "internal server error while trying to create JogoFavorito"});
-
+        } catch (error) {
+            console.warn("JogosFavoritos create failed: ", error);
+            return response.status(400).json({ notification: "Internal server erros while trying to create JogosFavoritos" });
         }
     },
 
-    async getById (request, response){
-        try{
+    async getByUserId(request, response) {
+        try {
 
-        }
-        catch(error){
+            const {user_id} = request.params;
+            const result = await JogosFavoritosModel.getByUserId({user_id});
+            return response.status(200).json({result});
 
-        }
-    },
+        } catch (error) {
+            console.warn("JogoFavorito get failed: ", error);
 
-    async update (request, response){
-        try{
-            const {fav_id} = request.params;
-            const NewJogoFavorito = request.body;
-
-            await JogosFavoritosModel.updateById(fav_id, NewJogoFavorito);
-
-            return response.status(200).json({notification: "JogoFavoritos update sucessfully"});
-
-        }
-        catch(error){
-            console.warn("JogoFavoritos update failed:", error);
-            return response.status(500).json({notification: "internal server error while trying to update JogoFavoritos"});
+            return response.status(500).json({notification: "Internal server erros while trying to get JogoFavorito",});
         }
     },
 
-    async delete (request, response){
-        try{
-            const {fav_id} = request.params;
+    async delete(request, response) {
+        try {
+            const {user_id, jogo_id} = request.params;
+            const result = await JogosFavoritosModel.deleteByUserIdByJogo({user_id, jogo_id});
 
-            const result = await JogosFavoritosModel.delete(fav_id);
-
-            if(result === 0){
-                return response.status(400).json({notification: "fav_id not found"});
+            if (result === 0) {
+                return response.status(400).json({ notification: "user_id or jogo_id not found" });
             }
 
-            return response.status(200).json({notification: "JogoFavorito deleted sucessfully"});
+            return response.status(200).json({ notification: "JogoFavorito deleted sucessfully" });
 
-        }
-        catch(error){
-            console.warn("JogoFavorito delete failed:", error);
-            return response.status(500).json({notification: "internal server error while trying to delete JogoFavorito"});
+        } catch (error) {
+            console.warn("JogoFavorito delete failed: ", error);
 
+            return response.status(500).json({ notification: "Internal server erros while trying to delete JogoFavorito" });
         }
     }
 }

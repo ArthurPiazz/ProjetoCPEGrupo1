@@ -10,6 +10,16 @@ module.exports = {
         return result;
     },
 
+    async getAll(){
+        const result = await connection("jogo").select("*");
+        return result;
+    },
+
+    async getByFields(field={}){
+        const result = await connection("jogo").where(field).select("*");
+        return result;
+    },
+
     async getById({jogo_id}){
         const result = await connection("jogo").where({jogo_id}).select("*");
         return result;
@@ -20,7 +30,8 @@ module.exports = {
         return result;
     },
 
-    async delete(jogo_id){
+    async deleteById(jogo_id){
         const result = await connection("jogo").where({jogo_id}).delete();
+        return result;
     }
 }

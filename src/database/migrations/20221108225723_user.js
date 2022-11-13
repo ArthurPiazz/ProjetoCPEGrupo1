@@ -6,9 +6,11 @@ exports.up = function(knex) {
     return knex.schema.createTable("user", function (table) {
        table.string("user_id").primary().notNullable();
        table.string("nome").notNullable();
-       table.string("password").notNullable();
+       table.string("username").notNullable();
+       table.string("senha").notNullable();
        table.string("email").notNullable();
-       table.int("plano").notNullable();       
+       table.int("plano").notNullable();
+       table.string('firebase_id').notNullable();       
     });
 };
 

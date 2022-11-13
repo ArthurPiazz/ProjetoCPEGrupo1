@@ -6,7 +6,6 @@ exports.up = function(knex) {
     return knex.schema.createTable("jogo", function (table) {
        table.string("jogo_id").primary().notNullable();
        table.string("jogo_nome").notNullable();
-       table.boolean("is_fav").notNullable();
        table.string("thumbnail").notNullable();  
     });
 };

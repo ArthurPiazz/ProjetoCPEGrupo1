@@ -1,26 +1,25 @@
+const jogo = require ("./JogoModel");
 const connection = require ("../database/connection");
-const {v4: uuidv4} = require ('uuid');
 
 module.exports = {
     async create(jogos_favoritos) {
-        const fav_id = uuidv4();
-        jogos_favoritos.fav_id = fav_id;
         
         const result = await connection("jogos_favoritos").insert(jogos_favoritos);
         return result;
     },
 
-    async getById({fav_id, is_fav}){
-        const result = await connection("jogos_favoritos").where({fav_id, is_fav}).select("*");
+    async getById({jogo_id, user_id}){
+        const result = await connection("jogos_favoritos").where({jogo_id, user_id}).select("*").first();
         return result;
     },
 
-    async updateById (fav_id, jogos_favoritos){
-        const result = await connection("jogos_favoritos").where({fav_id}).update(jogos_favoritos);
-        return result;
+    async getByUserId({user_id}){
+        const result = await connection("jogos_favoritos").join("jogo","jogo.jogo_id", "=", "jogos_favoritos.jogo_id").where({"jogos_favoritos.user_id":user_id}).select("jogo.*");
+        return result; 
     },
 
-    async delete(fav_id){
-        const result = await connection("jogos_favoritos").where({fav_id}).delete();
+    async deleteByUserIdByJogo({user_id,jogo_id}){
+        const result = await connection("relation").where({user_id,jogo_id}).delete();
+        return result;
     }
 }
