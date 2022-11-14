@@ -128,7 +128,6 @@ body{
   line-height: 27px;
   
   color: #000000;
-  
   }
 
 .background_plataforma{
@@ -138,6 +137,7 @@ body{
     position: fixed;
     overflow: auto;
 }
+
 
 
 .content{
@@ -171,10 +171,6 @@ body{
 
 .bar:hover{
   background-color: #7A04EB;
-}
-
-input{
-  display: none;
 }
 
 .slides{

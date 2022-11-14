@@ -14,6 +14,7 @@ import MaisJogados from "./Pages/Plataforma/Maisjogados";
 import Recomendados from "./Pages/Plataforma/Recomendados";
 import Footer from "./Pages/Footer"; 
 
+
 //import { Switch } from "@mui/material";
 
     function Rotas(){

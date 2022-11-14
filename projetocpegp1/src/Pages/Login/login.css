@@ -35,9 +35,6 @@
 .g{
     width: fit-content;
 }
-.email{
-   border: black 10px 100%;
-}
 
 .titulologin{
     margin: 10px;;
@@ -52,7 +49,6 @@
 .titulologin p{
     align-items: center;
 }
-
 
 .inputs{
     display: flex;
