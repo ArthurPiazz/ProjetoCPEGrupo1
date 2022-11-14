@@ -1,7 +1,7 @@
 const { create, getById } = require("../models/JogosFavoritosModel");
 const JogosFavoritosModel = require ("../models/JogosFavoritosModel");
 
-modeule.exports = {
+module.exports = {
     async create(request, response) {
         try {
             const newJogoFavorito = request.body;

@@ -3,7 +3,7 @@ const UserModel = require ("../models/UserModel");
 const Firebase = require ("../utils/Firebase");
 const user = require("../models/UserModel");
 
-modeule.exports = {
+module.exports = {
     async create (request, response){
         try{
             console.log(request.body);

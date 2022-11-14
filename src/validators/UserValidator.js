@@ -4,7 +4,7 @@ const {update} = require('../controllers/UserController');
 
 module.exports = {
     create: celebrate({
-        [Segments.BODY]: Joi.object().keys({nome: Joi.string().required(),username: Joi.string().required(),email: Joi.string().email().required(),senha: Joi.string().min(6).pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required(),})
+        [Segments.BODY]: Joi.object().keys({nome: Joi.string().required(),username: Joi.string().required(),plano: Joi.number().required(),email: Joi.string().email().required(),senha: Joi.string().min(6).pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required(),})
     }),
 
     getAll: celebrate({

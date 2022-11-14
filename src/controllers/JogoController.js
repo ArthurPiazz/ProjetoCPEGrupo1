@@ -1,7 +1,7 @@
 const { create, getById } = require("../models/JogoModel");
 const JogoModel = require ("../models/JogoModel");
 
-modeule.exports = {
+module.exports = {
     async getAll(request, response) {
         try {
             const result = await JogoModel.getAll();

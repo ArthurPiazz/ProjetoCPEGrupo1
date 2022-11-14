@@ -1,4 +1,5 @@
 const firebase = require('firebase/app');
+require('dotenv').config();
 const { signInWithEmailAndPassword } = require('firebase/auth');
 require('firebase/auth');
 
@@ -25,3 +26,4 @@ module.exports = {
         return result.user.uid;
     },
 };
+
