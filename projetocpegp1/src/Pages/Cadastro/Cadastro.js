@@ -13,7 +13,7 @@ function Cadastro() {
               navigate("/home");
             }}
             itemID="logogamecastinglogin"
-            src="/images/logoGamecasting.png"
+            src="/images/logoGamecastingfundoroxo.png"
             alt="Gamecasting"
           ></img>
           <h1>Faça seu cadastro</h1>

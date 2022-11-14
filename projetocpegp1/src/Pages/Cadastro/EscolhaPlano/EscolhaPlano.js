@@ -60,10 +60,15 @@ function EscolhaPlano() {
 
   return (
     <div className="background_cadastro">
+      <div className="base">
       <div className="container_planos">
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Iceland"
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-9,900;0,400;0,700&display=swap"
+          rel="stylesheet"
         ></link>
         <div className="detalhes">
           <div class="tituloplano">
@@ -73,7 +78,7 @@ function EscolhaPlano() {
               }}
               cursor="pointer"
               id="logogamecastinglogin"
-              src="/images/logoGamecasting.png"
+              src="/images/logoGamecastingfundoroxo.png"
               alt="Gamecasting"
             ></img>
           </div>
@@ -108,6 +113,9 @@ function EscolhaPlano() {
           ))}
         </div>
       </div>
+
+      </div>
+      
     </div>
   );
 }

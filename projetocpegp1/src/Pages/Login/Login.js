@@ -15,7 +15,7 @@ function Login() {
                 navigate("/home");
               }}
               id="logogamecastinglogin"
-              src="/images/logoGamecasting.png"
+              src="/images/logoGamecastingfundoroxo.png"
               alt="Gamecasting"
             ></img>
           </div>

@@ -5,7 +5,7 @@ import Footer from '../Footer';
 function Home(){
     return(
         <div> <div class="header">
-        <a href="/home" > <Logo /> </a>
+        <a href="/home"> <Logo /> </a>
         <div class="header-right">
              <a class="active" href="/cadastro">Vire um membro já!</a>
             <a href="/login">Acesse sua conta</a>

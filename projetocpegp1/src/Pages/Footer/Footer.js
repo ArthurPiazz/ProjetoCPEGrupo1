@@ -1,16 +1,60 @@
-import React from 'react';
+import React from "react";
 import "./footer.css";
-import { FaTwitter} from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebook } from "react-icons/fa";
 
+function Footer() {
+  return (
+    <div className="footerBox">
+      <footer>
+        <div className="footerContent">
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-9,900;0,400;0,700&display=swap"
+            rel="stylesheet"
+          ></link>
+            <img
+              itemID="logogamecastinglogin"
+              src="/images/logoGamecastingfundoclaro.png"
+              alt="Gamecasting"
+            ></img>
+    
+          <p>Seu novo jeito de jogar</p>
+          <ul className="redessociaisfooter">
+            <li>
+              <a href="https://www.instagram.com">
+                <i className="instagramgamecasting">
+                  <FaInstagram size="40" />
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/">
+                <i className="twittermgamecasting">
+                  <FaTwitter size="40"></FaTwitter>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com">
+                <i className="instagramgamecasting">
+                  <FaFacebook size="39" />
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="footerBottom">
+          <p>
+            {" "}
+            &copy;2022 GAMECASTING. Designed by <span>Grupo 1</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
 
-
-
-function Footer(){
-
-    return(
-
-    <div>   
+/*  <div>   
         
     <div className="ContainerFooter">  
     <link rel="stylesheet"
@@ -39,30 +83,17 @@ function Footer(){
     </div>
    
     </div> 
-    </div>  
-    )
-    
+    </div>  */
 
-
-
-
-
-
-}
-
-
-function Logo(){
-    return(
+/*function Logo() {
+  return (
     <div>
-    <div class="logo"></div>
-    <div class="logo-parte-roxa"></div>
-    <div class="logo-parte-branca"></div>
-    <div class="logo-texto">GAMECASTING</div>
+      <div class="logo"></div>
+      <div class="logo-parte-roxa"></div>
+      <div class="logo-parte-branca"></div>
+      <div class="logo-texto">GAMECASTING</div>
     </div>
-    );
+  );
 }
-
-
-
-
-export default Footer; 
+*/
+export default Footer;
