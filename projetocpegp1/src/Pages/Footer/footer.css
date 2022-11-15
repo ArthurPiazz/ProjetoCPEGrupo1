@@ -8,6 +8,9 @@
     width: 100%;
 }
 footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
     box-shadow:0 0 10px #4d4e4f;
     background: #D9D9D9;
     height: auto;

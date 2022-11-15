@@ -127,20 +127,5 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
-  
   color: #000000;
-  
   }
-  .aventura{
-    background-color: aqua;
-    margin: 10%;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 2%;
-    padding-right: 2%;
-    z-index: 1;
-    margin-top: 5%;
-  }
-  

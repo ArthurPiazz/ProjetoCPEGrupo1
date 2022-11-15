@@ -61,61 +61,69 @@ function EscolhaPlano() {
   return (
     <div className="background_cadastro">
       <div className="base">
-      <div className="container_planos">
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Iceland"
-        ></link>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-9,900;0,400;0,700&display=swap"
-          rel="stylesheet"
-        ></link>
-        <div className="detalhes">
-          <div class="tituloplano">
-            <img
-              onClick={() => {
-                navigate("/home");
-              }}
-              cursor="pointer"
-              id="logogamecastinglogin"
-              src="/images/logoGamecastingfundoroxo.png"
-              alt="Gamecasting"
-            ></img>
-          </div>
-          <h2>Selecione o plano</h2>
-          <p>
-            O GAMECASTING oferece diferentes opções para diferentes necessidades
-          </p>
-        </div>
-
-        <div className="form">
-          {planos.map((plano) => (
-            <div
-              className="form-input"
-              onClick={() => selecionarPlano(plano.id)}
-              data-selecionado={plano.id === planoselecionado}
-            >
-              <label for="planostarter">
-                <div className="title">{plano.title}</div>
-                <div className="precoplano">
-                  <b>{plano.preco}</b>
-                  <span>/mês</span>
-                </div>
-                <div className="descricaoplano">
-                  {Array.from({ ...plano.benefits, length: 7 }).map(
-                    (benefit) => (
-                      <div>{benefit || "-"}</div>
-                    )
-                  )}
-                </div>
-              </label>
+        <div className="container_planos">
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Iceland"
+          ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-9,900;0,400;0,700&display=swap"
+            rel="stylesheet"
+          ></link>
+          <div className="detalhes">
+            <div class="tituloplano">
+              <img
+                onClick={() => {
+                  navigate("/home");
+                }}
+                cursor="pointer"
+                id="logogamecastinglogin"
+                src="/images/logoGamecastingfundoroxo.png"
+                alt="Gamecasting"
+              ></img>
             </div>
-          ))}
+            <h2>Selecione o plano</h2>
+            <p>
+              O GAMECASTING oferece diferentes opções para diferentes
+              necessidades
+            </p>
+          </div>
+          <div className="form">
+            {planos.map((plano) => (
+              <div
+                className="form-input"
+                onClick={() => selecionarPlano(plano.id)}
+                data-selecionado={plano.id === planoselecionado}
+              >
+                <label for="planostarter">
+                  <div className="title">{plano.title}</div>
+                  <div className="precoplano">
+                    <b>{plano.preco}</b>
+                    <span>/mês</span>
+                  </div>
+                  <div className="descricaoplano">
+                    {Array.from({ ...plano.benefits, length: 7 }).map(
+                      (benefit) => (
+                        <div>{benefit || "-"}</div>
+                      )
+                    )}
+                  </div>
+                </label>
+              </div>
+            ))}
+          </div>
+          <div className="botaocontinuar">
+            <button
+              class="button"
+              onClick={() => {
+                navigate("/login");
+              }}
+            >
+              Continuar
+            </button>
+          </div>
         </div>
       </div>
-
-      </div>
-      
     </div>
   );
 }

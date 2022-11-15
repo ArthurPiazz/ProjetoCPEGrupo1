@@ -1,6 +1,7 @@
 import React from 'react';
 import "./plataforma.css";
 import Barra from '../Barra/Barra';
+import Footer from "../Footer/Footer"
 
 //import {useNavigate} from "react-router-dom";
 
@@ -10,8 +11,9 @@ function Plataforma(){
 
     return(
             <div className="background_plataforma">
-             <Barra/>
-            <div className= "content">
+              <Barra/>
+             <div className='carrosselPlataforma'>
+             <div className= "content">
               <div className= "slides">
                 <input type = "radio" name = "radio" id = "slide1"/>
                 <input type = "radio" name = "radio" id = "slide2"/>
@@ -39,6 +41,8 @@ function Plataforma(){
               </div>
 
             </div>
+             </div>
+            
             
             <div className = "elements">
             
@@ -155,11 +159,11 @@ function Plataforma(){
                 <div className= "fps">
 
                 <div className='jogo'>  <img src = "./images/mw2.png" alt = "MW2" />
-                  <p className='titulo'>Elden Ring</p>
+                  <p className='titulo'>COD: Modern Warfare 2</p>
                 </div>
                  
                 <div className='jogo'>  <img src = "./images/vava.png" alt = "Valorant" />
-                  <p className='titulo'>Skyrin V</p>
+                  <p className='titulo'>Valorant</p>
                 </div>
 
                 <div className='jogo'> <img src = "./images/image 31.png" alt = "R6" />
@@ -167,7 +171,7 @@ function Plataforma(){
                 </div>
 
                 <div className='jogo'>  <img src = "./images/image 11.png" alt = "Uncharted" />
-                  <p className='titulo'>The Witcher 3</p>
+                  <p className='titulo'>Uncharted</p>
                 </div>
                 </div>
                 </div>
@@ -187,19 +191,19 @@ function Plataforma(){
 
                   
                 <div className='jogo'>  <img src = "./images/image 18.png" alt = "TWW" />
-                  <p className='titulo'>Elden Ring</p>
+                  <p className='titulo'>Total War Warhammer</p>
                 </div>
                  
                 <div className='jogo'> <img src = "./images/image 21.png" alt = "DOTA2" />
-                  <p className='titulo'>Skyrin V</p>
+                  <p className='titulo'>Dota 2</p>
                 </div>
 
-                <div className='jogo'>   <img src = "./images/image 22.png" alt = "CIV" />
-                  <p className='titulo'>Destiny</p>
+                <div className='jogo'>  <img src = "./images/image 22.png" alt = "CIV" />
+                  <p className='titulo'>Civilization</p>
                 </div>
 
                 <div className='jogo'>  <img src = "./images/image 25.png" alt = "hoi" />
-                  <p className='titulo'>The Witcher 3</p>
+                  <p className='titulo'>Hearts of Iron IV</p>
                 </div>
 
                  
@@ -214,26 +218,26 @@ function Plataforma(){
 
                 <div className= "indie">
                 <div className='jogo'>    <img src = "./images/image 16.png" alt = "Stray" />
-                  <p className='titulo'>Elden Ring</p>
+                  <p className='titulo'>Stray</p>
                 </div>
                  
                 <div className='jogo'> <img src = "./images/image 17.png" alt = "Scorn" />
-                  <p className='titulo'>Skyrin V</p>
+                  <p className='titulo'>Scorn</p>
                 </div>
 
                 <div className='jogo'>  <img src = "./images/hk.png" alt = "HollowKnight" />
-                  <p className='titulo'>Destiny</p>
+                  <p className='titulo'>Hollow Knight</p>
                 </div>
 
                 <div className='jogo'>  <img src = "./images/sv.png" alt = "StardewValley" />
-                  <p className='titulo'>The Witcher 3</p>
+                  <p className='titulo'>Stardew Valley</p>
                 </div>
 
                 </div>
                 </div>
 
             <div className = "footer">
-                <img src = "./images/Frame 6.png" alt = "footer" />
+               <Footer></Footer>
                 </div>
             </div>
 
