@@ -2,6 +2,7 @@ const { getAll } = require("../models/UserModel");
 const UserModel = require ("../models/UserModel");
 const Firebase = require ("../utils/Firebase");
 const user = require("../models/UserModel");
+const { deleteById } = require("../models/JogoModel");
 
 module.exports = {
     async create (request, response){
@@ -58,11 +59,11 @@ module.exports = {
         }
     },
 
-    async delete (request, response){
+    async deleteById (request, response){
         try{
             const {user_id} = request.params;
 
-            const result = await UserModel.delete(user_id);
+            const result = await UserModel.deleteById(user_id);
 
             if(result === 0){
                 return response.status(400).json({notification: "user_id not found"});

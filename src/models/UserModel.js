@@ -1,5 +1,6 @@
 const connection = require ("../database/connection");
 const {v4: uuidv4} = require ('uuid');
+const { deleteById } = require("./JogoModel");
 
 module.exports = {
     async create(user) {

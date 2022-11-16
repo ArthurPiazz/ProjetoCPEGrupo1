@@ -9,7 +9,6 @@ module.exports = {
 
         if (!/^Bearer$/i.test(scheme))
             return response.status(401).json({error: 'Token badformatted'});
-
         jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err,data) => {
             if (err) return response.status(403).json({error: 'Invalid authorization token'});
                

@@ -18,7 +18,7 @@ routes.get("/user/:user_id:", UserValidator.getById, auth.authenticateToken, Use
 routes.get("/user/", UserValidator.getAll, auth.authenticateToken, UserController.getAll);
 routes.post("/user", UserValidator.create, UserController.create);
 routes.put("/user/:user_id", UserValidator.update, auth.authenticateToken, UserController.update);
-routes.delete("/user/:user_id", UserValidator.delete, auth.authenticateToken, UserController.delete);
+routes.delete("/user/:user_id", UserValidator.delete, auth.authenticateToken, UserController.deleteById);
 
 //Jogo
 routes.get("/jogo/:jogo_id", JogoValidator.getById, auth.authenticateToken, JogoController.getById);
