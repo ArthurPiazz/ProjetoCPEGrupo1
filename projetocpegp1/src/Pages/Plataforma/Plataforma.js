@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 function Plataforma() {
   return (
     <div className="background_plataforma">
-      <Barra/>
+      <Barra/>  
       <div className="elements">
         <div className="container_jogos">
           <link
@@ -120,7 +120,7 @@ function Plataforma() {
           <div className="retangulo">MMO</div>
 
           <div className="grupojogos">
-            <div className="jogo">
+            <div className="jogouser">
               {" "}
               <img src="./images/ESO.png" alt="ESO" />
               <p className="titulo">The Elden Ring</p>
@@ -251,10 +251,11 @@ function Plataforma() {
           </div>
         </div>
 
-        <div className="footer">
+        
+      </div>
+      <div className="footer">
           <Footer></Footer>
         </div>
-      </div>
     </div>
   );
 }

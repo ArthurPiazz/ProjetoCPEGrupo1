@@ -15,7 +15,7 @@ footer{
     background: #D9D9D9;
     height: auto;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 30px;
     color: black;
 }
 
@@ -44,6 +44,7 @@ footer{
     justify-content: center;
     margin: 1rem 0 3rem 0;
     padding: 0;
+    height: auto;
 }
 
 .redessociaisfooter li{

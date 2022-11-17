@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
@@ -23,7 +24,7 @@ import { FiMenu } from "react-icons/fi";
 import { BiTrendingUp, BiLogOut, BiSearchAlt2 } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
 import { useNavigate } from "react-router-dom";
-
+  
 //import {Button} from 'react-bootstrap';
 
 function Barra() {
