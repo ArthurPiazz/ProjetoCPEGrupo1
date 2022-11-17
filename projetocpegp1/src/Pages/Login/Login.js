@@ -1,9 +1,13 @@
+/* eslint-disable no-unused-vars */
 import "./login.css";
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate();
+  const [email, setEmail] = useState();
+  // eslint-disable-next-line no-unused-vars
+  const [password, setPassword] = useState();
 
   return (
     <div className="background_login">
@@ -19,13 +23,14 @@ function Login() {
               alt="Gamecasting"
             ></img>
           </div>
-          
+
           <form className="inputs">
             <label itemID="email">Email</label>
             <input
               type="text"
               className="email"
               placeholder="Digite seu Email"
+              onChange={(e) => setEmail(e.target.value)}
             ></input>
             <br></br>
             <label itemID="senha">Senha</label>
@@ -33,6 +38,7 @@ function Login() {
               type="password"
               className="senha"
               placeholder="Digite sua senha"
+              onChange={(e) => setPassword(e.target.value)}
             ></input>
           </form>
           <br />

@@ -12,30 +12,42 @@ function Footer() {
             href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-9,900;0,400;0,700&display=swap"
             rel="stylesheet"
           ></link>
-            <img
-              itemID="logogamecastinglogin"
-              src="/images/logoGamecastingfundoclaro.png"
-              alt="Gamecasting"
-            ></img>
-    
+          <img
+            itemID="logogamecastinglogin"
+            src="/images/logoGamecastingfundoclaro.png"
+            alt="Gamecasting"
+          ></img>
+
           <p>Seu novo jeito de jogar</p>
           <ul className="redessociaisfooter">
             <li>
-              <a href="https://www.instagram.com">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="instagramgamecasting">
                   <FaInstagram size="40" />
                 </i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="twittermgamecasting">
                   <FaTwitter size="40"></FaTwitter>
                 </i>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="instagramgamecasting">
                   <FaFacebook size="39" />
                 </i>
