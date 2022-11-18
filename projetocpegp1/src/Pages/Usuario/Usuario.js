@@ -12,11 +12,20 @@ function Usuario() {
       </head>
 
       <div className="containerGeral">
+        <div className="logouser">
+          <a href="/plataforma">
+            <img
+              src="/images/logoGamecastingfundoroxo.png"
+              alt="Gamecasting"
+            ></img>
+          </a>
+        </div>
         <div class="userBlock">
           <br></br>
           <br></br>
-          <div class="ImagemPerfil-Usuario" />
+          <div class="ImagemPerfil-Usuario"/>
           <div class="NomedoUsuario-Usuario">
+            <p>Usuário:</p>
             <NomeDoUsuario />
           </div>
         </div>
@@ -53,26 +62,27 @@ function Usuario() {
           </div>
 
           <div class="jogosRecentes">
-          <div className="titulojogosRecentes">
+            <div className="titulojogosRecentes">
               <h3>Amigos Online</h3>
             </div>
             <div className="grupojogos">
-              <div class="Quadrado-amigos2">
+              <div class="Quadrado-amigos">
                 <div class="ImagemPerfilAmigo" />
                 <div class="TextoPerfilAmigo">
                   <NomeDoUsuario />
                 </div>
               </div>
-              <div class="Quadrado-amigos2">
+              <div class="Quadrado-amigos">
                 <div class="ImagemPerfilAmigo" />
                 <div class="TextoPerfilAmigo">
                   <NomeDoUsuario />
                 </div>
               </div>
-              <div class="Quadrado-amigos3">
-                <div class="ImagemPerfilAmigo" />
-                <div class="TextoPerfilAmigo">
-                  <NomeDoUsuario />
+              <div class="Quadrado-amigos">
+                <div class="ImagemPerfilAmigo">
+                  <div class="TextoPerfilAmigo">
+                    <NomeDoUsuario />
+                  </div>
                 </div>
               </div>
             </div>

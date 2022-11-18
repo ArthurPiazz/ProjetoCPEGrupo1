@@ -5,6 +5,7 @@ import InputBase from "@mui/material/InputBase";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./barra.css";
+
 import {
   Drawer,
   List,
@@ -24,7 +25,7 @@ import { FiMenu } from "react-icons/fi";
 import { BiTrendingUp, BiLogOut, BiSearchAlt2 } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
 import { useNavigate } from "react-router-dom";
-  
+
 //import {Button} from 'react-bootstrap';
 
 function Barra() {
@@ -82,31 +83,39 @@ function Barra() {
     },
   }));
 
+  const [user, setUser] = useState({ nome: "Josh" });
+
   return (
     <>
       <AppBar position="static">
         <Toolbar className="toolbar">
-          <div className="position_logo">
-            <img src="/images/logoGamecastingfundoroxo.png" alt="Gamecasting"></img>
+          <div className="caixa-esquerda-plataforma">
+            <IconButton
+              size="large"
+              edge="start"
+              aria-label="menu"
+              sx={{ mr: 2 }}
+              onClick={() => handleDrawerClose(!open)}
+            >
+              <FiMenu />
+            </IconButton>
+            <div className="position_logo">
+              <img
+                src="/images/Logo Gamecasting (2).svg"
+                alt="Gamecasting"
+              ></img>
+            </div>
           </div>
-          <IconButton
-            size="large"
-            edge="start"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-            onClick={() => handleDrawerClose(!open)}
-          >
-            <FiMenu />
-          </IconButton>
+
           <div className="userContainer">
-            <p className="userName">XxX_Josh_XxX</p>
+            <p className="userName">{user.nome}</p>
             <div
               className="avatar"
               onClick={() => {
                 navigate("/usuario");
               }}
             >
-              <Avatar alt="XxX_Josh_XxX" src="/images/Avatar.png" />
+              <Avatar alt={user.nome} src="/images/Avatar.png" />
             </div>
             <div
               className="logout"
@@ -115,7 +124,7 @@ function Barra() {
               }}
             >
               <IconContext.Provider value={{ top: "0.25px", size: "2.5em" }}>
-                <BiLogOut/>
+                <BiLogOut />
               </IconContext.Provider>
             </div>
             <div></div>

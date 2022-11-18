@@ -86,6 +86,7 @@ function Plataforma() {
 
           <div className="retangulo">RPG</div>
           <div className="grupojogos">
+            
             <div className="jogo">
               {" "}
               <img src="./images/image 32.png" alt="ElderRing" />

@@ -1,14 +1,19 @@
+.homebase {
+  background-image: url(./BG_HOME.png);
+  background-attachment: fixed;
+
+  overflow: auto;
+}
 
 .headerhome {
   overflow: hidden;
-  background-color: #7A04EB;
+  background-color: #7a04eb;
   mix-blend-mode: normal;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   padding: 20px 10px;
   height: fit-content;
   align-items: center;
 }
-
 
 .framelogo {
   position: absolute;
@@ -17,7 +22,6 @@
   left: 21px;
   top: 10px;
 }
-
 
 .headerhome a {
   float: left;
@@ -29,7 +33,10 @@
   line-height: 25px;
 }
 
-.framelogo b{
+.headerhome a img {
+  max-width: 250px;
+}
+.framelogo b {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -41,7 +48,7 @@
   left: 0px;
   top: 53px;
 
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -52,35 +59,35 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
 }
 
-
-.headerhome a:hover {
+.headerhome .header-right .login:hover {
   background-color: #ddd;
   color: black;
   border: 4px solid #000000;
 }
 
+.headerhome .header-right .cadastro:hover {
+  background-color: #ddd;
+  color: black;
+  border: 4px solid #000000;
+}
 
-.headerhome a.active {
+.headerhome a.cadastro {
   top: 4px;
-  background-color: #ddd;
-  color: black;
-  border: 4px solid #000000;
-
+  background-color: rgb(129, 3, 255);
+  color: rgb(0, 0, 0);
+  border: 4px solid #ffffff;
 }
-
 
 .headerhome-right {
   float: right;
 }
 
-
-.logo{
+.logo {
   position: absolute;
   width: 187px;
   height: 36.38px;
@@ -89,107 +96,91 @@
   transform: rotate(-0.06deg);
 }
 
-.logo-parte-roxa{
+.logo-parte-roxa {
   box-sizing: border-box;
 
-position: absolute;
-width: 169.56px;
-height: 36.04px;
-left: 30.44px;
-top: 13.17px;
+  position: absolute;
+  width: 169.56px;
+  height: 36.04px;
+  left: 30.44px;
+  top: 13.17px;
 
-background: #7A04EB;
-border: 2px solid #000000;
-transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #7a04eb;
+  border: 2px solid #000000;
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.logo-parte-branca{
+.logo-parte-branca {
   position: absolute;
-width: 183.34px;
-height: 23.74px;
-left: 13.01px;
-top: 19.45px;
+  width: 183.34px;
+  height: 23.74px;
+  left: 13.01px;
+  top: 19.45px;
 
-background: #D9D9D9;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-transform: rotate(-0.06deg);
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-0.06deg);
 }
 
-.logo-texto{
+.logo-texto {
   position: absolute;
-width: 179.96px;
-height: 28.89px;
-left: 13.13px;
-top: 16.89px;
+  width: 179.96px;
+  height: 28.89px;
+  left: 13.13px;
+  top: 16.89px;
 
-font-family: 'Inter';
-font-style: italic;
-font-weight: 600;
-font-size: 22px;
-line-height: 27px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
 
-color: #000000;
-
+  color: #000000;
 }
 
-.background{
-
+.background {
   position: absolute;
-  top:0%;
+  top: 0%;
   width: 100%;
-  height: 5000px;
-  background-size: cover;
-  background-image: url(./BG_HOME.png);
-  z-index:-10;
+  z-index: -10;
 }
 
-
-.page{
-
-height: auto;
-width: auto;
-
+.page {
+  height: auto;
+  width: auto;
 }
-.containerQuadradoeCrash{
+.containerQuadradoeCrash {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
 
-position:relative;
-width: 100%;
-height: auto;
-margin-top: 80px;
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.quadradoCinza{
-
-
-
-margin-top: 3%;
-width:641px;
-height:fit-content;
-padding: 2px;
-background-color: #cdc8c8;
-border-radius: 30px;
-border-width: medium;
-border-color:#000000; 
-border-style: solid;
-z-index: 5;
-margin-left: -10%;
-margin-right: 10%;
-left: center;
-text-align: center;
-font-family: 'Iceland', 'Times New Roman', serif;
-font-size: 30px;
-text-shadow: 1px 1px 1px rgb(0, 0, 0);
-line-height: 2em;
-letter-spacing: 2px; word-spacing: 1px;
-
-
-
+.quadradoCinza {
+  margin-top: 3%;
+  width: 641px;
+  height: fit-content;
+  padding: 2px;
+  background-color: #cdc8c8;
+  border-radius: 30px;
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
+  z-index: 5;
+  margin-left: -10%;
+  margin-right: 10%;
+  left: center;
+  text-align: center;
+  font-family: "Iceland", "Times New Roman", serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  line-height: 2em;
+  letter-spacing: 2px;
+  word-spacing: 1px;
 }
 
 /* .quadradoCinza:after{
@@ -210,59 +201,48 @@ letter-spacing: 2px; word-spacing: 3.5px;
 
 } */
 
-.crash4{
-
-
-position:relative;
-margin-left: -11%;
-width:450px;
-height:410px;
-background-color: #7A04EB;
-background-repeat: no-repeat;
-background-image: url(./Crash_Bandicoot_4.png);
-background-position: 45% 20%;
-background-size: cover;
-border-radius: 1000px;
-border-width: medium;
-border-color:#000000; 
-border-style: solid; 
-
-
-
-} 
-
-.container2RetanguloeJogos{
-
-position:relative;
-width: 100%;
-height: fit-content;
-margin-top: 120px;
-
-
-
-
+.crash4 {
+  position: relative;
+  margin-left: -11%;
+  width: 450px;
+  height: 410px;
+  background-color: #7a04eb;
+  background-repeat: no-repeat;
+  background-image: url(./Crash_Bandicoot_4.png);
+  background-position: 45% 20%;
+  background-size: cover;
+  border-radius: 1000px;
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
 }
 
-.retanguloCinza1{
+.container2RetanguloeJogos {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin-top: 120px;
+}
 
-position:relative;
-margin-left: auto;
-margin-right:auto;
-width:fit-content;
-height:fit-content;
-background-color: #c7c4c4;
-border-radius: 5px;
-border-width: thick;
-border-color:#000000; 
-border-style: solid;
-text-align: center;
-margin: auto;
-font-family: 'Iceland', 'Times New Roman', serif;
-font-size: 35px;
-text-shadow: 1px 1px 1px rgb(0, 0, 0);
-letter-spacing: 8px; word-spacing: 5px; 
-
-} 
+.retanguloCinza1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: #c7c4c4;
+  border-radius: 5px;
+  border-width: thick;
+  border-color: #000000;
+  border-style: solid;
+  text-align: center;
+  margin: auto;
+  font-family: "Iceland", "Times New Roman", serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  letter-spacing: 8px;
+  word-spacing: 5px;
+}
 
 /*.retanguloCinza1:after{
 
@@ -276,8 +256,7 @@ letter-spacing: 8px; word-spacing: 5px;
 
 }*/
 
-.containerRetangulosJogosHome{
-
+.containerRetangulosJogosHome {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -286,113 +265,85 @@ letter-spacing: 8px; word-spacing: 5px;
   padding-right: 2%;
   z-index: 1;
   margin-top: 80px;
-
-
 }
 
-.retanguloJogo1{
-
-
-  width:200px;
-  height:255px;
+.retanguloJogo1 {
+  width: 200px;
+  height: 255px;
   background-color: white;
   border-radius: 5px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
   background-image: url(./cs-banner.png);
- 
+
   background-position: 20% 10%;
   background-size: 230%;
-
-
-  } 
-
-
-.retanguloJogo2{
-
-    
-  
-    width:200px;
-    height:255px;
-    background-color: white;
-    border-radius: 5px;
-    z-index: 2;
-    border-width: medium;
-    border-color:#000000; 
-    border-style: solid;
-    background-image: url(./valorant-banner.jpg);
-    background-position: 45% 10%;
-    background-size: 150%;
-  
-    } 
-
-.retanguloJogo3{
-     
-
-      width:200px;
-      height:255px;
-      background-color: white;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./lol\ banner.jpg);
-      background-position: 45% 80%;
-      background-size: 110%;
-    
-      } 
-
-.retanguloJogo4{
-
-        
-
-        width:200px;
-        height:255px;
-        background-color: white;
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./fortnite-banner.jpg);
-        background-position: 50% 10%;
-        background-size: 250%;
-      
-        } 
-
-.containerFarCryeJogos{
-
- 
-  margin-top: 50px;
-
 }
 
-.elipseFarCry{
+.retanguloJogo2 {
+  width: 200px;
+  height: 255px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 2;
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
+  background-image: url(./valorant-banner.jpg);
+  background-position: 45% 10%;
+  background-size: 150%;
+}
 
-          
-          
-          margin:auto;
-          width:600px;
-          height:410px;
-          background-position: 45% 20%;
-          background-size: 170%;
-          border-radius: 75%; 
-          border-width: medium;
-          border-color:#000000; 
-          border-style: solid; 
-          background-image: url(./far_cry_6.jpg);
-          background-position: 15% 10%;
-          background-size: 150%;
-        
-        
-         } 
+.retanguloJogo3 {
+  width: 200px;
+  height: 255px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 2;
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
+  background-image: url(./lol\ banner.jpg);
+  background-position: 45% 80%;
+  background-size: 110%;
+}
 
-.containerJogosDebaixo{
+.retanguloJogo4 {
+  width: 200px;
+  height: 255px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 2;
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
+  background-image: url(./fortnite-banner.jpg);
+  background-position: 50% 10%;
+  background-size: 250%;
+}
 
+.containerFarCryeJogos {
+  margin-top: 50px;
+}
 
+.elipseFarCry {
+  margin: auto;
+  width: 600px;
+  height: 410px;
+  background-position: 45% 20%;
+  background-size: 170%;
+  border-radius: 75%;
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
+  background-image: url(./far_cry_6.jpg);
+  background-position: 15% 10%;
+  background-size: 150%;
+}
+
+.containerJogosDebaixo {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -400,368 +351,288 @@ letter-spacing: 8px; word-spacing: 5px;
   padding-right: 2%;
   z-index: 1;
   margin-top: 50px;
-
-
 }
 
-
-.quadradoMenorJogoDireita{
-
-  
-  width:200px;
-  height:255px;
+.quadradoMenorJogoDireita {
+  width: 200px;
+  height: 255px;
 
   border-radius: 5px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
   background-image: url(./cyberpunk.png);
   background-position: 10% 10px;
   background-size: 110%;
+}
 
-}   
-
-.quadradoMenorJogoEsquerda{
-
-
-  width:200px;
-  height:255px;
+.quadradoMenorJogoEsquerda {
+  width: 200px;
+  height: 255px;
   border-radius: 5px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
   background-image: url(./red-dead-redemption.jpg);
   background-position: 45% 10%;
   background-size: 110%;
-} 
+}
 
-
-.quadradoMenorJogoAcima{
-
-  width:200px;
-  height:255px;
+.quadradoMenorJogoAcima {
+  width: 200px;
+  height: 255px;
 
   border-radius: 5px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
   background-image: url(./horizon-zero-down.webp);
   background-position: 45% 10%;
   background-size: 110%;
-} 
+}
 
-.quadradoMenorJogoAbaixo{
-
-  width:200px;
-  height:255px;
+.quadradoMenorJogoAbaixo {
+  width: 200px;
+  height: 255px;
 
   border-radius: 5px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
   background-image: url(./ultrakill.jpg);
   background-position: 45% 10%;
   background-size: 110%;
-} 
+}
 
-.quadradoRoxoCentral{
-
+.quadradoRoxoCentral {
   position: relative;
-  margin:auto;
+  margin: auto;
   margin-top: 100px;
-  width:625px;
-  height:600px;
-  background-color: #7A04EB;
+  width: 625px;
+  height: 600px;
+  background-color: #7a04eb;
   background-image: url(./fundoQuadradoRoxo.png);
   background-position: 10% 90%;
   background-size: 105%;
   border-radius: 30px;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
-
 }
 
-.containerEscolhaDePlanos{
-
-
+.containerEscolhaDePlanos {
   margin-top: 100px;
-
-
-
 }
 
-.SelecioneOPlano{
-
+.SelecioneOPlano {
   width: 32%;
   margin: auto;
-  background-color:#9C9C9C;
+  background-color: #9c9c9c;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
-  font-family: 'Iceland';
+  font-family: "Iceland";
   justify-content: center;
-
-
 }
 
-.h1{
+.h1 {
   width: fit-content;
-  margin:auto;
+  margin: auto;
 }
 
-
-.selecione{
-width: fit-content;
-align-items: center;
+.selecione {
+  width: fit-content;
+  align-items: center;
 }
 
-
-.container_planos{
-align-items: center;
-justify-content: center;
+.container_planos {
+  align-items: center;
+  justify-content: center;
 }
 
-.planos{
-
+.planos {
   width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.planoStarter{
-
-
+.planoStarter {
   top: 3500px;
-  width:180px;
-  height:auto;
+  width: 180px;
+  height: auto;
   background-color: white;
   border-radius: 15px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
 
   background-position: 45% 10%;
   background-size: 100%;
-
-
 }
 
-.planoMedium{
-
-
-
+.planoMedium {
   top: 3500px;
-  width:180px;
-  height:auto;
+  width: 180px;
+  height: auto;
   background-color: white;
   border-radius: 15px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
-  
+
   background-position: 45% 10%;
   background-size: 105%;
-
-
 }
 
-.planoPro{
-
-
- 
+.planoPro {
   top: 3500px;
-  width:180px;
-  height:auto;
+  width: 180px;
+  height: auto;
   background-color: white;
   border-radius: 15px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
-  
+
   background-position: 45% 10%;
   background-size: 105%;
-
-
 }
 
-.planoUltimate{
-
-
-
+.planoUltimate {
   top: 3500px;
-  width:180px;
-  height:auto;
+  width: 180px;
+  height: auto;
   background-color: white;
   border-radius: 15px;
   z-index: 2;
   border-width: medium;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
-  
+
   background-position: 70% 80%;
   background-size: 100%;
-
-
 }
 
-
-.quadradoFeedbacks{
+.quadradoFeedbacks {
   border-radius: 25px;
-  background-color: #fff;
   width: 1500px;
   height: 400px;
-  margin:auto;
+  margin: auto;
   margin-top: 100px;
-
-
 }
 
-
-.tituloDoFeedback{
-  
-  background-color: darksalmon;
+.tituloDoFeedback {
   width: 58%;
-  margin:auto;
+  margin: auto;
   align-items: center;
-
 }
 
-.vejaFeedback{
-
-  font-family:'Iceland', sans-serif;
-  
-
+.vejaFeedback {
+  font-family: "Iceland", sans-serif;
 }
 
-
-.containerdosFeedbacks{
-
+.containerdosFeedbacks {
   height: inherit;
-  
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
+
   margin: auto;
   margin-top: 50px;
-  
-
 }
 
-
-
-.feedback1{
-
-  
-  height:180px;
-  width:150px;
+.feedback1 {
+  height: 180px;
+  width: 150px;
   border-radius: 50px;
   background-image: url(./Feedback1.png);
   z-index: 3;
   border-width: medium;
-  border-color:#7A04EB; 
+  border-color: #7a04eb;
   border-style: solid;
   background-position: 45% 40%;
   background-size: 130%;
-
-
 }
 
-.feedback2{
-
-  height:180px;
-  width:150px;
+.feedback2 {
+  height: 180px;
+  width: 150px;
   border-radius: 50px;
   z-index: 3;
   border-width: medium;
-  border-color:#7A04EB; 
+  border-color: #7a04eb;
   border-style: solid;
   background-image: url(./Feedback2.png);
   background-position: 50% 30%;
   background-size: 120%;
-
 }
 
-.feedback3{
-
-  height:180px;
-  width:150px;
+.feedback3 {
+  height: 180px;
+  width: 150px;
   border-radius: 50px;
   z-index: 3;
   border-width: medium;
-  border-color:#7A04EB;  
+  border-color: #7a04eb;
   border-style: solid;
   background-image: url(./Feedback3.png);
   background-position: 50% 10%;
   background-size: 120%;
-
 }
 
-.feedback4{
-
-  height:180px;
-  width:150px;
+.feedback4 {
+  height: 180px;
+  width: 150px;
   border-radius: 50px;
   z-index: 3;
   border-width: medium;
-  border-color:#7A04EB; 
+  border-color: #7a04eb;
   border-style: solid;
   background-image: url(./Feedback4.png);
   background-position: 50% 15%;
   background-size: 120%;
-
-
 }
 
-.feedback5{
-
-  
-  height:180px;
-  width:150px;
+.feedback5 {
+  height: 180px;
+  width: 150px;
   border-radius: 50px;
   z-index: 3;
   border-width: medium;
-  border-color:#7A04EB; 
+  border-color: #7a04eb;
   border-style: solid;
   background-image: url(./Feedback5.png);
   background-position: 50% 15%;
   background-size: 120%;
-
 }
 
-.retânguloCinzaAbaixo{
-
-
-
-  margin:auto;
+.retânguloCinzaAbaixo {
+  margin: auto;
 
   margin-top: 100px;
-  width:900px;
-  height:300px;
-  background-color: #9C9C9C;
+  width: 900px;
+  height: 300px;
+  background-color: #9c9c9c;
   background-image: url(./EntreNesseUniverso.png);
   background-size: 100%;
   border-radius: 5px;
   z-index: 2;
   border-width: thick;
-  border-color:#000000; 
+  border-color: #000000;
   border-style: solid;
-
 }
 
-.espacoAbaixoNulo{
-
+.espacoAbaixoNulo {
   height: 500px;
-
 }
 
 /*
@@ -802,637 +673,494 @@ justify-content: center;
 }*/
 
 /*IPHONE SE*/
-@media only screen and (max-width: 375px) and (min-width: 375px) and (min-height: 667px) and (max-height: 667px){
-
-  .PaginaHome{
-
+@media only screen and (max-width: 375px) and (min-width: 375px) and (min-height: 667px) and (max-height: 667px) {
+  .PaginaHome {
     width: 1200px;
-
   }
 
-  .background{
-
+  .background {
     position: absolute;
-    top:0%;
+    top: 0%;
     width: 1200px;
-    height: 5000px;
     background-size: cover;
     background-image: url(./BG_HOME.png);
-    z-index:-10;
-}
+    z-index: -10;
+  }
 
-
-  .containerQuadradoeCrash{
-
-    position:relative;
+  .containerQuadradoeCrash {
+    position: relative;
     width: 100%;
     height: auto;
     margin-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
-  
   }
-  
-  .quadradoCinza{
-   
-   
-    
+
+  .quadradoCinza {
     margin-top: 3%;
-    width:30%;
-    height:25%;
-    background-color: #9C9C9C;
+    width: 30%;
+    height: 25%;
+    background-color: #9c9c9c;
     border-radius: 30px;
     border-width: medium;
-    border-color:#000000; 
+    border-color: #000000;
     border-style: solid;
     z-index: 5;
     margin-left: -10%;
     margin-right: 10%;
     left: center;
     text-align: center;
-    font-family: 'Iceland', 'Times New Roman', serif;
+    font-family: "Iceland", "Times New Roman", serif;
     font-size: 30px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     line-height: 2em;
-    letter-spacing: 2px; word-spacing: 1px;
-   
-   
-  
-    }
-  
-  
-   .crash4{
-  
-  
-    position:relative;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+
+  .crash4 {
+    position: relative;
     margin-left: -11%;
-    width:450px;
-    height:410px;
-    background-color: #7A04EB;
+    width: 450px;
+    height: 410px;
+    background-color: #7a04eb;
     background-repeat: no-repeat;
     background-image: url(./Crash_Bandicoot_4.png);
     background-position: 45% 20%;
     background-size: cover;
     border-radius: 1000px;
     border-width: medium;
-    border-color:#000000; 
-    border-style: solid; 
-    
-  
-  
-   } 
-  
-   .container2RetanguloeJogos{
-  
-    position:relative;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .container2RetanguloeJogos {
+    position: relative;
     width: 100%;
     height: auto;
     margin-top: 120px;
- 
-  
-  
-  
-   }
-  
-   .retanguloCinza1{
-  
-    position:relative;
+  }
+
+  .retanguloCinza1 {
+    position: relative;
     margin-left: auto;
-    margin-right:auto;
-    width:90%;
-    height:55px;
-    background-color: #9C9C9C;
+    margin-right: auto;
+    width: 90%;
+    height: 55px;
+    background-color: #9c9c9c;
     border-radius: 5px;
     border-width: thick;
-    border-color:#000000; 
+    border-color: #000000;
     border-style: solid;
     text-align: center;
     margin: auto;
-    font-family: 'Iceland', 'Times New Roman', serif;
+    font-family: "Iceland", "Times New Roman", serif;
     font-size: 35px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    letter-spacing: 8px; word-spacing: 5px; 
-  
-    } 
-
-  
-   .containerRetangulosJogosHome{
-    
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      padding-left: 2%;
-      padding-right: 2%;
-      z-index: 1;
-      margin-top: 80px;
-    
-  
-   }
-  
-    .retanguloJogo1{
-  
-    
-      width:200px;
-      height:255px;
-      background-color: white;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./cs-banner.png);
-     
-      background-position: 20% 10%;
-      background-size: 230%;
-  
-    
-      } 
-  
-  
-    .retanguloJogo2{
-  
-        
-      
-        width:200px;
-        height:255px;
-        background-color: white;
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./valorant-banner.jpg);
-        background-position: 45% 10%;
-        background-size: 150%;
-      
-        } 
-  
-    .retanguloJogo3{
-         
-   
-          width:200px;
-          height:255px;
-          background-color: white;
-          border-radius: 5px;
-          z-index: 2;
-          border-width: medium;
-          border-color:#000000; 
-          border-style: solid;
-          background-image: url(./lol\ banner.jpg);
-          background-position: 45% 80%;
-          background-size: 110%;
-        
-          } 
-  
-    .retanguloJogo4{
-  
-            
-  
-            width:200px;
-            height:255px;
-            background-color: white;
-            border-radius: 5px;
-            z-index: 2;
-            border-width: medium;
-            border-color:#000000; 
-            border-style: solid;
-            background-image: url(./fortnite-banner.jpg);
-            background-position: 50% 10%;
-            background-size: 250%;
-          
-            } 
-  
-    .containerFarCryeJogos{
-  
- 
-      margin-top: 50px;
-  
-    }
-  
-    .elipseFarCry{
-  
-              
-              
-              margin:auto;
-              width:600px;
-              height:410px;
-              background-position: 45% 20%;
-              background-size: 170%;
-              border-radius: 75%; 
-              border-width: medium;
-              border-color:#000000; 
-              border-style: solid; 
-              background-image: url(./far_cry_6.jpg);
-              background-position: 15% 10%;
-              background-size: 150%;
-            
-            
-             } 
-  
-    .containerJogosDebaixo{
-  
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding-left: 2%;
-      padding-right: 2%;
-      z-index: 1;
-      margin-top: 50px;
-  
-  
-    }
-  
-  
-    .quadradoMenorJogoDireita{
-  
-      
-      width:200px;
-      height:255px;
-  
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./cyberpunk.png);
-      background-position: 10% 10px;
-      background-size: 110%;
-  
-    }   
-  
-    .quadradoMenorJogoEsquerda{
-  
-    
-      width:200px;
-      height:255px;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./red-dead-redemption.jpg);
-      background-position: 45% 10%;
-      background-size: 110%;
-    } 
-  
-   
-    .quadradoMenorJogoAcima{
-  
-      width:200px;
-      height:255px;
-  
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./horizon-zero-down.webp);
-      background-position: 45% 10%;
-      background-size: 110%;
-    } 
-  
-    .quadradoMenorJogoAbaixo{
-  
-      width:200px;
-      height:255px;
-   
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./ultrakill.jpg);
-      background-position: 45% 10%;
-      background-size: 110%;
-    } 
-  
-   .quadradoRoxoCentral{
-  
-      position: relative;
-      margin:auto;
-      margin-top: 100px;
-      width:625px;
-      height:600px;
-      background-color: #7A04EB;
-      background-image: url(./fundoQuadradoRoxo.png);
-      background-position: 10% 90%;
-      background-size: 105%;
-      border-radius: 30px;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-  
-    }
-  
-    .containerEscolhaDePlanos{
-  
-      
-      margin-top: 100px;
-  
-  
-  
-    }
-  
-    .SelecioneOPlano{
-     
-      width: 32%;
-      margin: auto;
-      background-color:#9C9C9C;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      font-family: 'Iceland';
-      justify-content: center;
-  
-  
-    }
-  
-    .h1{
-      width: fit-content;
-      margin:auto;
+    letter-spacing: 8px;
+    word-spacing: 5px;
   }
-  
-  
-  .selecione{
+
+  .containerRetangulosJogosHome {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    margin-top: 80px;
+  }
+
+  .retanguloJogo1 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./cs-banner.png);
+
+    background-position: 20% 10%;
+    background-size: 230%;
+  }
+
+  .retanguloJogo2 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./valorant-banner.jpg);
+    background-position: 45% 10%;
+    background-size: 150%;
+  }
+
+  .retanguloJogo3 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./lol\ banner.jpg);
+    background-position: 45% 80%;
+    background-size: 110%;
+  }
+
+  .retanguloJogo4 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./fortnite-banner.jpg);
+    background-position: 50% 10%;
+    background-size: 250%;
+  }
+
+  .containerFarCryeJogos {
+    margin-top: 50px;
+  }
+
+  .elipseFarCry {
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    background-position: 45% 20%;
+    background-size: 170%;
+    border-radius: 75%;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./far_cry_6.jpg);
+    background-position: 15% 10%;
+    background-size: 150%;
+  }
+
+  .containerJogosDebaixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    margin-top: 50px;
+  }
+
+  .quadradoMenorJogoDireita {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./cyberpunk.png);
+    background-position: 10% 10px;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoEsquerda {
+    width: 200px;
+    height: 255px;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./red-dead-redemption.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoAcima {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./horizon-zero-down.webp);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoAbaixo {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./ultrakill.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoRoxoCentral {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 625px;
+    height: 600px;
+    background-color: #7a04eb;
+    background-image: url(./fundoQuadradoRoxo.png);
+    background-position: 10% 90%;
+    background-size: 105%;
+    border-radius: 30px;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .containerEscolhaDePlanos {
+    margin-top: 100px;
+  }
+
+  .SelecioneOPlano {
+    width: 32%;
+    margin: auto;
+    background-color: #9c9c9c;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    font-family: "Iceland";
+    justify-content: center;
+  }
+
+  .h1 {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .selecione {
     width: fit-content;
     align-items: center;
   }
-  
-  
-  .container_planos{
+
+  .container_planos {
     align-items: center;
     justify-content: center;
   }
-  
-    .planos{
-  
-      
-      width: auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
+
+  .planos {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
-  
-    .planoStarter{
-  
-  
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-    
-      background-position: 45% 10%;
-      background-size: 100%;
-  
-  
-    }
-  
-    .planoMedium{
-  
-  
-   
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      
-      background-position: 45% 10%;
-      background-size: 105%;
-  
-  
-    }
-  
-    .planoPro{
-  
-  
-     
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      
-      background-position: 45% 10%;
-      background-size: 105%;
-  
-  
-    }
-  
-    .planoUltimate{
-  
-  
-    
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      
-      background-position: 70% 80%;
-      background-size: 100%;
-  
-  
-    }
-  
-  
-    .quadradoFeedbacks{
-      border-radius: 25px;
-      background-color: #fff;
-      width:80%;
-      height: 400px;
-      margin:auto;
-      margin-top: 100px;
-  
-  
-    }
-  
-    
-    .tituloDoFeedback{
-  
 
-      width: 41%;
-      margin:auto;
-      align-items: center;
-      background-color:#9C9C9C;
-      border-color: #000000;
-      border-style: solid;
-      
-    }
-  
-    .vejaFeedback{
+  .planoStarter {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
 
-      font-family:'Iceland', sans-serif;
-      
+    background-position: 45% 10%;
+    background-size: 100%;
+  }
 
-    }
-  
-  
-    .containerdosFeedbacks{
-  
-      height: inherit;
-      
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      
-      margin: auto;
-      margin-top: 50px;
-      
-  
-    }
-  
-  
-  
-    .feedback1{
-  
-      
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      background-image: url(./Feedback1.png);
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-position: 45% 40%;
-      background-size: 130%;
-  
-  
-    }
-  
-    .feedback2{
-  
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-image: url(./Feedback2.png);
-      background-position: 50% 30%;
-      background-size: 120%;
-  
-    }
-  
-    .feedback3{
-  
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB;  
-      border-style: solid;
-      background-image: url(./Feedback3.png);
-      background-position: 50% 10%;
-      background-size: 120%;
-  
-    }
-  
-    .feedback4{
-  
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-image: url(./Feedback4.png);
-      background-position: 50% 15%;
-      background-size: 120%;
-  
-  
-    }
-  
-    .feedback5{
-  
-      
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-image: url(./Feedback5.png);
-      background-position: 50% 15%;
-      background-size: 120%;
-  
-    }
-  
-    .retânguloCinzaAbaixo{
-  
-  
-    
-      margin:auto;
-  
-      margin-top: 100px;
-      width:900px;
-      height:300px;
-      background-color: #9C9C9C;
-      background-image: url(./EntreNesseUniverso.png);
-      background-size: 100%;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: thick;
-      border-color:#000000; 
-      border-style: solid;
-  
-    }
+  .planoMedium {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
 
-    .espacoAbaixoNulo{
+    background-position: 45% 10%;
+    background-size: 105%;
+  }
 
-      height: 500px;
-  
-    }
+  .planoPro {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
 
+    background-position: 45% 10%;
+    background-size: 105%;
+  }
+
+  .planoUltimate {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+
+    background-position: 70% 80%;
+    background-size: 100%;
+  }
+
+  .quadradoFeedbacks {
+    border-radius: 25px;
+    background-color: #fff;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .tituloDoFeedback {
+    width: 41%;
+    margin: auto;
+    align-items: center;
+    background-color: #9c9c9c;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .vejaFeedback {
+    font-family: "Iceland", sans-serif;
+  }
+
+  .containerdosFeedbacks {
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .feedback1 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: url(./Feedback1.png);
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-position: 45% 40%;
+    background-size: 130%;
+  }
+
+  .feedback2 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback2.png);
+    background-position: 50% 30%;
+    background-size: 120%;
+  }
+
+  .feedback3 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback3.png);
+    background-position: 50% 10%;
+    background-size: 120%;
+  }
+
+  .feedback4 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback4.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+  }
+
+  .feedback5 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback5.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+  }
+
+  .retânguloCinzaAbaixo {
+    margin: auto;
+
+    margin-top: 100px;
+    width: 900px;
+    height: 300px;
+    background-color: #9c9c9c;
+    background-image: url(./EntreNesseUniverso.png);
+    background-size: 100%;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: thick;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .espacoAbaixoNulo {
+    height: 500px;
+  }
 }
 
 /*IPAD AIR*/
-@media only screen and (max-width: 820px) and (min-width: 820px) and (min-height: 1180px) and (max-height: 1180px){
-
-  
-
-  .background{
-
+@media only screen and (max-width: 820px) and (min-width: 820px) and (min-height: 1180px) and (max-height: 1180px) {
+  .background {
     position: absolute;
-    top:0%;
+    top: 0%;
     width: 820px;
     height: 5000px;
     background-size: cover;
     background-image: url(./BG_HOME.png);
-    z-index:-10;
-}
+    z-index: -10;
+  }
 
-
-  .containerQuadradoeCrash{
-
-    position:relative;
+  .containerQuadradoeCrash {
+    position: relative;
     width: 100%;
     height: auto;
     margin-top: 80px;
@@ -1441,1204 +1169,938 @@ justify-content: center;
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
-  
-  
   }
-  
-  .quadradoCinza{
-   
-   
-    
+
+  .quadradoCinza {
     margin-top: 3%;
-    width:400px;
-    height:360px;
-    background-color: #9C9C9C;
+    width: 400px;
+    height: 360px;
+    background-color: #9c9c9c;
     border-radius: 30px;
     border-width: medium;
-    border-color:#000000; 
+    border-color: #000000;
     border-style: solid;
     z-index: 5;
     margin-left: -10%;
     margin-right: 10%;
     left: center;
     text-align: center;
-    font-family: 'Iceland', 'Times New Roman', serif;
+    font-family: "Iceland", "Times New Roman", serif;
     font-size: 30px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     line-height: 2em;
-    letter-spacing: 2px; word-spacing: 1px;
-   
-   
-  
-    }
-  
-  
-   .crash4{
-  
-  
-    position:relative;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+
+  .crash4 {
+    position: relative;
     margin-top: 7%;
     margin-left: -5%;
     width: 300px;
-    height:300px;
-    background-color: #7A04EB;
+    height: 300px;
+    background-color: #7a04eb;
     background-repeat: no-repeat;
     background-image: url(./Crash_Bandicoot_4.png);
     background-position: 45% 20%;
     background-size: cover;
     border-radius: 1000px;
     border-width: medium;
-    border-color:#000000; 
-    border-style: solid; 
-    
-  
-  
-   } 
-  
-   .container2RetanguloeJogos{
-  
-    position:relative;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .container2RetanguloeJogos {
+    position: relative;
     width: 100%;
     height: auto;
     margin-top: 120px;
+  }
 
-  
-  
-  
-   }
-  
-   .retanguloCinza1{
-  
-    position:relative;
+  .retanguloCinza1 {
+    position: relative;
     margin-left: auto;
-    margin-right:auto;
-    width:90%;
-    height:55px;
-    background-color: #9C9C9C;
+    margin-right: auto;
+    width: 90%;
+    height: 55px;
+    background-color: #9c9c9c;
     border-radius: 5px;
     border-width: thick;
-    border-color:#000000; 
+    border-color: #000000;
     border-style: solid;
     text-align: center;
     margin: auto;
-    font-family: 'Iceland', 'Times New Roman', serif;
+    font-family: "Iceland", "Times New Roman", serif;
     font-size: 35px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    letter-spacing: 8px; word-spacing: 5px; 
-  
-    } 
-
-  
-   .containerRetangulosJogosHome{
-    
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding: 10%;
-      z-index: 1;
-      margin-top: 80px;
-    
-  
-   }
-  
-    .retanguloJogo1{
-  
-    
-      width:200px;
-      height:255px;
-      background-color: white;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./cs-banner.png);
-     
-      background-position: 20% 10%;
-      background-size: 230%;
-  
-    
-      } 
-  
-  
-    .retanguloJogo2{
-  
-        
-      
-        width:200px;
-        height:255px;
-        background-color: white;
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./valorant-banner.jpg);
-        background-position: 45% 10%;
-        background-size: 150%;
-      
-        } 
-  
-    .retanguloJogo3{
-         
-   
-          width:200px;
-          height:255px;
-          background-color: white;
-          border-radius: 5px;
-          z-index: 2;
-          border-width: medium;
-          border-color:#000000; 
-          border-style: solid;
-          background-image: url(./lol\ banner.jpg);
-          background-position: 45% 80%;
-          background-size: 110%;
-        
-          } 
-  
-    .retanguloJogo4{
-  
-            
-  
-            width:200px;
-            height:255px;
-            background-color: white;
-            border-radius: 5px;
-            z-index: 2;
-            border-width: medium;
-            border-color:#000000; 
-            border-style: solid;
-            background-image: url(./fortnite-banner.jpg);
-            background-position: 50% 10%;
-            background-size: 250%;
-          
-            } 
-  
-    .containerFarCryeJogos{
-  
-      margin-top: 50px;
-  
-    }
-  
-    .elipseFarCry{
-  
-              
-              
-              margin:auto;
-              width:600px;
-              height:410px;
-              background-position: 45% 20%;
-              background-size: 170%;
-              border-radius: 75%; 
-              border-width: medium;
-              border-color:#000000; 
-              border-style: solid; 
-              background-image: url(./far_cry_6.jpg);
-              background-position: 15% 10%;
-              background-size: 150%;
-            
-            
-             } 
-  
-    .containerJogosDebaixo{
-  
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      padding-left: 2%;
-      padding-right: 2%;
-      z-index: 1;
-      margin-top: 50px;
-  
-  
-    }
-  
-  
-    .quadradoMenorJogoDireita{
-  
-      
-      width:200px;
-      height:255px;
-  
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./cyberpunk.png);
-      background-position: 10% 10px;
-      background-size: 110%;
-  
-    }   
-  
-    .quadradoMenorJogoEsquerda{
-  
-    
-      width:200px;
-      height:255px;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./red-dead-redemption.jpg);
-      background-position: 45% 10%;
-      background-size: 110%;
-    } 
-  
-   
-    .quadradoMenorJogoAcima{
-  
-      width:200px;
-      height:255px;
-  
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./horizon-zero-down.webp);
-      background-position: 45% 10%;
-      background-size: 110%;
-    } 
-  
-    .quadradoMenorJogoAbaixo{
-  
-      width:200px;
-      height:255px;
-   
-      border-radius: 5px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      background-image: url(./ultrakill.jpg);
-      background-position: 45% 10%;
-      background-size: 110%;
-    } 
-  
-   .quadradoRoxoCentral{
-  
-      position: relative;
-      margin:auto;
-      margin-top: 100px;
-      width:625px;
-      height:600px;
-      background-color: #7A04EB;
-      background-image: url(./fundoQuadradoRoxo.png);
-      background-position: 10% 90%;
-      background-size: 105%;
-      border-radius: 30px;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-  
-    }
-  
-    .containerEscolhaDePlanos{
-  
-      margin-top: 100px;
-  
-  
-  
-    }
-  
-    .SelecioneOPlano{
-      width: 32%;
-      margin: auto;
-      background-color:#9C9C9C;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      font-family: 'Iceland';
-      justify-content: center;
-  
-  
-    }
-  
-    .h1{
-      width: fit-content;
-      margin:auto;
+    letter-spacing: 8px;
+    word-spacing: 5px;
   }
-  
-  
-  .selecione{
+
+  .containerRetangulosJogosHome {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10%;
+    z-index: 1;
+    margin-top: 80px;
+  }
+
+  .retanguloJogo1 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./cs-banner.png);
+
+    background-position: 20% 10%;
+    background-size: 230%;
+  }
+
+  .retanguloJogo2 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./valorant-banner.jpg);
+    background-position: 45% 10%;
+    background-size: 150%;
+  }
+
+  .retanguloJogo3 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./lol\ banner.jpg);
+    background-position: 45% 80%;
+    background-size: 110%;
+  }
+
+  .retanguloJogo4 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./fortnite-banner.jpg);
+    background-position: 50% 10%;
+    background-size: 250%;
+  }
+
+  .containerFarCryeJogos {
+    margin-top: 50px;
+  }
+
+  .elipseFarCry {
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    background-position: 45% 20%;
+    background-size: 170%;
+    border-radius: 75%;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./far_cry_6.jpg);
+    background-position: 15% 10%;
+    background-size: 150%;
+  }
+
+  .containerJogosDebaixo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    margin-top: 50px;
+  }
+
+  .quadradoMenorJogoDireita {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./cyberpunk.png);
+    background-position: 10% 10px;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoEsquerda {
+    width: 200px;
+    height: 255px;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./red-dead-redemption.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoAcima {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./horizon-zero-down.webp);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoAbaixo {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./ultrakill.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoRoxoCentral {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 625px;
+    height: 600px;
+    background-color: #7a04eb;
+    background-image: url(./fundoQuadradoRoxo.png);
+    background-position: 10% 90%;
+    background-size: 105%;
+    border-radius: 30px;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .containerEscolhaDePlanos {
+    margin-top: 100px;
+  }
+
+  .SelecioneOPlano {
+    width: 32%;
+    margin: auto;
+    background-color: #9c9c9c;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    font-family: "Iceland";
+    justify-content: center;
+  }
+
+  .h1 {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .selecione {
     width: fit-content;
     align-items: center;
-    font-family: 'Iceland', 'Times New Roman', serif;
+    font-family: "Iceland", "Times New Roman", serif;
     text-align: center;
   }
-  
-  
-  .container_planos{
+
+  .container_planos {
     align-items: center;
     justify-content: center;
   }
-  
-    .planos{
-  
- 
-      width: auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
+
+  .planos {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
-  
-    .planoStarter{
-  
-  
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-    
-      background-position: 45% 10%;
-      background-size: 100%;
-  
-  
-    }
-  
-    .planoMedium{
-  
-  
-   
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      
-      background-position: 45% 10%;
-      background-size: 105%;
-  
-  
-    }
-  
-    .planoPro{
-  
-  
-     
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      
-      background-position: 45% 10%;
-      background-size: 105%;
-  
-  
-    }
-  
-    .planoUltimate{
-  
-  
-    
-      top: 3500px;
-      width:180px;
-      height:auto;
-      background-color: white;
-      border-radius: 15px;
-      z-index: 2;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      
-      background-position: 70% 80%;
-      background-size: 100%;
-  
-  
-    }
-  
-  
-    .quadradoFeedbacks{
-      border-radius: 25px;
-      background-color: #fff;
-      width: auto;
-      height: 400px;
-      margin:auto;
-      margin-top: 100px;
-  
-  
-    }
-  
-    
-    .tituloDoFeedback{
-  
-      background-color: darksalmon;
-      width: 58%;
-      margin:auto;
-      align-items: center;
-  
-    }
-  
-    .vejaFeedback{
 
-      font-family:'Iceland', sans-serif;
-      
+  .planoStarter {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
 
-    }
-  
-    .containerdosFeedbacks{
-  
-      height: inherit;
-      
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      
-      margin: auto;
-      margin-top: 50px;
-      
-  
-    }
-  
-  
-  
-    .feedback1{
-  
-      
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      background-image: url(./Feedback1.png);
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-position: 45% 40%;
-      background-size: 130%;
-  
-  
-    }
-  
-    .feedback2{
-  
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-image: url(./Feedback2.png);
-      background-position: 50% 30%;
-      background-size: 120%;
-  
-    }
-  
-    .feedback3{
-  
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB;  
-      border-style: solid;
-      background-image: url(./Feedback3.png);
-      background-position: 50% 10%;
-      background-size: 120%;
-  
-    }
-  
-    .feedback4{
-  
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-image: url(./Feedback4.png);
-      background-position: 50% 15%;
-      background-size: 120%;
-  
-  
-    }
-  
-    .feedback5{
-  
-      
-      height:180px;
-      width:150px;
-      border-radius: 50px;
-      z-index: 3;
-      border-width: medium;
-      border-color:#7A04EB; 
-      border-style: solid;
-      background-image: url(./Feedback5.png);
-      background-position: 50% 15%;
-      background-size: 120%;
-  
-    }
-  
-    .retânguloCinzaAbaixo{
-  
-  
-    
-      margin:auto;
-  
-      margin-top: 100px;
-      width:90%;
-      height:300px;
-      background-color: #9C9C9C;
-      background-image: url(./EntreNesseUniverso.png);
-      background-size: 100%;
-      border-radius: 5px;
-      z-index: 2;
-      border-width: thick;
-      border-color:#000000; 
-      border-style: solid;
-  
-    }
+    background-position: 45% 10%;
+    background-size: 100%;
+  }
 
+  .planoMedium {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
 
-    .espacoAbaixoNulo{
+    background-position: 45% 10%;
+    background-size: 105%;
+  }
 
-      height: 500px;
-  
-    }
+  .planoPro {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
 
+    background-position: 45% 10%;
+    background-size: 105%;
+  }
+
+  .planoUltimate {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+
+    background-position: 70% 80%;
+    background-size: 100%;
+  }
+
+  .quadradoFeedbacks {
+    border-radius: 25px;
+    background-color: #fff;
+    width: auto;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .tituloDoFeedback {
+    background-color: darksalmon;
+    width: 58%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .vejaFeedback {
+    font-family: "Iceland", sans-serif;
+  }
+
+  .containerdosFeedbacks {
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .feedback1 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: url(./Feedback1.png);
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-position: 45% 40%;
+    background-size: 130%;
+  }
+
+  .feedback2 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback2.png);
+    background-position: 50% 30%;
+    background-size: 120%;
+  }
+
+  .feedback3 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback3.png);
+    background-position: 50% 10%;
+    background-size: 120%;
+  }
+
+  .feedback4 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback4.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+  }
+
+  .feedback5 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback5.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+  }
+
+  .retânguloCinzaAbaixo {
+    margin: auto;
+
+    margin-top: 100px;
+    width: 90%;
+    height: 300px;
+    background-color: #9c9c9c;
+    background-image: url(./EntreNesseUniverso.png);
+    background-size: 100%;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: thick;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .espacoAbaixoNulo {
+    height: 500px;
+  }
 }
 
 /*A51/A71*/
-@media only screen and (max-width: 412px) and (min-width: 412px) and (min-height: 914px) and (max-height: 914px){
-
-  .PaginaHome{
-
+@media only screen and (max-width: 412px) and (min-width: 412px) and (min-height: 914px) and (max-height: 914px) {
+  .PaginaHome {
     width: 1200px;
-
   }
 
-
-
-  
-
-    .background{
-
-      position: absolute;
-      top:0%;
-      width: 1200px;
-      height: 5000px;
-      background-size: cover;
-      background-image: url(./BG_HOME.png);
-      z-index:-10;
+  .background {
+    position: absolute;
+    top: 0%;
+    width: 1200px;
+    height: 5000px;
+    background-size: cover;
+    background-image: url(./BG_HOME.png);
+    z-index: -10;
   }
 
-  
-    .containerQuadradoeCrash{
+  .containerQuadradoeCrash {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
 
-      position:relative;
-      width: 100%;
-      height: auto;
-      margin-top: 80px;
-      
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 5%;
     padding-right: 5%;
-    
-    
-    }
-    
-    .quadradoCinza{
-     
-     
-      
-      margin-top: 10%;
-      width:400px;
-      height:360px;
-      background-color: #9C9C9C;
-      border-radius: 30px;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid;
-      z-index: 5;
-      margin-left: -10%;
-      margin-right: 10%;
-      left: center;
-      text-align: center;
-      font-family: 'Iceland', 'Times New Roman', serif;
-      font-size: 30px;
-      text-shadow: 1px 1px 1px rgb(0, 0, 0);
-      line-height: 2em;
-      letter-spacing: 2px; word-spacing: 1px;
-     
-     
-    
-      }
-    
-    
-     .crash4{
-    
-    
-      position:relative;
-      margin-top: 7%;
-      margin-left: -10%;
-      width:500px;
-      height:500px;
-      background-color: #7A04EB;
-      background-repeat: no-repeat;
-      background-image: url(./Crash_Bandicoot_4.png);
-      background-position: 45% 20%;
-      background-size: cover;
-      border-radius: 1000px;
-      border-width: medium;
-      border-color:#000000; 
-      border-style: solid; 
-      
-    
-    
-     } 
-    
-     .container2RetanguloeJogos{
-    
-      position:relative;
-      width: 100%;
-      height: auto;
-      margin-top: 120px;
-     
-    
-    
-    
-     }
-    
-     .retanguloCinza1{
-    
-      position:relative;
-      margin-left: auto;
-      margin-right:auto;
-      width:90%;
-      height:55px;
-      background-color: #9C9C9C;
-      border-radius: 5px;
-      border-width: thick;
-      border-color:#000000; 
-      border-style: solid;
-      text-align: center;
-      margin: auto;
-      font-family: 'Iceland', 'Times New Roman', serif;
-      font-size: 35px;
-      text-shadow: 1px 1px 1px rgb(0, 0, 0);
-      letter-spacing: 8px; word-spacing: 5px; 
-    
-      } 
-
-    
-     .containerRetangulosJogosHome{
-      
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 10%;
-        z-index: 1;
-        margin-top: 80px;
-     
-    
-     }
-    
-      .retanguloJogo1{
-    
-      
-        width:200px;
-        height:255px;
-        background-color: white;
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./cs-banner.png);
-       
-        background-position: 20% 10%;
-        background-size: 230%;
-    
-      
-        } 
-    
-    
-      .retanguloJogo2{
-    
-          
-        
-          width:200px;
-          height:255px;
-          background-color: white;
-          border-radius: 5px;
-          z-index: 2;
-          border-width: medium;
-          border-color:#000000; 
-          border-style: solid;
-          background-image: url(./valorant-banner.jpg);
-          background-position: 45% 10%;
-          background-size: 150%;
-        
-          } 
-    
-      .retanguloJogo3{
-           
-     
-            width:200px;
-            height:255px;
-            background-color: white;
-            border-radius: 5px;
-            z-index: 2;
-            border-width: medium;
-            border-color:#000000; 
-            border-style: solid;
-            background-image: url(./lol\ banner.jpg);
-            background-position: 45% 80%;
-            background-size: 110%;
-          
-            } 
-    
-      .retanguloJogo4{
-    
-              
-    
-              width:200px;
-              height:255px;
-              background-color: white;
-              border-radius: 5px;
-              z-index: 2;
-              border-width: medium;
-              border-color:#000000; 
-              border-style: solid;
-              background-image: url(./fortnite-banner.jpg);
-              background-position: 50% 10%;
-              background-size: 250%;
-            
-              } 
-    
-      .containerFarCryeJogos{
-    
-       
-        margin-top: 50px;
-    
-      }
-    
-      .elipseFarCry{
-    
-                
-                
-                margin:auto;
-                width:600px;
-                height:410px;
-                background-position: 45% 20%;
-                background-size: 170%;
-                border-radius: 75%; 
-                border-width: medium;
-                border-color:#000000; 
-                border-style: solid; 
-                background-image: url(./far_cry_6.jpg);
-                background-position: 15% 10%;
-                background-size: 150%;
-              
-              
-               } 
-    
-      .containerJogosDebaixo{
-    
-       
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        padding-left: 2%;
-        padding-right: 2%;
-        z-index: 1;
-        margin-top: 50px;
-    
-    
-      }
-    
-    
-      .quadradoMenorJogoDireita{
-    
-        
-        width:200px;
-        height:255px;
-    
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./cyberpunk.png);
-        background-position: 10% 10px;
-        background-size: 110%;
-    
-      }   
-    
-      .quadradoMenorJogoEsquerda{
-    
-      
-        width:200px;
-        height:255px;
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./red-dead-redemption.jpg);
-        background-position: 45% 10%;
-        background-size: 110%;
-      } 
-    
-     
-      .quadradoMenorJogoAcima{
-    
-        width:200px;
-        height:255px;
-    
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./horizon-zero-down.webp);
-        background-position: 45% 10%;
-        background-size: 110%;
-      } 
-    
-      .quadradoMenorJogoAbaixo{
-    
-        width:200px;
-        height:255px;
-     
-        border-radius: 5px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        background-image: url(./ultrakill.jpg);
-        background-position: 45% 10%;
-        background-size: 110%;
-      } 
-    
-     .quadradoRoxoCentral{
-    
-        position: relative;
-        margin:auto;
-        margin-top: 100px;
-        width:625px;
-        height:600px;
-        background-color: #7A04EB;
-        background-image: url(./fundoQuadradoRoxo.png);
-        background-position: 10% 90%;
-        background-size: 105%;
-        border-radius: 30px;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-    
-      }
-    
-      .containerEscolhaDePlanos{
-    
-       
-        margin-top: 100px;
-    
-    
-    
-      }
-    
-      .SelecioneOPlano{
-        
-      
-        width: 28%;
-        margin: auto;
-        background-color:#9C9C9C;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        font-family: 'Iceland';
-        justify-content: center;
-    
-    
-      }
-    
-      .h1{
-        width: fit-content;
-        margin:auto;
-    }
-    
-    
-    .selecione{
-      width: fit-content;
-      align-items: center;
-      font-family: 'Iceland', 'Times New Roman', serif;
-      text-align: center;
-    }
-    
-    
-    .container_planos{
-      align-items: center;
-      justify-content: center;
-    }
-    
-      .planos{
-    
-      
-        width: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    
-      .planoStarter{
-    
-    
-        top: 3500px;
-        width:180px;
-        height:auto;
-        background-color: white;
-        border-radius: 15px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-      
-        background-position: 45% 10%;
-        background-size: 100%;
-    
-    
-      }
-    
-      .planoMedium{
-    
-    
-     
-        top: 3500px;
-        width:180px;
-        height:auto;
-        background-color: white;
-        border-radius: 15px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        
-        background-position: 45% 10%;
-        background-size: 105%;
-    
-    
-      }
-    
-      .planoPro{
-    
-    
-       
-        top: 3500px;
-        width:180px;
-        height:auto;
-        background-color: white;
-        border-radius: 15px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        
-        background-position: 45% 10%;
-        background-size: 105%;
-    
-    
-      }
-    
-      .planoUltimate{
-    
-    
-      
-        top: 3500px;
-        width:180px;
-        height:auto;
-        background-color: white;
-        border-radius: 15px;
-        z-index: 2;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-        
-        background-position: 70% 80%;
-        background-size: 100%;
-    
-    
-      }
-    
-    
-      .quadradoFeedbacks{
-        border-radius: 25px;
-        background-color: #fff;
-        width: 80%;
-        height: 400px;
-        margin:auto;
-        margin-top: 100px;
-    
-    
-      }
-    
-      
-      .tituloDoFeedback{
-    
-        background-color:#9C9C9C; 
-        width: 41%;
-        margin:auto;
-        align-items: center;
-    
-      }
-    
-      .vejaFeedback{
-
-        font-family:'Iceland', sans-serif;
-        border-width: medium;
-        border-color:#000000; 
-        border-style: solid;
-
-      }
-    
-      .containerdosFeedbacks{
-    
-        height: inherit;
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        
-        margin: auto;
-        margin-top: 50px;
-        
-    
-      }
-    
-    
-    
-      .feedback1{
-    
-        
-        height:180px;
-        width:150px;
-        border-radius: 50px;
-        background-image: url(./Feedback1.png);
-        z-index: 3;
-        border-width: medium;
-        border-color:#7A04EB; 
-        border-style: solid;
-        background-position: 45% 40%;
-        background-size: 130%;
-    
-    
-      }
-    
-      .feedback2{
-    
-        height:180px;
-        width:150px;
-        border-radius: 50px;
-        z-index: 3;
-        border-width: medium;
-        border-color:#7A04EB; 
-        border-style: solid;
-        background-image: url(./Feedback2.png);
-        background-position: 50% 30%;
-        background-size: 120%;
-    
-      }
-    
-      .feedback3{
-    
-        height:180px;
-        width:150px;
-        border-radius: 50px;
-        z-index: 3;
-        border-width: medium;
-        border-color:#7A04EB;  
-        border-style: solid;
-        background-image: url(./Feedback3.png);
-        background-position: 50% 10%;
-        background-size: 120%;
-    
-      }
-    
-      .feedback4{
-    
-        height:180px;
-        width:150px;
-        border-radius: 50px;
-        z-index: 3;
-        border-width: medium;
-        border-color:#7A04EB; 
-        border-style: solid;
-        background-image: url(./Feedback4.png);
-        background-position: 50% 15%;
-        background-size: 120%;
-    
-    
-      }
-    
-      .feedback5{
-    
-        
-        height:180px;
-        width:150px;
-        border-radius: 50px;
-        z-index: 3;
-        border-width: medium;
-        border-color:#7A04EB; 
-        border-style: solid;
-        background-image: url(./Feedback5.png);
-        background-position: 50% 15%;
-        background-size: 120%;
-    
-      }
-    
-      .retânguloCinzaAbaixo{
-    
-    
-      
-        margin:auto;
-    
-        margin-top: 100px;
-        width:90%;
-        height:300px;
-        background-color: #9C9C9C;
-        background-image: url(./EntreNesseUniverso.png);
-        background-size: 100%;
-        border-radius: 5px;
-        z-index: 2;
-        border-width: thick;
-        border-color:#000000; 
-        border-style: solid;
-    
-      }
-
-
-      .espacoAbaixoNulo{
-
-        height: 500px;
-    
-      
-
   }
 
+  .quadradoCinza {
+    margin-top: 10%;
+    width: 400px;
+    height: 360px;
+    background-color: #9c9c9c;
+    border-radius: 30px;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    z-index: 5;
+    margin-left: -10%;
+    margin-right: 10%;
+    left: center;
+    text-align: center;
+    font-family: "Iceland", "Times New Roman", serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    line-height: 2em;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+
+  .crash4 {
+    position: relative;
+    margin-top: 7%;
+    margin-left: -10%;
+    width: 500px;
+    height: 500px;
+    background-color: #7a04eb;
+    background-repeat: no-repeat;
+    background-image: url(./Crash_Bandicoot_4.png);
+    background-position: 45% 20%;
+    background-size: cover;
+    border-radius: 1000px;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .container2RetanguloeJogos {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+  }
+
+  .retanguloCinza1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 55px;
+    background-color: #9c9c9c;
+    border-radius: 5px;
+    border-width: thick;
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+    font-family: "Iceland", "Times New Roman", serif;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 8px;
+    word-spacing: 5px;
+  }
+
+  .containerRetangulosJogosHome {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10%;
+    z-index: 1;
+    margin-top: 80px;
+  }
+
+  .retanguloJogo1 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./cs-banner.png);
+
+    background-position: 20% 10%;
+    background-size: 230%;
+  }
+
+  .retanguloJogo2 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./valorant-banner.jpg);
+    background-position: 45% 10%;
+    background-size: 150%;
+  }
+
+  .retanguloJogo3 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./lol\ banner.jpg);
+    background-position: 45% 80%;
+    background-size: 110%;
+  }
+
+  .retanguloJogo4 {
+    width: 200px;
+    height: 255px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./fortnite-banner.jpg);
+    background-position: 50% 10%;
+    background-size: 250%;
+  }
+
+  .containerFarCryeJogos {
+    margin-top: 50px;
+  }
+
+  .elipseFarCry {
+    margin: auto;
+    width: 600px;
+    height: 410px;
+    background-position: 45% 20%;
+    background-size: 170%;
+    border-radius: 75%;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./far_cry_6.jpg);
+    background-position: 15% 10%;
+    background-size: 150%;
+  }
+
+  .containerJogosDebaixo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    margin-top: 50px;
+  }
+
+  .quadradoMenorJogoDireita {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./cyberpunk.png);
+    background-position: 10% 10px;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoEsquerda {
+    width: 200px;
+    height: 255px;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./red-dead-redemption.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoAcima {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./horizon-zero-down.webp);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoMenorJogoAbaixo {
+    width: 200px;
+    height: 255px;
+
+    border-radius: 5px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-image: url(./ultrakill.jpg);
+    background-position: 45% 10%;
+    background-size: 110%;
+  }
+
+  .quadradoRoxoCentral {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 625px;
+    height: 600px;
+    background-color: #7a04eb;
+    background-image: url(./fundoQuadradoRoxo.png);
+    background-position: 10% 90%;
+    background-size: 105%;
+    border-radius: 30px;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .containerEscolhaDePlanos {
+    margin-top: 100px;
+  }
+
+  .SelecioneOPlano {
+    width: 28%;
+    margin: auto;
+    background-color: #9c9c9c;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    font-family: "Iceland";
+    justify-content: center;
+  }
+
+  .h1 {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .selecione {
+    width: fit-content;
+    align-items: center;
+    font-family: "Iceland", "Times New Roman", serif;
+    text-align: center;
+  }
+
+  .container_planos {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planos {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .planoStarter {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+
+    background-position: 45% 10%;
+    background-size: 100%;
+  }
+
+  .planoMedium {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+
+    background-position: 45% 10%;
+    background-size: 105%;
+  }
+
+  .planoPro {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+
+    background-position: 45% 10%;
+    background-size: 105%;
+  }
+
+  .planoUltimate {
+    top: 3500px;
+    width: 180px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 2;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+
+    background-position: 70% 80%;
+    background-size: 100%;
+  }
+
+  .quadradoFeedbacks {
+    border-radius: 25px;
+    background-color: #fff;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .tituloDoFeedback {
+    background-color: #9c9c9c;
+    width: 41%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .vejaFeedback {
+    font-family: "Iceland", sans-serif;
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .containerdosFeedbacks {
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .feedback1 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    background-image: url(./Feedback1.png);
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-position: 45% 40%;
+    background-size: 130%;
+  }
+
+  .feedback2 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback2.png);
+    background-position: 50% 30%;
+    background-size: 120%;
+  }
+
+  .feedback3 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback3.png);
+    background-position: 50% 10%;
+    background-size: 120%;
+  }
+
+  .feedback4 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback4.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+  }
+
+  .feedback5 {
+    height: 180px;
+    width: 150px;
+    border-radius: 50px;
+    z-index: 3;
+    border-width: medium;
+    border-color: #7a04eb;
+    border-style: solid;
+    background-image: url(./Feedback5.png);
+    background-position: 50% 15%;
+    background-size: 120%;
+  }
+
+  .retânguloCinzaAbaixo {
+    margin: auto;
+
+    margin-top: 100px;
+    width: 90%;
+    height: 300px;
+    background-color: #9c9c9c;
+    background-image: url(./EntreNesseUniverso.png);
+    background-size: 100%;
+    border-radius: 5px;
+    z-index: 2;
+    border-width: thick;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .espacoAbaixoNulo {
+    height: 500px;
+  }
 }

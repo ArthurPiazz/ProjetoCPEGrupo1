@@ -4,18 +4,19 @@ import Footer from "../Footer";
 
 function Home() {
   return (
-    <div>
+    <div className="homebase">
       {" "}
       <div class="headerhome">
         <a href="/home">
-          {" "}
-          <Logo />{" "}
+          <img src="/images/Logo Gamecasting (2).svg" alt="Gamecasting"></img>
         </a>
         <div class="header-right">
-          <a class="active" href="/cadastro">
+          <a class="cadastro" href="/cadastro">
             Vire um membro já!
           </a>
-          <a href="/login">Acesse sua conta</a>
+          <a class="login" href="/login">
+            Acesse sua conta
+          </a>
         </div>
       </div>
       <div class="page">
@@ -82,17 +83,12 @@ function Home() {
         <div className="FooterHome">
           <Footer />
         </div>
-
-        <a href="/home">
-          {" "}
-          <Logo />{" "}
-        </a>
       </div>
     </div>
   );
 }
 
-function Logo() {
+/*function Logo() {
   return (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
@@ -112,5 +108,5 @@ function Logo() {
     </div>
   );
 }
-
+*/
 export default Home;
